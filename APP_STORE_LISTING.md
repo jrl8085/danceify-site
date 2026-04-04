@@ -46,7 +46,7 @@ TERMS
 - You can manage and cancel subscriptions in your Account Settings on the App Store after purchase.
 - Any unused portion of a free trial period will be forfeited when you purchase a subscription.
 
-Privacy Policy: https://jrl8085.github.io/danceify/privacy.html
+Privacy Policy: https://jrl8085.github.io/danceify-site/privacy.html
 Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ## Keywords (100 chars max, comma-separated)
