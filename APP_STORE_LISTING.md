@@ -20,18 +20,14 @@ HOW IT WORKS
 5. Save & share — send it to friends, post it on social media, or save it to your library.
 
 START FREE
-Get 3 free dance videos — no sign-up required. Just pick a photo and go.
+Get 1 free dance video — no sign-up required. Just pick a photo and go.
 
 DANCEIFY PRO — $9.99/month
 - 10 dance videos per month
-- HD video quality
 - No watermark
-- All dance styles unlocked
-- All AI music styles
 
 CREATOR — $19.99/month
 - 25 dance videos per month
-- 4K video quality
 - Priority rendering
 - Commercial use rights
 - Early access to new styles
@@ -44,7 +40,6 @@ TERMS
 - Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period.
 - Your account will be charged for renewal within 24 hours prior to the end of the current period.
 - You can manage and cancel subscriptions in your Account Settings on the App Store after purchase.
-- Any unused portion of a free trial period will be forfeited when you purchase a subscription.
 
 Privacy Policy: https://jrl8085.github.io/danceify-site/privacy.html
 Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
@@ -74,12 +69,12 @@ Password: Danceify2026!
 
 Please create this test account in Firebase before submitting.
 
-The app provides 3 free dance video generations without requiring sign-in.
+The app provides 1 free dance video generation without requiring sign-in.
 To test the full flow: open the app, tap "Pick a Photo & Dance", select any
 photo from the photo library, choose a dance style, and the video will generate
 in 1-3 minutes.
 
-After 3 free generations, users are prompted to sign in and either subscribe
+After the free generation, users are prompted to sign in and either subscribe
 or purchase credits. You can test the subscription and credit purchase flows
 using the sandbox test account.
 

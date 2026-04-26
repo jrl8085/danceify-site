@@ -1,0 +1,344 @@
+/* Danceify · Kinetic Mono — shared site styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+:root {
+  --bg: #0A0A0C;
+  --card: #111114;
+  --ink: #FAFAFA;
+  --dim: rgba(250, 250, 250, 0.55);
+  --faint: rgba(250, 250, 250, 0.35);
+  --line: rgba(255, 255, 255, 0.08);
+  --accent: #FF2D6F;
+  --accent-top: #FF4A83;
+  --accent-deep: #E51E5E;
+  --page-h: 22px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  padding: 0 var(--page-h);
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 22px 0 56px;
+}
+
+/* === Top bar ===================================================== */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 32px;
+}
+.topbar .brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 14px rgba(255, 45, 111, 0.55);
+  animation: pulse 2.4s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.85); }
+}
+.tag {
+  font-family: 'JetBrains Mono', SFMono-Regular, ui-monospace, monospace;
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--dim);
+  text-transform: uppercase;
+}
+.topbar .nav {
+  display: flex;
+  gap: 14px;
+}
+.topbar .nav a {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: var(--dim);
+  text-transform: uppercase;
+  border-bottom: 0;
+}
+.topbar .nav a:hover { color: var(--accent); }
+
+/* === Wordmark ===================================================== */
+.wordmark {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-stretch: 75%;
+  font-size: clamp(3.6rem, 13vw, 6.4rem);
+  line-height: 0.92;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 0;
+  position: relative;
+}
+.wordmark .bolt {
+  display: inline-block;
+  color: var(--accent);
+  transform: translateY(-0.04em);
+  margin-left: 0.04em;
+}
+.wordmark-meta {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 1.2px;
+  color: var(--faint);
+  text-align: right;
+  text-transform: uppercase;
+  line-height: 1.55;
+}
+.hero {
+  position: relative;
+  padding-top: 8px;
+}
+.subcaption {
+  margin-top: 18px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  color: var(--dim);
+  text-transform: uppercase;
+  line-height: 1.7;
+}
+
+/* === Display headline (legal pages) ============================== */
+h1.display {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-stretch: 75%;
+  font-size: clamp(2rem, 7vw, 3rem);
+  line-height: 0.95;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin-top: 12px;
+}
+
+/* === Section heading ============================================= */
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-stretch: 75%;
+  font-size: 1.05rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin-top: 36px;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+h2::before {
+  content: attr(data-num);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: var(--accent);
+  font-weight: 500;
+}
+
+/* === Body ======================================================== */
+p {
+  font-size: 0.95rem;
+  color: var(--dim);
+  margin-bottom: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+p strong { color: var(--ink); font-weight: 600; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 14px;
+}
+ul li {
+  font-size: 0.95rem;
+  color: var(--dim);
+  margin-bottom: 10px;
+  line-height: 1.65;
+  padding-left: 22px;
+  position: relative;
+  font-weight: 400;
+}
+ul li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+ul li strong { color: var(--ink); font-weight: 600; }
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 45, 111, 0.35);
+  transition: border-color 0.15s, color 0.15s;
+}
+a:hover { border-bottom-color: var(--accent); }
+
+/* === Feature row (index) ========================================= */
+.feature-block { margin-top: 36px; border: 1px solid var(--line); }
+.feature {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 18px 18px;
+  border-bottom: 1px solid var(--line);
+}
+.feature:last-child { border-bottom: 0; }
+.feature .num {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: var(--faint);
+  padding-top: 5px;
+  min-width: 28px;
+}
+.feature .body { flex: 1; }
+.feature .body strong {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-stretch: 75%;
+  font-size: 1.05rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink);
+  display: block;
+  margin-bottom: 4px;
+}
+.feature .body span {
+  font-size: 0.9rem;
+  color: var(--dim);
+  font-weight: 400;
+  line-height: 1.55;
+}
+
+/* === FAQ Cards (support) ========================================= */
+.card {
+  border: 1px solid var(--line);
+  padding: 20px;
+  margin-bottom: 12px;
+}
+.card h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  margin-bottom: 10px;
+}
+.card p { margin-bottom: 0; font-size: 0.92rem; }
+
+/* === Footnote ==================================================== */
+.footnote {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: var(--faint);
+  text-transform: uppercase;
+  margin-top: 28px;
+}
+
+/* === Date stamp (legal) ========================================== */
+.date {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: var(--faint);
+  text-transform: uppercase;
+  margin-top: 12px;
+  margin-bottom: 28px;
+}
+
+/* === Inline mono caption ========================================= */
+.mono {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+/* === Footer ====================================================== */
+.footer {
+  margin-top: 56px;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.footer .links { display: flex; gap: 22px; }
+.footer .links a {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--dim);
+  border-bottom: 0;
+}
+.footer .links a:hover { color: var(--accent); }
+.footer .meta {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  color: var(--faint);
+  text-transform: uppercase;
+}
+
+/* === Ticker ====================================================== */
+.ticker {
+  margin-top: 36px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--dim);
+  text-transform: uppercase;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.ticker span {
+  display: inline-block;
+  padding-right: 32px;
+  animation: scroll 28s linear infinite;
+}
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}

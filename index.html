@@ -3,63 +3,76 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Danceify — Turn Any Photo Into a Dance Video</title>
-<style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a1a; color: #e0e0e0; line-height: 1.7; padding: 24px; }
-  .container { max-width: 720px; margin: 0 auto; text-align: center; }
-  h1 { font-size: 2.5rem; color: #fff; margin-bottom: 8px; }
-  .emoji { font-size: 5rem; margin-bottom: 16px; }
-  .subtitle { font-size: 1.15rem; color: #aaa; margin-bottom: 40px; }
-  .features { text-align: left; max-width: 480px; margin: 0 auto 40px; }
-  .feature { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; }
-  .feature-icon { font-size: 1.5rem; width: 40px; text-align: center; }
-  .feature-text { font-size: 0.95rem; }
-  .feature-text strong { color: #fff; }
-  .links { margin-top: 40px; }
-  .links a { color: #c084fc; margin: 0 16px; font-size: 0.9rem; }
-  .badge { margin-top: 32px; }
-  .badge img { height: 54px; }
-</style>
+<title>Danceify — Photo to Motion</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
 
-<div style="padding-top: 60px;">
-  <div class="emoji">💃</div>
-  <h1>Danceify</h1>
-  <p class="subtitle">Turn any photo into a dance video with AI.<br>Pick a photo. Choose a style. Watch yourself dance.</p>
-</div>
+  <header class="topbar">
+    <div class="brand">
+      <span class="dot"></span>
+      <span class="tag">Danceify · v3.0</span>
+    </div>
+    <nav class="nav">
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
 
-<div class="features">
-  <div class="feature">
-    <span class="feature-icon">📸</span>
-    <div class="feature-text"><strong>Pick any photo</strong> — Selfie, friend, pet, anyone.</div>
-  </div>
-  <div class="feature">
-    <span class="feature-icon">💃</span>
-    <div class="feature-text"><strong>Choose a dance style</strong> — K-Pop, Salsa, Irish, TikTok, Bollywood, Samba & more.</div>
-  </div>
-  <div class="feature">
-    <span class="feature-icon">🤖</span>
-    <div class="feature-text"><strong>AI generates your video</strong> — Realistic dance moves in seconds.</div>
-  </div>
-  <div class="feature">
-    <span class="feature-icon">🎵</span>
-    <div class="feature-text"><strong>Add music</strong> — Pick a track and set the tempo.</div>
-  </div>
-  <div class="feature">
-    <span class="feature-icon">🎉</span>
-    <div class="feature-text"><strong>Share the joy</strong> — Save to your library or share anywhere.</div>
-  </div>
-</div>
+  <section class="hero">
+    <h1 class="wordmark">Danceify</h1>
+    <div class="wordmark-meta">
+      ©26<br>EST<br>NYC
+    </div>
+    <p class="subcaption">AI Motion Engine / Photo &rarr; Video<br>Powered by Hailuo · MiniMax</p>
+  </section>
 
-<p style="color: #888; font-size: 0.9rem;">3 free dances to start. No credit card required.</p>
+  <div class="ticker"><span>● BEAT · MOVE · LOOP · SHARE · BEAT · MOVE · LOOP · SHARE · BEAT · MOVE · LOOP · SHARE · BEAT · MOVE · LOOP · SHARE · </span></div>
 
-<div class="links">
-  <a href="support.html">Support</a>
-  <a href="privacy.html">Privacy Policy</a>
-</div>
+  <h2 data-num="01">How It Runs</h2>
+  <div class="feature-block">
+    <div class="feature">
+      <span class="num">01</span>
+      <div class="body">
+        <strong>Pick A Photo</strong>
+        <span>Selfie, friend, pet — anyone. One still image is all the AI needs.</span>
+      </div>
+    </div>
+    <div class="feature">
+      <span class="num">02</span>
+      <div class="body">
+        <strong>Choose A Style</strong>
+        <span>K-Pop, Salsa, Irish, TikTok, Bollywood, Samba and more.</span>
+      </div>
+    </div>
+    <div class="feature">
+      <span class="num">03</span>
+      <div class="body">
+        <strong>AI Generates</strong>
+        <span>Realistic motion in roughly a minute. No animation skills required.</span>
+      </div>
+    </div>
+    <div class="feature">
+      <span class="num">04</span>
+      <div class="body">
+        <strong>Score &amp; Share</strong>
+        <span>Pair with music, save to your library, post anywhere.</span>
+      </div>
+    </div>
+  </div>
+
+  <p class="footnote">1 free dance to start · No credit card required</p>
+
+  <footer class="footer">
+    <div class="links">
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </div>
+    <div class="meta">©2026 · Danceify · NYC</div>
+  </footer>
 
 </div>
 </body>
