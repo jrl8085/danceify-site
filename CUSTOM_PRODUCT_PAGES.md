@@ -14,6 +14,76 @@ Each CPP below lists:
 
 ---
 
+## Brand Spec — Kinetic Mono
+
+This is the design system the app actually uses. Hand this section to whoever's designing the screenshots so they don't drift toward generic "AI app" pastel-gradient territory.
+
+### Visual feel
+Dark, monolithic, brutalist-mono with a single hot-pink accent. Think Berlin techno-club poster, not soft tech-startup. The home screen is near-black with a magenta CTA — that's the look. Do not introduce additional gradients, glows, or pastel hues. The discipline is the brand.
+
+### Color palette (hex)
+
+| Token | Hex | Use |
+|---|---|---|
+| `bg` | `#0A0A0C` | Page background. Near-black, not pure black. |
+| `card` | `#111114` | Slightly lifted surface (cards, list rows) |
+| `ink` | `#FAFAFA` | Primary text. Off-white, not pure white. |
+| `dim` | `#FAFAFA` @ 55% opacity | Secondary text, captions |
+| `faint` | `#FAFAFA` @ 35% opacity | Tertiary text, hints |
+| `line` | `#FFFFFF` @ 8% opacity | Hairline rules and dividers |
+| `accent` | `#FF2D6F` | The single hot-pink accent. CTAs, status dots, brand marks. |
+
+### The one gradient
+Used only on the primary CTA button and brand surfaces. Vertical, top-to-bottom:
+- 0% → `#FF4A83`
+- 50% → `#FF2D6F`
+- 100% → `#E51E5E`
+
+No other gradients exist in the system. Don't invent any for the screenshots.
+
+### Typography
+
+| Role | Font | Weight | Notes |
+|---|---|---|---|
+| Display headline | Inter Display (or Neue Haas Grotesk Display Pro) | 900 / Black | Condensed width. Tight tracking (≈ −4% em). Tight leading (≈ 0.92×). |
+| Wordmark | Inter Display | 900 / Black | NOT condensed. The Danceify wordmark — see home screen reference. |
+| Body | SF Pro / Inter | 600 / Semibold | Standard system body weight. |
+| Caption / mono | SF Mono / JetBrains Mono | 400 / Regular | UPPERCASE, tracked +1.5pt to +2pt. Used for "DANCEIFY · v3.0", "01 STEPS", etc. |
+
+The mono uppercase caption with wide tracking is a brand signature — every screenshot's small-text overlays should use it. Don't substitute a regular sans.
+
+### Geometry & spacing
+- Page horizontal padding: 22pt
+- Common gaps: 8 / 12 / 14 / 18 / 22pt (literal values, not a 4/8 grid — keep this slightly off so the layout feels hand-set, not template-y)
+- Corner radius: 16–24pt for cards, 0pt for full-bleed media
+- Hairline borders: 1pt at 8% white
+
+### Brand motifs to reuse on screenshots
+- **Pulsing magenta status dot** — small filled circle, 8pt diameter, accent color, soft glow. Pairs with brand mark in headers.
+- **"©26 EST NYC"** — mono caption block, right-aligned to the wordmark
+- **Marquee ticker** — `● BEAT · MOVE · LOOP · SHARE` style horizontal scroller, mono uppercase, accent dot bullets
+- **Numbered steps** — `01`, `02`, `03` — display-weight numerals, oversized
+
+### What to avoid
+- Pastel backgrounds, soft pinks, mint, lavender — wrong app
+- Drop shadows on text — never used in the app
+- Multiple gradients — only the magenta sheen exists
+- Rounded sans body type — use only the mono caption for small uppercase text
+- Generic "AI sparkle" iconography — we don't use sparkles, glows, or starburst graphics
+- Skeuomorphic phone frames inside screenshots (no fake hands, no fake bezels-within-bezels)
+
+### Reference asset
+The home-screen capture below shows the exact treatment to match:
+- Black background with subtle ghosted dancer silhouette
+- Magenta dot + mono `DANCEIFY · v3.0` caption top-left
+- Massive condensed-black `DANCE / ⚡FY.` wordmark
+- Magenta `START SESSION` CTA with the camera icon
+- `01`, `02`, `03`, `04` step rows in mono caps with chevron-right indicators
+
+A designer can pull a still of the home screen directly from the running app, or from this commit's screenshots folder once you ship them.
+
+---
+
 ## CPP 1 — "Dancing Dog"
 **The viral hook. Highest unique value. No real incumbent on these searches.**
 
