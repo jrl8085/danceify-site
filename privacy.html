@@ -22,7 +22,7 @@
   </header>
 
   <h1 class="display">Privacy Policy</h1>
-  <p class="date">Effective · May 4, 2026</p>
+  <p class="date">Effective · May 5, 2026</p>
 
   <p>Danceify ("we", "our", or "the app") is committed to protecting your privacy. This policy explains what data we collect, how we use it, and your rights.</p>
 
@@ -47,8 +47,9 @@
   <h2 data-num="03">Third-Party Services</h2>
   <ul>
     <li><strong>Firebase (Google).</strong> We use Firebase for authentication, database, and temporary file storage. See <a href="https://firebase.google.com/support/privacy">Firebase Privacy Policy</a>.</li>
-    <li><strong>MiniMax.</strong> Your uploaded photo is sent to MiniMax's API to generate the dance video. The photo is not retained by MiniMax after processing.</li>
-    <li><strong>Replicate.</strong> When you select the "Dog" subject, your photo is first sent to Replicate (running Google's nano-banana image-edit model) to produce an upright reference frame before video generation. The photo is used only for that single edit and is not retained by Replicate after processing. See <a href="https://replicate.com/privacy">Replicate's Privacy Policy</a>. Adult and baby photos are not sent to Replicate.</li>
+    <li><strong>MiniMax.</strong> When you select the "Adult" or "Baby" subject, your uploaded photo is sent to MiniMax's API (Hailuo 2.3 Fast) to generate the dance video. The photo is not retained by MiniMax after processing. See <a href="https://www.minimaxi.com/privacy-policy">MiniMax's Privacy Policy</a>.</li>
+    <li><strong>Kie.ai (Kling).</strong> When you select the "Dog" or "Cat" subject, your photo (after the Replicate pre-edit step described below) is sent to Kie.ai's API (running the Kling 2.1 Standard image-to-video model) to generate the dance video. The photo is used only for that single generation and is not retained by Kie.ai or Kling after processing. See <a href="https://kie.ai/privacy-policy">Kie.ai's Privacy Policy</a>. Adult and baby photos are not sent to Kie.ai.</li>
+    <li><strong>Replicate.</strong> When you select the "Dog" or "Cat" subject, your photo is first sent to Replicate (running Google's nano-banana image-edit model) to produce an upright reference frame before video generation. The photo is used only for that single edit and is not retained by Replicate after processing. See <a href="https://replicate.com/privacy">Replicate's Privacy Policy</a>. Adult and baby photos are not sent to Replicate.</li>
     <li><strong>Apple StoreKit.</strong> In-app purchases and subscriptions are processed by Apple. See <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</li>
   </ul>
 
@@ -58,9 +59,9 @@
     <li><strong>Face data is not retained.</strong> Your photo (including any face data it contains) is used solely to generate your dance video and is automatically deleted from our servers immediately after processing is complete. We do not store face data beyond the brief processing window.</li>
     <li><strong>Why we process face data.</strong> Your photo is processed to generate a realistic AI dance video that preserves the likeness in your photo. This is the core functionality of the app.</li>
     <li><strong>Duration of storage.</strong> Your photo is held on our servers (Firebase Storage) only for the duration of video generation — typically under five minutes. It is automatically deleted as soon as the video is generated or the process fails. Face data is never stored indefinitely.</li>
-    <li><strong>Third-party sharing.</strong> Your photo (including any face data) is sent to <strong>MiniMax (Hailuo AI)</strong>, a third-party AI video generation service, for the sole purpose of generating your dance video.</li>
-    <li><strong>Why we share face data with MiniMax.</strong> MiniMax provides the AI video generation technology that powers Danceify. Sharing your photo with MiniMax is necessary to create the dance video you requested.</li>
-    <li><strong>MiniMax does not retain face data.</strong> MiniMax processes your photo only to generate the video and does not store, retain, or use your photo or face data after processing is complete. For more information, see <a href="https://www.minimaxi.com/privacy-policy">MiniMax's Privacy Policy</a>.</li>
+    <li><strong>Third-party sharing.</strong> Your photo (including any face data) is sent to a third-party AI service for the sole purpose of generating your dance video. The specific service depends on the subject you select: Adult and Baby photos are sent to <strong>MiniMax (Hailuo AI)</strong>; Dog and Cat photos are sent to <strong>Replicate</strong> (for an upright-pose pre-edit) and then to <strong>Kie.ai (Kling)</strong> (for video generation). See Section 03 above for full details on each service.</li>
+    <li><strong>Why we share face data with these services.</strong> These third-party services provide the AI video generation technology that powers Danceify. Sharing your photo with them is necessary to create the dance video you requested.</li>
+    <li><strong>None of these services retain face data.</strong> MiniMax, Replicate, and Kie.ai each process your photo only to fulfill the requested operation and do not store, retain, or use your photo or face data after processing is complete.</li>
   </ul>
   <p>Generated videos are stored <strong>only on your device</strong>. We do not upload, store, or have access to your generated videos.</p>
 
