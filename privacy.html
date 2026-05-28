@@ -22,22 +22,22 @@
   </header>
 
   <h1 class="display">Privacy Policy</h1>
-  <p class="date">Effective · May 7, 2026</p>
+  <p class="date">Effective · May 28, 2026</p>
 
   <p>Danceify ("we", "our", or "the app") is committed to protecting your privacy. This policy explains what data we collect, how we use it, and your rights.</p>
 
   <h2 data-num="01">Data We Collect</h2>
   <ul>
-    <li><strong>Account information.</strong> No sign-up is required to use Danceify — most users are anonymous and identified only by an app-generated random ID that is not linked to your Apple ID, name, or email. If you optionally sign in with email (an option offered in Settings for legacy users and App Store reviewers), we store your email address and a user ID to manage your subscription and credits.</li>
+    <li><strong>Account information.</strong> No sign-up is required to use Danceify — most users are anonymous and identified only by an app-generated random ID that is not linked to your Apple ID, name, or email. If you optionally sign in with email (an option offered in Settings for legacy users and App Store reviewers), we store your email address and a user ID to manage your subscription and coin balance.</li>
     <li><strong>Photos you upload.</strong> When you generate a dance video, your selected photo is temporarily uploaded to our servers for processing. It is automatically deleted once the video is generated.</li>
-    <li><strong>Generated videos.</strong> Dance videos are stored locally on your device. We do not keep copies on our servers.</li>
-    <li><strong>Purchase history.</strong> We record which subscriptions or credit packs you have purchased so we can grant you the correct credits and features. Payment processing is handled entirely by Apple; we never see your payment details.</li>
-    <li><strong>Usage data.</strong> We store your total generation count and credit balance to provide the service.</li>
+    <li><strong>Generated videos.</strong> Dance videos are stored locally on your device. We do not keep copies on our servers after delivery.</li>
+    <li><strong>Purchase history.</strong> We record which subscriptions or coin packs you have purchased so we can grant you the correct coin balance and features. Payment processing is handled entirely by Apple; we never see your payment details.</li>
+    <li><strong>Usage data.</strong> We store your total generation count and coin balance to provide the service.</li>
   </ul>
 
   <h2 data-num="02">How We Use Your Data</h2>
   <ul>
-    <li>To track your subscription and credit balance.</li>
+    <li>To track your subscription and coin balance.</li>
     <li>To generate dance videos from your photos.</li>
     <li>To improve the app experience.</li>
   </ul>
@@ -46,9 +46,7 @@
   <h2 data-num="03">Third-Party Services</h2>
   <ul>
     <li><strong>Firebase (Google).</strong> We use Firebase for authentication, database, and temporary file storage. See <a href="https://firebase.google.com/support/privacy">Firebase Privacy Policy</a>.</li>
-    <li><strong>MiniMax.</strong> When you select the "Adult" or "Baby" subject, your uploaded photo is sent to MiniMax's API (Hailuo 2.3 Fast) to generate the dance video. The photo is not retained by MiniMax after processing. See <a href="https://www.minimaxi.com/privacy-policy">MiniMax's Privacy Policy</a>.</li>
-    <li><strong>Kie.ai (Kling).</strong> When you select the "Dog" or "Cat" subject, your photo (after the Replicate pre-edit step described below) is sent to Kie.ai's API (running the Kling 2.1 Standard image-to-video model) to generate the dance video. The photo is used only for that single generation and is not retained by Kie.ai or Kling after processing. See <a href="https://kie.ai/privacy-policy">Kie.ai's Privacy Policy</a>. Adult and baby photos are not sent to Kie.ai.</li>
-    <li><strong>Replicate.</strong> When you select the "Dog" or "Cat" subject, your photo is first sent to Replicate (running Google's nano-banana image-edit model) to produce an upright reference frame before video generation. The photo is used only for that single edit and is not retained by Replicate after processing. See <a href="https://replicate.com/privacy">Replicate's Privacy Policy</a>. Adult and baby photos are not sent to Replicate.</li>
+    <li><strong>Kie.ai.</strong> Your uploaded photo is sent to Kie.ai's API for video generation. Every generation runs a two-step pipeline: (1) a composite step using Google's <strong>nano-banana-pro</strong> image-edit model to place your subject into the dance scene, and (2) a video step using <strong>Kling 3.0 Motion Control</strong> (for adult, baby, and couple subjects) or <strong>Kling i2v</strong> (for dog, cat, and other pet subjects). Your photo is used only for that single generation and is not retained by Kie.ai or the underlying model providers after processing. See <a href="https://kie.ai/privacy-policy">Kie.ai's Privacy Policy</a>.</li>
     <li><strong>Apple StoreKit.</strong> In-app purchases and subscriptions are processed by Apple. See <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</li>
     <li><strong>PostHog.</strong> We use PostHog (US Cloud) for product analytics — anonymous and aggregated usage data such as which screens you visit, when you start or complete a dance, when a paywall appears, and which subscription plan you choose. We do <strong>not</strong> send your photos, generated videos, email address, or any personally identifying content to PostHog. PostHog is used to understand and improve the app's functionality. See <a href="https://posthog.com/privacy">PostHog's Privacy Policy</a>.</li>
   </ul>
@@ -59,14 +57,14 @@
     <li><strong>Face data is not retained.</strong> Your photo (including any face data it contains) is used solely to generate your dance video and is automatically deleted from our servers immediately after processing is complete. We do not store face data beyond the brief processing window.</li>
     <li><strong>Why we process face data.</strong> Your photo is processed to generate a realistic AI dance video that preserves the likeness in your photo. This is the core functionality of the app.</li>
     <li><strong>Duration of storage.</strong> Your photo is held on our servers (Firebase Storage) only for the duration of video generation — typically under five minutes. It is automatically deleted as soon as the video is generated or the process fails. Face data is never stored indefinitely.</li>
-    <li><strong>Third-party sharing.</strong> Your photo (including any face data) is sent to a third-party AI service for the sole purpose of generating your dance video. The specific service depends on the subject you select: Adult and Baby photos are sent to <strong>MiniMax (Hailuo AI)</strong>; Dog and Cat photos are sent to <strong>Replicate</strong> (for an upright-pose pre-edit) and then to <strong>Kie.ai (Kling)</strong> (for video generation). See Section 03 above for full details on each service.</li>
-    <li><strong>Why we share face data with these services.</strong> These third-party services provide the AI video generation technology that powers Danceify. Sharing your photo with them is necessary to create the dance video you requested.</li>
-    <li><strong>None of these services retain face data.</strong> MiniMax, Replicate, and Kie.ai each process your photo only to fulfill the requested operation and do not store, retain, or use your photo or face data after processing is complete.</li>
+    <li><strong>Third-party sharing.</strong> Your photo (including any face data) is sent to a single third-party AI service — <strong>Kie.ai</strong> — for the sole purpose of generating your dance video. Kie.ai routes the photo through Google's nano-banana-pro composite model and then a Kling video model. See Section 03 above for full details.</li>
+    <li><strong>Why we share face data with this service.</strong> Kie.ai provides the AI video generation technology that powers Danceify. Sharing your photo with them is necessary to create the dance video you requested.</li>
+    <li><strong>Kie.ai does not retain face data.</strong> Kie.ai processes your photo only to fulfill the requested operation and does not store, retain, or use your photo or face data after processing is complete.</li>
   </ul>
   <p>Generated videos are stored <strong>only on your device</strong>. We do not upload, store, or have access to your generated videos.</p>
 
   <h2 data-num="05">Data Retention</h2>
-  <p>Uploaded photos are deleted immediately after video generation. Subscription state (credits, generation count, plan tier) is retained for as long as your subscription is active. For email-signed-in users, account data (email, user ID) is retained until you request deletion. For anonymous users, the only data we retain is tied to a random app-generated ID that is not linked to your identity.</p>
+  <p>Uploaded photos are deleted immediately after video generation. Subscription state (coin balance, generation count, plan tier) is retained for as long as your subscription is active. For email-signed-in users, account data (email, user ID) is retained until you request deletion. For anonymous users, the only data we retain is tied to a random app-generated ID that is not linked to your identity.</p>
 
   <h2 data-num="06">Your Rights</h2>
   <p>You may request access to, correction of, or deletion of your data by emailing us at <a href="mailto:danceify.app@gmail.com">danceify.app@gmail.com</a>. For email accounts, please send the request from the email address tied to the account. For anonymous users, please include the app-generated user ID found in the app's Settings page.</p>
