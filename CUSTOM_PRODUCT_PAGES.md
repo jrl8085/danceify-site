@@ -94,8 +94,8 @@ A designer can pull a still of the home screen directly from the running app, or
 Your dog stands up on its hind legs and dances like a person — in 60 seconds, from one photo.
 
 ### Promotional Text (170 chars)
-> Make your dog dance like a person. Drop a photo, pick a style, AI does the rest in 60 seconds. K-Pop, Hip-Hop, Salsa & 13 more. 1 free dance, no sign-up.
-*(168 chars)*
+> Make your dog dance like a person. Drop a photo, pick a style, AI does the rest in 60 seconds. K-Pop, Hip-Hop, Salsa & 13 more. Cancel anytime.
+*(148 chars)*
 
 ### Screenshot brief (6 frames, 1290×2796 / iPhone 6.7")
 
@@ -106,7 +106,7 @@ Your dog stands up on its hind legs and dances like a person — in 60 seconds, 
 | 3 | Subject picker UI on the photo upload screen, "Dog" tile selected | "BUILT FOR DOGS.<br>NOT JUST RESKINNED." | The competitive moat — emphasize the dog mode is purpose-built. |
 | 4 | Style picker grid showing K-Pop / Hip-Hop / Salsa / Flamenco tiles | "16 DANCE STYLES.<br>YES, BALLET TOO." | Reinforce variety without listing all 16. |
 | 5 | Result screen with dog video + share sheet open (TikTok / Instagram / Messages icons visible) | "POST IT. SHARE IT.<br>WATCH IT GO." | The implicit promise: this becomes a viral post. |
-| 6 | Pricing card / paywall — Pro $7.99/mo with 7-day trial highlighted | "1 FREE.<br>THEN $7.99." | Soft pricing reveal — no surprise post-install. |
+| 6 | Pricing card / paywall — Creation Weekly $2.99 first week highlighted | "$2.99<br>FIRST WEEK." | Soft pricing reveal — no surprise post-install. |
 
 ### App Preview script (30s, portrait)
 
@@ -152,7 +152,7 @@ Watch your baby bust a move — and stay a baby. No creepy AI aging.
 | 3 | Subject picker, "Baby" tile selected | "BUILT FOR BABIES.<br>BABY-SAFE AI." | The "no aging" promise — addresses parent anxiety. |
 | 4 | Style grid: focus on baby-friendly styles (Bollywood, Hula, Salsa, Hip-Hop) | "16 STYLES.<br>ALL BABY-APPROVED." | Implicit safety reassurance. |
 | 5 | Result + share sheet (Messages thread to "Mom 💕" visible) | "TEXT IT TO GRANDMA." | Use case: text grandma. The actual workflow. |
-| 6 | Pricing — Pro $7.99/mo highlighted | "1 FREE.<br>THEN $7.99/MO." | — |
+| 6 | Pricing — Creation Weekly $2.99 first week highlighted | "$2.99<br>FIRST WEEK." | — |
 
 ### App Preview script (30s)
 Same structure as Dog, but use a baby-photo flow. Show a parent/grandparent reaction shot at 0:23 if you can fake one — emotional response > seeing the dance again. End card: "Danceify — Watch Your Baby Dance".
@@ -174,8 +174,8 @@ Same structure as Dog, but use a baby-photo flow. Show a parent/grandparent reac
 Drop a selfie. Get a viral TikTok dance you couldn't pull off in real life.
 
 ### Promotional Text (170 chars)
-> The K-Pop choreography you'd never attempt IRL — generated from one selfie. 16 styles incl. K-Pop, Hip-Hop, TikTok Viral. 1 free dance. No sign-up.
-*(167 chars)*
+> The K-Pop choreography you'd never attempt IRL — generated from one selfie. 16 styles incl. K-Pop, Hip-Hop, TikTok Viral. Cancel anytime.
+*(140 chars)*
 
 ### Screenshot brief (6 frames)
 
@@ -208,8 +208,8 @@ Match TikTok pacing — fast cuts, beat-synced, big text. End card: "Danceify �
 Anyone in a photo. Any dance style. One tap.
 
 ### Promotional Text (170 chars)
-> Drop any photo — selfie, friend, baby, dog. Pick from 16 dance styles. AI generates a real dance video in 60 seconds. 1 free, no sign-up, no card.
-*(166 chars)*
+> Drop any photo — selfie, friend, baby, dog. Pick from 16 dance styles. AI generates a real dance video in 60 seconds. Cancel anytime.
+*(141 chars)*
 
 ### Screenshot brief (6 frames)
 
