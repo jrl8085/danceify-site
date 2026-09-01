@@ -229,6 +229,74 @@
   </div>
 
   <!-- ============================================================ -->
+  <!-- PREMIUM SHOWCASE                                              -->
+  <!-- ============================================================ -->
+  <h2 data-num="—">See What Danceify Creates</h2>
+  <p class="showcase-sub">Real AI-generated dance videos from photos — people and pets</p>
+  <div class="showcase-grid">
+    <div class="showcase-card">
+      <video autoplay loop muted playsinline preload="metadata">
+        <source src="https://storage.googleapis.com/danceify-assets/templates/kpop_anthem/preview_480.mp4" type="video/mp4">
+      </video>
+      <div class="style-card__overlay"><span class="style-card__name">K-Pop Anthem</span></div>
+    </div>
+    <div class="showcase-card">
+      <video autoplay loop muted playsinline preload="metadata">
+        <source src="https://storage.googleapis.com/danceify-assets/templates/tango_fuego/preview_480.mp4" type="video/mp4">
+      </video>
+      <div class="style-card__overlay"><span class="style-card__name">Tango Fuego</span></div>
+    </div>
+    <div class="showcase-card">
+      <video autoplay loop muted playsinline preload="metadata">
+        <source src="https://storage.googleapis.com/danceify-assets/templates/golden_salsa/preview_480.mp4" type="video/mp4">
+      </video>
+      <div class="style-card__overlay"><span class="style-card__name">Golden Salsa (Dog)</span></div>
+    </div>
+    <div class="showcase-card">
+      <video autoplay loop muted playsinline preload="metadata">
+        <source src="https://storage.googleapis.com/danceify-assets/templates/disco/preview_480.mp4" type="video/mp4">
+      </video>
+      <div class="style-card__overlay"><span class="style-card__name">Disco</span></div>
+    </div>
+    <div class="showcase-card">
+      <video autoplay loop muted playsinline preload="metadata">
+        <source src="https://storage.googleapis.com/danceify-assets/templates/rio_carnaval_samba/preview_480.mp4" type="video/mp4">
+      </video>
+      <div class="style-card__overlay"><span class="style-card__name">Carnaval Samba</span></div>
+    </div>
+    <div class="showcase-card">
+      <video autoplay loop muted playsinline preload="metadata">
+        <source src="https://storage.googleapis.com/danceify-assets/templates/kpop_pup/preview_480.mp4" type="video/mp4">
+      </video>
+      <div class="style-card__overlay"><span class="style-card__name">K-Pop Pup (Dog)</span></div>
+    </div>
+    <div class="showcase-card">
+      <video autoplay loop muted playsinline preload="metadata">
+        <source src="https://storage.googleapis.com/danceify-assets/templates/edm_thunder/preview_480.mp4" type="video/mp4">
+      </video>
+      <div class="style-card__overlay"><span class="style-card__name">EDM Thunder</span></div>
+    </div>
+    <div class="showcase-card">
+      <video autoplay loop muted playsinline preload="metadata">
+        <source src="https://storage.googleapis.com/danceify-assets/templates/greek_taverna/preview_480.mp4" type="video/mp4">
+      </video>
+      <div class="style-card__overlay"><span class="style-card__name">Greek Taverna</span></div>
+    </div>
+    <div class="showcase-card">
+      <video autoplay loop muted playsinline preload="metadata">
+        <source src="https://storage.googleapis.com/danceify-assets/templates/chacha/preview_480.mp4" type="video/mp4">
+      </video>
+      <div class="style-card__overlay"><span class="style-card__name">Cha Cha (Dog)</span></div>
+    </div>
+    <div class="showcase-card">
+      <video autoplay loop muted playsinline preload="metadata">
+        <source src="https://storage.googleapis.com/danceify-assets/templates/classic_tap/preview_480.mp4" type="video/mp4">
+      </video>
+      <div class="style-card__overlay"><span class="style-card__name">Classic Tap</span></div>
+    </div>
+  </div>
+
+  <!-- ============================================================ -->
   <!-- HOW IT WORKS                                                  -->
   <!-- ============================================================ -->
   <h2 data-num="02">How It Works</h2>
@@ -361,7 +429,7 @@
     });
   }, { rootMargin: '100px' });
 
-  document.querySelectorAll('.style-card video').forEach(function(video) {
+  document.querySelectorAll('.style-card video, .showcase-card video').forEach(function(video) {
     observer.observe(video);
   });
 })();

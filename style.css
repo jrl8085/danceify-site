@@ -605,6 +605,78 @@ a:hover { border-bottom-color: var(--accent); }
   background: linear-gradient(to bottom, transparent 40%, var(--bg) 100%);
 }
 
+/* === Showcase grid (premium samples) ================================ */
+.showcase-sub {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  color: var(--dim);
+  text-transform: uppercase;
+  margin-top: -6px;
+  margin-bottom: 14px;
+}
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+}
+.showcase-card {
+  position: relative;
+  display: block;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+}
+.showcase-card video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.showcase-card .style-card__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 14px 14px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.3) 50%, transparent 100%);
+  pointer-events: none;
+}
+
+/* === Sample results grid (style detail pages) ======================= */
+.sample-results-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+  margin-top: 14px;
+}
+.sample-card {
+  position: relative;
+  display: block;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+}
+.sample-card video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.sample-card .style-card__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px 12px 10px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.3) 50%, transparent 100%);
+  pointer-events: none;
+}
+
 /* === Responsive ==================================================== */
 @media (max-width: 640px) {
   .steps-grid {
@@ -616,8 +688,13 @@ a:hover { border-bottom-color: var(--accent); }
   }
   .step-card:last-child { border-bottom: 0; }
 
-  .styles-grid {
+  .styles-grid,
+  .showcase-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sample-results-grid {
+    grid-template-columns: 1fr;
   }
 
   .use-cases-grid {
