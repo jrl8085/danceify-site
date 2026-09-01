@@ -37,7 +37,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://danceifyapp.com/dance-styles/tiktok-viral.html</loc>
+    <loc>https://danceifyapp.com/dance-styles/tiktok.html</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -55,7 +55,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://danceifyapp.com/dance-styles/greek-dance.html</loc>
+    <loc>https://danceifyapp.com/dance-styles/greek.html</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -109,22 +109,34 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://danceifyapp.com/dance-styles/country-line.html</loc>
+    <loc>https://danceifyapp.com/dance-styles/country.html</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://danceifyapp.com/dance-styles/k-pop.html</loc>
+    <loc>https://danceifyapp.com/dance-styles/kpop.html</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://danceifyapp.com/dance-styles/irish-dance.html</loc>
+    <loc>https://danceifyapp.com/dance-styles/irish.html</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://danceifyapp.com/dance-styles/</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://danceifyapp.com/blog/</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://danceifyapp.com/blog/how-to-make-ai-dance-video.html</loc>
