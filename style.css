@@ -342,3 +342,251 @@ a:hover { border-bottom-color: var(--accent); }
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
+
+/* === Wide container (homepage) ====================================== */
+.container--wide { max-width: 960px; }
+
+/* === Hero (homepage) ================================================ */
+.hero--home {
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 24px;
+}
+.hero--home .wordmark {
+  display: block;
+  text-align: center;
+}
+.hero__headline {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-stretch: 75%;
+  font-size: clamp(1.6rem, 5vw, 2.6rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin-top: 24px;
+}
+.hero__sub {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  color: var(--dim);
+  text-transform: uppercase;
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+
+/* === CTA App Store badge =========================================== */
+.cta-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 28px;
+  padding: 12px 28px;
+  background: linear-gradient(135deg, var(--accent-top), var(--accent), var(--accent-deep));
+  color: #fff;
+  border: none;
+  border-bottom: none;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.15s;
+  position: relative;
+  overflow: hidden;
+}
+.cta-badge::before {
+  content: '';
+  position: absolute;
+  top: 0; left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
+  animation: sheen 3s ease-in-out infinite;
+}
+@keyframes sheen {
+  0% { left: -100%; }
+  100% { left: 200%; }
+}
+.cta-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(255, 45, 111, 0.35);
+  border-bottom: none;
+  color: #fff;
+}
+.cta-badge__icon { flex-shrink: 0; }
+.cta-badge__text { display: flex; flex-direction: column; text-align: left; }
+.cta-badge__pre {
+  font-size: 9px;
+  letter-spacing: 0.5px;
+  opacity: 0.85;
+  font-weight: 400;
+  line-height: 1;
+}
+.cta-badge__title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.cta-badge--large { margin-top: 0; padding: 16px 36px; }
+.cta-badge--large .cta-badge__title { font-size: 22px; }
+
+/* === Steps grid (How It Works) ===================================== */
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  border: 1px solid var(--line);
+}
+.step-card {
+  padding: 24px 20px;
+  border-right: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.step-card:last-child { border-right: 0; }
+.step-card__num {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: var(--accent);
+  font-weight: 500;
+}
+.step-card__icon { font-size: 28px; line-height: 1; margin: 4px 0; }
+.step-card__title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-stretch: 75%;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.step-card__desc {
+  font-size: 0.85rem;
+  color: var(--dim);
+  line-height: 1.55;
+}
+
+/* === Dance styles grid ============================================= */
+.styles-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  border: 1px solid var(--line);
+}
+.style-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 22px 12px;
+  background: linear-gradient(135deg, var(--g1), var(--g2));
+  border: none;
+  border-bottom: none;
+  border-right: 1px solid rgba(0,0,0,0.2);
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.15s;
+  position: relative;
+  overflow: hidden;
+}
+.style-card:hover {
+  transform: scale(1.04);
+  z-index: 2;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  border-bottom-color: transparent;
+}
+.style-card__name {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+  text-align: center;
+  line-height: 1.2;
+}
+
+/* === Use-cases grid ================================================ */
+.use-cases-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  border: 1px solid var(--line);
+}
+.use-case-card {
+  padding: 24px 20px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.use-case-card:nth-child(2n) { border-right: 0; }
+.use-case-card:nth-child(n+3) { border-bottom: 0; }
+.use-case-card__icon { font-size: 24px; line-height: 1; margin-bottom: 4px; }
+.use-case-card strong {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-stretch: 75%;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.use-case-card span {
+  font-size: 0.85rem;
+  color: var(--dim);
+  line-height: 1.55;
+}
+
+/* === Bottom CTA section ============================================ */
+.cta-section {
+  margin-top: 48px;
+  text-align: center;
+  padding: 40px 20px;
+  border: 1px solid var(--line);
+  background: var(--card);
+}
+.cta-section__headline {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-stretch: 75%;
+  font-size: clamp(1.2rem, 4vw, 1.8rem);
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin-bottom: 20px;
+}
+
+/* === Responsive ==================================================== */
+@media (max-width: 640px) {
+  .steps-grid {
+    grid-template-columns: 1fr;
+  }
+  .step-card {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .step-card:last-child { border-bottom: 0; }
+
+  .styles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .use-cases-grid {
+    grid-template-columns: 1fr;
+  }
+  .use-case-card {
+    border-right: 0;
+  }
+  .use-case-card:nth-child(n+3) { border-bottom: 1px solid var(--line); }
+  .use-case-card:last-child { border-bottom: 0; }
+
+  .topbar .nav { gap: 10px; }
+  .topbar .nav a { font-size: 9px; letter-spacing: 1px; }
+
+  .cta-badge--large { padding: 14px 24px; }
+  .cta-badge--large .cta-badge__title { font-size: 18px; }
+}

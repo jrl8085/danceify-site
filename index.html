@@ -3,75 +3,270 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Danceify — Photo to Motion</title>
+<title>Danceify - AI Dance Video Maker | Photo to Dance</title>
+<meta name="description" content="Turn any photo into a realistic dance video with AI. People, pets, babies — 16 dance styles. Free first video, no sign-up required.">
+<link rel="canonical" href="https://danceifyapp.com/">
+<meta name="apple-itunes-app" content="app-id=6760788471">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Danceify - Turn Any Photo Into a Dance Video With AI">
+<meta property="og:description" content="People. Pets. Babies. 16 dance styles. Free first video, no sign-up required.">
+<meta property="og:image" content="https://danceifyapp.com/og-image.png">
+<meta property="og:url" content="https://danceifyapp.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Danceify">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Danceify - Turn Any Photo Into a Dance Video With AI">
+<meta name="twitter:description" content="People. Pets. Babies. 16 dance styles. Free first video, no sign-up required.">
+<meta name="twitter:image" content="https://danceifyapp.com/og-image.png">
+
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+
 <link rel="stylesheet" href="style.css">
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Danceify - AI Dance Videos",
+  "operatingSystem": "iOS",
+  "applicationCategory": "EntertainmentApplication",
+  "url": "https://danceifyapp.com/",
+  "downloadUrl": "https://apps.apple.com/app/id6760788471",
+  "description": "Turn any photo into a realistic AI dance video. 16 dance styles for people, pets, and babies.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "description": "Free first dance video. Creation Weekly subscription: free trial then $9.99/week."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "ratingCount": "100"
+  }
+}
+</script>
 </head>
 <body>
-<div class="container">
+<div class="container container--wide">
 
   <header class="topbar">
     <div class="brand">
       <span class="dot"></span>
-      <span class="tag">Danceify · v5</span>
+      <span class="tag">Danceify</span>
     </div>
     <nav class="nav">
+      <a href="dance-styles/">Styles</a>
+      <a href="faq.html">FAQ</a>
       <a href="support.html">Support</a>
       <a href="privacy.html">Privacy</a>
       <a href="terms.html">Terms</a>
     </nav>
   </header>
 
-  <section class="hero">
-    <h1 class="wordmark">Danceify</h1>
-    <div class="wordmark-meta">
-      ©26<br>EST<br>NYC
-    </div>
-    <p class="subcaption">Make Anyone Dance — Even Your Dog Or Cat<br>AI Motion Engine / Photo &rarr; Video</p>
+  <!-- ============================================================ -->
+  <!-- HERO                                                          -->
+  <!-- ============================================================ -->
+  <section class="hero hero--home">
+    <div class="wordmark">DANCE<span class="bolt">&#9889;</span>FY</div>
+    <h1 class="hero__headline">Turn Any Photo Into a Dance Video With AI</h1>
+    <p class="hero__sub">People. Pets. Babies. 16 dance styles. Free first video.</p>
+    <a href="https://apps.apple.com/app/id6760788471" class="cta-badge" data-event="hero_appstore_click" aria-label="Download Danceify on the App Store">
+      <svg class="cta-badge__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      <span class="cta-badge__text">
+        <span class="cta-badge__pre">Download on the</span>
+        <span class="cta-badge__title">App Store</span>
+      </span>
+    </a>
   </section>
 
-  <div class="ticker"><span>● BEAT · MOVE · LOOP · SHARE · BEAT · MOVE · LOOP · SHARE · BEAT · MOVE · LOOP · SHARE · BEAT · MOVE · LOOP · SHARE · </span></div>
+  <div class="ticker"><span>&#9679; BEAT &middot; MOVE &middot; LOOP &middot; SHARE &middot; BEAT &middot; MOVE &middot; LOOP &middot; SHARE &middot; BEAT &middot; MOVE &middot; LOOP &middot; SHARE &middot; BEAT &middot; MOVE &middot; LOOP &middot; SHARE &middot; </span></div>
 
-  <h2 data-num="01">How It Runs</h2>
+  <!-- ============================================================ -->
+  <!-- HOW IT WORKS                                                  -->
+  <!-- ============================================================ -->
+  <h2 data-num="01">How It Works</h2>
+  <div class="steps-grid">
+    <div class="step-card">
+      <span class="step-card__num">01</span>
+      <span class="step-card__icon">&#128247;</span>
+      <strong class="step-card__title">Upload Photo</strong>
+      <span class="step-card__desc">Pick any photo of a person, pet, or baby from your camera roll.</span>
+    </div>
+    <div class="step-card">
+      <span class="step-card__num">02</span>
+      <span class="step-card__icon">&#128131;</span>
+      <strong class="step-card__title">Pick a Style</strong>
+      <span class="step-card__desc">Choose from 16 dance styles — Salsa, K-Pop, Hip-Hop, Ballet and more.</span>
+    </div>
+    <div class="step-card">
+      <span class="step-card__num">03</span>
+      <span class="step-card__icon">&#127916;</span>
+      <strong class="step-card__title">Get Your Video</strong>
+      <span class="step-card__desc">AI generates a realistic dance video in about a minute. Save and share.</span>
+    </div>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- DANCE STYLES                                                  -->
+  <!-- ============================================================ -->
+  <h2 data-num="02">16 Dance Styles</h2>
+  <div class="styles-grid">
+    <a href="dance-styles/salsa.html" class="style-card" style="--g1:#E74C3C;--g2:#F39C12" data-event="style_click_salsa">
+      <span class="style-card__name">Salsa</span>
+    </a>
+    <a href="dance-styles/tiktok-viral.html" class="style-card" style="--g1:#1A1A1A;--g2:#FF2D8A" data-event="style_click_tiktok">
+      <span class="style-card__name">TikTok Viral</span>
+    </a>
+    <a href="dance-styles/bollywood.html" class="style-card" style="--g1:#FF6B35;--g2:#F7C59F" data-event="style_click_bollywood">
+      <span class="style-card__name">Bollywood</span>
+    </a>
+    <a href="dance-styles/samba.html" class="style-card" style="--g1:#009C3B;--g2:#FFDF00" data-event="style_click_samba">
+      <span class="style-card__name">Samba</span>
+    </a>
+    <a href="dance-styles/greek-dance.html" class="style-card" style="--g1:#0D5EAF;--g2:#FFFFFF" data-event="style_click_greek">
+      <span class="style-card__name">Greek Dance</span>
+    </a>
+    <a href="dance-styles/hip-hop.html" class="style-card" style="--g1:#1F1F1F;--g2:#E63946" data-event="style_click_hiphop">
+      <span class="style-card__name">Hip-Hop</span>
+    </a>
+    <a href="dance-styles/ballet.html" class="style-card" style="--g1:#F8C8DC;--g2:#FFF5EE" data-event="style_click_ballet">
+      <span class="style-card__name">Ballet</span>
+    </a>
+    <a href="dance-styles/tango.html" class="style-card" style="--g1:#8B0000;--g2:#1A1A1A" data-event="style_click_tango">
+      <span class="style-card__name">Tango</span>
+    </a>
+    <a href="dance-styles/flamenco.html" class="style-card" style="--g1:#DC143C;--g2:#FFD700" data-event="style_click_flamenco">
+      <span class="style-card__name">Flamenco</span>
+    </a>
+    <a href="dance-styles/reggaeton.html" class="style-card" style="--g1:#4B0082;--g2:#00BFFF" data-event="style_click_reggaeton">
+      <span class="style-card__name">Reggaeton</span>
+    </a>
+    <a href="dance-styles/swing.html" class="style-card" style="--g1:#F5DEB3;--g2:#CC5500" data-event="style_click_swing">
+      <span class="style-card__name">Swing</span>
+    </a>
+    <a href="dance-styles/belly-dance.html" class="style-card" style="--g1:#FFBF00;--g2:#C71585" data-event="style_click_bellydance">
+      <span class="style-card__name">Belly Dance</span>
+    </a>
+    <a href="dance-styles/hula.html" class="style-card" style="--g1:#20B2AA;--g2:#FF6F61" data-event="style_click_hula">
+      <span class="style-card__name">Hula</span>
+    </a>
+    <a href="dance-styles/country-line.html" class="style-card" style="--g1:#1E4D6B;--g2:#DAA520" data-event="style_click_country">
+      <span class="style-card__name">Country Line</span>
+    </a>
+    <a href="dance-styles/k-pop.html" class="style-card" style="--g1:#FF2D8A;--g2:#7B2FFF" data-event="style_click_kpop">
+      <span class="style-card__name">K-Pop</span>
+    </a>
+    <a href="dance-styles/irish-dance.html" class="style-card" style="--g1:#00B09B;--g2:#2ECC71" data-event="style_click_irish">
+      <span class="style-card__name">Irish Dance</span>
+    </a>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- FEATURES                                                      -->
+  <!-- ============================================================ -->
+  <h2 data-num="03">Features</h2>
   <div class="feature-block">
     <div class="feature">
       <span class="num">01</span>
       <div class="body">
-        <strong>Adult, Baby, Dog, or Cat</strong>
-        <span>Pick the subject — your dog or cat stands up and dances on hind legs, the baby bobs in place, the adult goes full choreography. The AI uses the right anatomy for each.</span>
+        <strong>Pets Dance Too</strong>
+        <span>Dogs and cats stand up on their hind legs and bust real moves. The AI handles anatomy automatically.</span>
       </div>
     </div>
     <div class="feature">
       <span class="num">02</span>
       <div class="body">
-        <strong>Choose A Style</strong>
-        <span>19 styles — K-Pop, Salsa, Bollywood, Tap, EDM, Disco, Samba, Belly Dance and more. New styles drop regularly.</span>
+        <strong>No Sign-Up Required</strong>
+        <span>Your first dance video is free. No account, no email, no friction. Just pick a photo and go.</span>
       </div>
     </div>
     <div class="feature">
       <span class="num">03</span>
       <div class="body">
-        <strong>AI Generates</strong>
-        <span>Realistic motion in roughly a minute. No animation skills required.</span>
+        <strong>Identity Preservation</strong>
+        <span>The AI keeps your face, features, and likeness intact. It is you dancing, not a deepfake swap.</span>
       </div>
     </div>
     <div class="feature">
       <span class="num">04</span>
       <div class="body">
-        <strong>Score &amp; Share</strong>
-        <span>Pair with music, save to your library, post anywhere.</span>
+        <strong>Social-Ready Output</strong>
+        <span>Videos are formatted for TikTok, Instagram Reels, and Stories. Save to your camera roll and post anywhere.</span>
       </div>
     </div>
   </div>
 
-  <p class="footnote"><strong>Creation Weekly — $2.99 your first week.</strong><br>Then $9.99/wk · Cancel anytime</p>
+  <!-- ============================================================ -->
+  <!-- WHAT YOU CAN CREATE                                           -->
+  <!-- ============================================================ -->
+  <h2 data-num="04">What You Can Create</h2>
+  <div class="use-cases-grid">
+    <div class="use-case-card">
+      <span class="use-case-card__icon">&#127874;</span>
+      <strong>Birthday Surprise</strong>
+      <span>Turn a birthday photo into a dance video greeting that steals the show.</span>
+    </div>
+    <div class="use-case-card">
+      <span class="use-case-card__icon">&#128141;</span>
+      <strong>Wedding Content</strong>
+      <span>Make the bride, groom, or entire wedding party dance before the big day.</span>
+    </div>
+    <div class="use-case-card">
+      <span class="use-case-card__icon">&#128241;</span>
+      <strong>Social Media</strong>
+      <span>Create viral-worthy content for TikTok, Reels, or Stories in seconds.</span>
+    </div>
+    <div class="use-case-card">
+      <span class="use-case-card__icon">&#128514;</span>
+      <strong>Just for Fun</strong>
+      <span>Make your pet salsa, your baby hip-hop, or your boss do the flamenco.</span>
+    </div>
+  </div>
 
+  <!-- ============================================================ -->
+  <!-- CTA                                                           -->
+  <!-- ============================================================ -->
+  <div class="cta-section">
+    <p class="cta-section__headline">Ready to make someone dance?</p>
+    <a href="https://apps.apple.com/app/id6760788471" class="cta-badge cta-badge--large" data-event="bottom_appstore_click" aria-label="Download Danceify on the App Store">
+      <svg class="cta-badge__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      <span class="cta-badge__text">
+        <span class="cta-badge__pre">Download on the</span>
+        <span class="cta-badge__title">App Store</span>
+      </span>
+    </a>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- PRICING                                                       -->
+  <!-- ============================================================ -->
+  <p class="footnote"><strong>Creation Weekly</strong> — Start free for 3 days. Then $9.99/wk. Cancel anytime.</p>
+
+  <!-- ============================================================ -->
+  <!-- FOOTER                                                        -->
+  <!-- ============================================================ -->
   <footer class="footer">
     <div class="links">
+      <a href="dance-styles/">Dance Styles</a>
+      <a href="faq.html">FAQ</a>
       <a href="support.html">Support</a>
       <a href="privacy.html">Privacy</a>
       <a href="terms.html">Terms</a>
+      <a href="https://apps.apple.com/app/id6760788471">App Store</a>
     </div>
-    <div class="meta">©2026 · Danceify · NYC</div>
+    <div class="meta">&copy;2026 Danceify &middot; NYC</div>
   </footer>
 
 </div>
