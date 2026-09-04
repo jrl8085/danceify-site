@@ -29,6 +29,16 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-S0LME60XS4');
+  document.addEventListener('click', function(e) {
+    var el = e.target.closest('[data-event]');
+    if (!el) return;
+    var ev = el.getAttribute('data-event');
+    var isAppStore = ev.indexOf('appstore') !== -1;
+    gtag('event', isAppStore ? 'app_store_click' : ev, {
+      event_label: ev,
+      link_url: el.href || ''
+    });
+  });
 </script>
 
 <link rel="stylesheet" href="style.css">
@@ -413,7 +423,7 @@
       <a href="support.html">Support</a>
       <a href="privacy.html">Privacy</a>
       <a href="terms.html">Terms</a>
-      <a href="https://apps.apple.com/app/id6760788471">App Store</a>
+      <a data-event="index_appstore_click" href="https://apps.apple.com/app/id6760788471">App Store</a>
     </div>
     <div class="meta">&copy;2026 Danceify &middot; NYC</div>
   </footer>

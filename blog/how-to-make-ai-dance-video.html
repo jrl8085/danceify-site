@@ -24,7 +24,7 @@
 
 <!-- Google Analytics 4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-S0LME60XS4"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-S0LME60XS4');</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-S0LME60XS4');document.addEventListener('click',function(e){var el=e.target.closest('[data-event]');if(!el)return;var ev=el.getAttribute('data-event');var isAS=ev.indexOf('appstore')!==-1;gtag('event',isAS?'app_store_click':ev,{event_label:ev,link_url:el.href||''});});</script>
 
 <link rel="stylesheet" href="../style.css">
 
@@ -185,13 +185,13 @@
 
   <p>This guide walks you through the complete process using <strong>Danceify</strong>, an iOS app built specifically for AI dance video generation. It supports people, babies, dogs, and cats across 16 different dance styles. Your first video is free, no sign-up required.</p>
 
-  <a href="https://apps.apple.com/app/id6760788471" class="cta-inline">Download Danceify Free</a>
+  <a data-event="how_to_make_ai_dance_video_appstore_click" href="https://apps.apple.com/app/id6760788471" class="cta-inline">Download Danceify Free</a>
 
   <h2 data-num="01">The 8-Step Process</h2>
 
   <div class="step-block">
     <h3><span class="step-num">01</span> Download Danceify from the App Store</h3>
-    <p>Head to the <a href="https://apps.apple.com/app/id6760788471">Apple App Store</a> and search for "Danceify" or tap the link above. The app is free to download, and you do not need to create an account or enter any payment information to generate your first video.</p>
+    <p>Head to the <a data-event="how_to_make_ai_dance_video_appstore_click" href="https://apps.apple.com/app/id6760788471">Apple App Store</a> and search for "Danceify" or tap the link above. The app is free to download, and you do not need to create an account or enter any payment information to generate your first video.</p>
   </div>
 
   <div class="step-block">
@@ -277,7 +277,7 @@
 
   <p>The fastest way to understand AI dance videos is to make one yourself. Download Danceify, use your free first generation, and see how your photo — or your dog's photo — looks doing the salsa.</p>
 
-  <a href="https://apps.apple.com/app/id6760788471" class="cta-inline">Download Danceify — First Dance Free</a>
+  <a data-event="how_to_make_ai_dance_video_appstore_click" href="https://apps.apple.com/app/id6760788471" class="cta-inline">Download Danceify — First Dance Free</a>
 
   <p class="footnote">Danceify is available on iOS. Creation Weekly: free 3-day trial, then $9.99/week. Cancel anytime.</p>
 
@@ -286,7 +286,7 @@
       <a href="../support.html">Support</a>
       <a href="../privacy.html">Privacy</a>
       <a href="../terms.html">Terms</a>
-      <a href="https://apps.apple.com/app/id6760788471">App Store</a>
+      <a data-event="how_to_make_ai_dance_video_appstore_click" href="https://apps.apple.com/app/id6760788471">App Store</a>
     </div>
     <div class="meta">&copy;2026 &middot; Danceify &middot; NYC</div>
   </footer>

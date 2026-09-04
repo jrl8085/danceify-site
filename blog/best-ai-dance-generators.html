@@ -24,7 +24,7 @@
 
 <!-- Google Analytics 4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-S0LME60XS4"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-S0LME60XS4');</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-S0LME60XS4');document.addEventListener('click',function(e){var el=e.target.closest('[data-event]');if(!el)return;var ev=el.getAttribute('data-event');var isAS=ev.indexOf('appstore')!==-1;gtag('event',isAS?'app_store_click':ev,{event_label:ev,link_url:el.href||''});});</script>
 
 <link rel="stylesheet" href="../style.css">
 
@@ -241,7 +241,7 @@
     <p><strong>Identity preservation</strong> is strong across the board. The output looks like the actual person (or pet) in your photo dancing — not a generic character with a face swap. The first video is free with no sign-up required, which makes it easy to test quality before paying anything.</p>
     <p>The main limitation is platform: it is iOS only. There is no web version and no Android app. If you are on an iPhone, it is the most streamlined option available. If you are not, you will need to look elsewhere.</p>
     <p><strong>Pricing:</strong> First video free. Creation Weekly subscription: free 3-day trial, then $9.99/week. Coin packs also available.</p>
-    <p><a href="https://apps.apple.com/app/id6760788471">Download Danceify on the App Store</a></p>
+    <p><a data-event="best_ai_dance_generators_appstore_click" href="https://apps.apple.com/app/id6760788471">Download Danceify on the App Store</a></p>
   </div>
 
   <div class="tool-section">
@@ -312,7 +312,7 @@
 
   <p>If you have an iPhone and want to see what AI dance videos look like in 2026, Danceify is the fastest way to find out. Your first video is free, no sign-up required. Pick a photo of yourself, your dog, or your cat — choose a dance style — and see the result in a few minutes.</p>
 
-  <a href="https://apps.apple.com/app/id6760788471" class="cta-inline">Download Danceify — First Dance Free</a>
+  <a data-event="best_ai_dance_generators_appstore_click" href="https://apps.apple.com/app/id6760788471" class="cta-inline">Download Danceify — First Dance Free</a>
 
   <p class="footnote">Danceify is available on iOS. Creation Weekly: free 3-day trial, then $9.99/week. Cancel anytime.</p>
 
@@ -321,7 +321,7 @@
       <a href="../support.html">Support</a>
       <a href="../privacy.html">Privacy</a>
       <a href="../terms.html">Terms</a>
-      <a href="https://apps.apple.com/app/id6760788471">App Store</a>
+      <a data-event="best_ai_dance_generators_appstore_click" href="https://apps.apple.com/app/id6760788471">App Store</a>
     </div>
     <div class="meta">&copy;2026 &middot; Danceify &middot; NYC</div>
   </footer>

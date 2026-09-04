@@ -13,6 +13,7 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-S0LME60XS4');
+  document.addEventListener('click',function(e){var el=e.target.closest('[data-event]');if(!el)return;var ev=el.getAttribute('data-event');var isAS=ev.indexOf('appstore')!==-1;gtag('event',isAS?'app_store_click':ev,{event_label:ev,link_url:el.href||''});});
 </script>
 
 <link rel="stylesheet" href="style.css">

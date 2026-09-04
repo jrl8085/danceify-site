@@ -24,7 +24,7 @@
 
 <!-- Google Analytics 4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-S0LME60XS4"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-S0LME60XS4');</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-S0LME60XS4');document.addEventListener('click',function(e){var el=e.target.closest('[data-event]');if(!el)return;var ev=el.getAttribute('data-event');var isAS=ev.indexOf('appstore')!==-1;gtag('event',isAS?'app_store_click':ev,{event_label:ev,link_url:el.href||''});});</script>
 
 <link rel="stylesheet" href="style.css">
 
@@ -337,7 +337,7 @@
   <details class="faq-item">
     <summary>Is Danceify available on Android?</summary>
     <div class="faq-answer">
-      <p>Danceify is currently <strong>iOS only</strong>. You can download it from the <a href="https://apps.apple.com/app/id6760788471">Apple App Store</a>. An Android version is not available at this time.</p>
+      <p>Danceify is currently <strong>iOS only</strong>. You can download it from the <a data-event="faq_appstore_click" href="https://apps.apple.com/app/id6760788471">Apple App Store</a>. An Android version is not available at this time.</p>
     </div>
   </details>
 
@@ -346,7 +346,7 @@
       <a href="support.html">Support</a>
       <a href="privacy.html">Privacy</a>
       <a href="terms.html">Terms</a>
-      <a href="https://apps.apple.com/app/id6760788471">App Store</a>
+      <a data-event="faq_appstore_click" href="https://apps.apple.com/app/id6760788471">App Store</a>
     </div>
     <div class="meta">&copy;2026 &middot; Danceify &middot; NYC</div>
   </footer>

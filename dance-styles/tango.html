@@ -15,7 +15,7 @@
 <meta name="twitter:title" content="Tango AI Dance Video Generator — Danceify">
 <meta name="twitter:description" content="Create AI tango dance videos from any photo. Dramatic intense Argentine tango movement.">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-S0LME60XS4"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-S0LME60XS4');</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-S0LME60XS4');document.addEventListener('click',function(e){var el=e.target.closest('[data-event]');if(!el)return;var ev=el.getAttribute('data-event');var isAS=ev.indexOf('appstore')!==-1;gtag('event',isAS?'app_store_click':ev,{event_label:ev,link_url:el.href||''});});</script>
 <link rel="stylesheet" href="../style.css">
 <style>
   .style-gradient-bar{height:4px;width:120px;border-radius:0;margin:18px 0 24px;background:linear-gradient(90deg,#8B0000,#1A1A1A);}
@@ -54,7 +54,7 @@
     <h1 class="display">Tango AI Dance Video</h1>
     <p class="subcaption">Dramatic intensity and passion — AI-generated Argentine tango</p>
     <div class="style-gradient-bar"></div>
-    <a href="https://apps.apple.com/app/id6760788471" class="cta-btn">Try Tango Free &rarr;</a>
+    <a data-event="tango_appstore_click" href="https://apps.apple.com/app/id6760788471" class="cta-btn">Try Tango Free &rarr;</a>
   </section>
 
   <div class="style-hero-video">
@@ -76,7 +76,7 @@
       <span class="num">01</span>
       <div class="body">
         <strong>Download Danceify</strong>
-        <span>Get Danceify free from the <a href="https://apps.apple.com/app/id6760788471">App Store</a>. Available on iPhone and iPad.</span>
+        <span>Get Danceify free from the <a data-event="tango_appstore_click" href="https://apps.apple.com/app/id6760788471">App Store</a>. Available on iPhone and iPad.</span>
       </div>
     </div>
     <div class="step">
@@ -126,7 +126,7 @@
 
   <h2 data-num="06">Ready to Try Tango?</h2>
   <p>Download Danceify and generate your first tango dance video free.</p>
-  <a href="https://apps.apple.com/app/id6760788471" class="cta-btn">Get Danceify Free &rarr;</a>
+  <a data-event="tango_appstore_click" href="https://apps.apple.com/app/id6760788471" class="cta-btn">Get Danceify Free &rarr;</a>
 
   <footer class="footer">
     <div class="links">
