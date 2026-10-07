@@ -16,7 +16,7 @@
   document.addEventListener('click',function(e){var el=e.target.closest('[data-event]');if(!el)return;var ev=el.getAttribute('data-event');var isAS=ev.indexOf('appstore')!==-1;gtag('event',isAS?'app_store_click':ev,{event_label:ev,link_url:el.href||''});});
 </script>
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
 <div class="container">
@@ -27,8 +27,8 @@
       <span class="tag">Danceify</span>
     </div>
     <nav class="nav">
-      <a href="index.html">Home</a>
-      <a href="support.html">Support</a>
+      <a href="/">Home</a>
+      <a href="/support.html">Support</a>
     </nav>
   </header>
 
@@ -36,7 +36,7 @@
     <div class="wordmark" style="font-size:clamp(2.4rem,10vw,4rem)">404</div>
     <h1 class="hero__headline" style="margin-top:16px;font-size:clamp(1.2rem,4vw,1.8rem);">Page Not Found</h1>
     <p class="subcaption" style="margin-top:14px;">This page does not exist or has been moved.</p>
-    <a href="index.html" class="cta-badge" style="margin-top:32px;" aria-label="Go back to Danceify homepage">
+    <a href="/" class="cta-badge" style="margin-top:32px;" aria-label="Go back to Danceify homepage">
       <span class="cta-badge__text">
         <span class="cta-badge__title" style="font-size:14px;">Back to Home</span>
       </span>
@@ -45,9 +45,9 @@
 
   <footer class="footer">
     <div class="links">
-      <a href="support.html">Support</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="terms.html">Terms</a>
+      <a href="/support.html">Support</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
     </div>
     <div class="meta">&copy;2026 Danceify &middot; NYC</div>
   </footer>
