@@ -1,0 +1,43 @@
+# Danceify
+
+> Danceify is an iOS app that turns one photo into a 10-second AI dance video of a person, baby, dog or cat, in any of 17 dance styles, with music. No sign-up. Free to download; videos use coins (coin packs from $2.99, or a weekly plan). App Store: https://apps.apple.com/app/id6760788471
+
+## What the app does
+
+- Upload one photo, choose who is dancing (PERSON, BABY, DOG or CAT) and a dance style, and the app makes a 10-second video of that subject dancing, with a music track, saved to your camera roll.
+- The AI keeps the face, hair, skin tone and clothing (or the breed, fur and markings) from the photo; it animates your subject rather than swapping a face onto another dancer.
+- Dogs and cats dance upright on their hind legs; baby mode keeps baby proportions and age.
+- The video is rendered on Danceify's servers; the app shows an estimate while it renders, typically a few minutes. If a video fails to render, its coins are returned automatically.
+- 17 dance styles: EDM Shuffle, Salsa, TikTok Viral, Bollywood, Samba, Greek Dance, Hip-Hop, Ballet, Tango, Flamenco, Reggaeton, Swing, Belly Dance, Hula, Country Line, K-Pop, Irish Dance. Each style has separate choreography for people, babies, dogs and cats.
+- Platform: iOS (iPhone). No Android or web version. English.
+- Uploaded photos are deleted from Danceify's storage within hours (see the privacy policy).
+
+## Who it is for
+
+- Dog and cat owners who want a video of their pet dancing.
+- Parents and grandparents making a dancing baby video for the family group chat.
+- Anyone who wants to turn a photo of themselves or a friend into a TikTok-, Reels- or Stories-ready dance clip.
+
+## Pages
+
+- [AI dance video app (overview)](https://danceifyapp.com/ai-dance-video-app/): what Danceify is, who it is for, how it works, pricing, FAQ.
+- [Make my dog dance video](https://danceifyapp.com/make-my-dog-dance-video/): dog dance videos from a photo, with real previews and photo tips.
+- [AI cat dance](https://danceifyapp.com/ai-cat-dance/): cat dance videos from a photo, with real previews and photo tips.
+- [Dancing baby video](https://danceifyapp.com/dancing-baby-video/): baby and toddler dance videos from a photo, privacy notes.
+- [Photo to dance video](https://danceifyapp.com/photo-to-dance-video/): turning a photo of a person into an AI dance video.
+- [All dance styles](https://danceifyapp.com/dance-styles/): one page per style with video previews.
+- [FAQ](https://danceifyapp.com/faq.html): common questions about the app.
+- [Support](https://danceifyapp.com/support.html): help, refunds, restoring purchases, deleting your account.
+- [Privacy policy](https://danceifyapp.com/privacy.html) and [Terms](https://danceifyapp.com/terms.html).
+- [Blog](https://danceifyapp.com/blog/): guides such as [how to make an AI dance video](https://danceifyapp.com/blog/how-to-make-ai-dance-video.html), [make your dog dance](https://danceifyapp.com/blog/make-dog-dance-video.html), [make your baby dance](https://danceifyapp.com/blog/make-baby-dance-video.html) and [AI pet dance videos](https://danceifyapp.com/blog/ai-pet-dance-video.html).
+
+## Pricing
+
+- Free to download; no account, email or password.
+- Videos use coins. One-time coin packs start from $2.99 and never expire. The weekly plan refills coins every week and can be cancelled anytime in iPhone Settings.
+- Prices are in US dollars; the App Store shows the local price. Payment and refunds go through Apple.
+
+## Download
+
+- App Store: https://apps.apple.com/app/id6760788471
+- Website: https://danceifyapp.com/
