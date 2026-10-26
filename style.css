@@ -797,3 +797,14 @@ a:hover { border-bottom-color: var(--accent); }
     font-size: 0.75rem;
   }
 }
+
+/* === Use-case cards as links (home page "Who Is Dancing?") ========== */
+a.use-case-card { color: inherit; }
+a.use-case-card:hover { background: rgba(255, 45, 111, 0.06); border-bottom-color: var(--line); }
+.use-case-card span.use-case-card__num {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: var(--accent);
+  font-weight: 500;
+}
