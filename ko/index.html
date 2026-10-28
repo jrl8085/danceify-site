@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>사진 춤추게 하는 앱 | 강아지·고양이·아기 AI 댄스 영상 (iPhone) - Danceify</title>
+<meta name="description" content="Danceify는 사람, 아기, 강아지, 고양이 사진 한 장으로 10초 댄스 영상을 만드는 iPhone 앱입니다. 댄스 스타일 17가지. 다운로드 무료, 계정 필요 없음.">
+<link rel="canonical" href="https://danceifyapp.com/ko/">
+<meta name="apple-itunes-app" content="app-id=6760788471">
+<meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1, max-snippet:-1">
+<link rel="alternate" hreflang="en" href="https://danceifyapp.com/">
+<link rel="alternate" hreflang="ja" href="https://danceifyapp.com/ja/">
+<link rel="alternate" hreflang="es" href="https://danceifyapp.com/es/">
+<link rel="alternate" hreflang="pt" href="https://danceifyapp.com/pt-br/">
+<link rel="alternate" hreflang="ko" href="https://danceifyapp.com/ko/">
+<link rel="alternate" hreflang="x-default" href="https://danceifyapp.com/">
+
+<!-- Open Graph -->
+<meta property="og:title" content="사진 춤추게 하는 앱 | 강아지·고양이·아기 AI 댄스 영상 (iPhone) - Danceify">
+<meta property="og:description" content="Danceify는 사람, 아기, 강아지, 고양이 사진 한 장으로 10초 댄스 영상을 만드는 iPhone 앱입니다. 댄스 스타일 17가지. 다운로드 무료, 계정 필요 없음.">
+<meta property="og:image" content="https://danceifyapp.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Danceify: 사람, 아기, 강아지, 고양이가 춤추는 영상">
+<meta property="og:url" content="https://danceifyapp.com/ko/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Danceify">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:locale:alternate" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="사진 춤추게 하는 앱 | 강아지·고양이·아기 AI 댄스 영상 (iPhone) - Danceify">
+<meta name="twitter:description" content="Danceify는 사람, 아기, 강아지, 고양이 사진 한 장으로 10초 댄스 영상을 만드는 iPhone 앱입니다. 댄스 스타일 17가지. 다운로드 무료, 계정 필요 없음.">
+<meta name="twitter:image" content="https://danceifyapp.com/og-image.png">
+
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S0LME60XS4"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-S0LME60XS4');document.addEventListener('click',function(e){var el=e.target.closest('[data-event]');if(!el)return;var ev=el.getAttribute('data-event');var isAS=ev.indexOf('appstore')!==-1;gtag('event',isAS?'app_store_click':ev,{event_label:ev,link_url:el.href||''});});</script>
+
+<link rel="stylesheet" href="/style.css">
+<style>
+  .lede{font-size:1.08rem;color:var(--dim);max-width:720px;margin:20px auto 0;line-height:1.7;}
+  .lede strong{color:var(--ink);font-weight:600;}
+  .narrow{max-width:720px;margin-left:auto;margin-right:auto;}
+  .preview-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-top:14px;}
+  .preview-card{position:relative;display:block;aspect-ratio:4/5;overflow:hidden;background:var(--card);}
+  .preview-card video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;}
+  .preview-card .style-card__overlay{position:absolute;bottom:0;left:0;right:0;padding:20px 14px 14px;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,.3) 50%,transparent 100%);pointer-events:none;}
+  .preview-note{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.2px;color:var(--faint);text-transform:uppercase;margin-top:10px;}
+  .related-grid{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px;}
+  .related-grid a{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;padding:8px 14px;border:1px solid var(--line);color:var(--dim);border-bottom:1px solid var(--line);}
+  .related-grid a:hover{border-color:var(--accent);color:var(--accent);}
+  .faq-item{border:1px solid var(--line);padding:20px;margin-bottom:8px;}
+  .faq-item h3{font-family:'Inter',sans-serif;font-weight:800;font-size:.95rem;text-transform:uppercase;letter-spacing:.04em;color:var(--ink);margin-bottom:10px;}
+  .faq-item p{margin-bottom:0;font-size:.92rem;}
+  .faq-item p+p{margin-top:10px;}
+  .usecase-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border:1px solid var(--line);margin-top:14px;}
+  .usecase{display:flex;flex-direction:column;gap:4px;padding:24px 20px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);transition:background .15s;}
+  .usecase:nth-child(2n){border-right:0;}
+  .usecase:nth-child(n+3){border-bottom:0;}
+  .usecase:hover{background:rgba(255,45,111,.06);border-bottom-color:var(--line);}
+  .usecase strong{font-family:'Inter',sans-serif;font-weight:900;font-stretch:75%;font-size:.95rem;letter-spacing:.04em;text-transform:uppercase;color:var(--ink);}
+  .usecase span{font-size:.85rem;color:var(--dim);line-height:1.55;}
+  .usecase em{font-family:'JetBrains Mono',monospace;font-style:normal;font-size:10px;letter-spacing:1.5px;color:var(--accent);text-transform:uppercase;margin-top:6px;}
+  @media (max-width:640px){.preview-grid{grid-template-columns:repeat(2,1fr);}.usecase-grid{grid-template-columns:1fr;}.usecase{border-right:0;}.usecase:nth-child(n+3){border-bottom:1px solid var(--line);}.usecase:last-child{border-bottom:0;}}
+  .lang-switch{font-size:.8rem;color:var(--faint);margin:-12px 0 20px;text-align:right}
+  .lang-switch a{color:var(--dim)}
+  .footer .links{flex-wrap:wrap;gap:10px 22px}
+  .footer .footer-langs{flex-basis:100%;gap:10px 18px}
+  html[lang=ko] body{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif}
+  html[lang=ko] h1,html[lang=ko] h2,html[lang=ko] h3,html[lang=ko] p{word-break:keep-all}
+  html[lang=ko] .preview-note,html[lang=ko] .related-grid a,html[lang=ko] .usecase em,html[lang=ko] .faq-item h3,html[lang=ko] .step-card__title{font-family:inherit;letter-spacing:0;text-transform:none}
+  a.preview-card{border-bottom:0}
+  .preview-grid--two{grid-template-columns:repeat(2,1fr);max-width:480px}
+  .byline{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.2px;color:var(--faint);text-transform:uppercase;margin:14px 0 0}
+  .fact-table{width:100%;border-collapse:collapse;margin-top:14px;font-size:.88rem}
+  .fact-table th{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.2px;color:var(--accent);text-transform:uppercase;font-weight:500;text-align:left;padding:12px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  .fact-table td{padding:12px 10px;color:var(--dim);border-bottom:1px solid var(--line);vertical-align:top;line-height:1.55}
+  .fact-table td:first-child{color:var(--ink);font-weight:600}
+  .answer-box{border-left:3px solid var(--accent);padding:16px 20px;margin:14px 0 0;background:rgba(255,45,111,.04)}
+  .answer-box ul{margin-bottom:0}
+  .answer-box ul li:last-child{margin-bottom:0}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://danceifyapp.com/#org",
+      "name": "Danceify",
+      "url": "https://danceifyapp.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://danceifyapp.com/#website",
+      "name": "Danceify",
+      "url": "https://danceifyapp.com/",
+      "publisher": {
+        "@id": "https://danceifyapp.com/#org"
+      }
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://danceifyapp.com/#app",
+      "name": "Danceify - AI Dance Videos",
+      "alternateName": [
+        "Danceify",
+        "Danceify - AIダンス動画",
+        "Danceify - Videos de Baile IA",
+        "Danceify - Vídeos de Dança IA",
+        "Danceify - AI 댄스 영상 메이커"
+      ],
+      "operatingSystem": "iOS",
+      "applicationCategory": "EntertainmentApplication",
+      "url": "https://danceifyapp.com/",
+      "downloadUrl": "https://apps.apple.com/app/id6760788471",
+      "installUrl": "https://apps.apple.com/app/id6760788471",
+      "sameAs": [
+        "https://apps.apple.com/app/id6760788471"
+      ],
+      "image": "https://danceifyapp.com/og-image.png",
+      "publisher": {
+        "@id": "https://danceifyapp.com/#org"
+      },
+      "description": "An iPhone app that turns one photo of a person, a baby, a dog or a cat into a 10-second dance video in 17 dance styles, plus Premium themed templates. Free to download; no account, sign-up or email.",
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Download",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "Coin packs (one-time)",
+          "price": "2.99",
+          "priceCurrency": "USD",
+          "description": "One-time coin packs start at $2.99 (US)."
+        },
+        {
+          "@type": "Offer",
+          "name": "Creation Weekly",
+          "price": "9.99",
+          "priceCurrency": "USD",
+          "description": "$9.99 a week in the US with 3,000 coins a week, plus an introductory offer for new subscribers whose price and length the App Store shows before you confirm."
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://danceifyapp.com/ko/#webpage",
+      "url": "https://danceifyapp.com/ko/",
+      "name": "사진 춤추게 하는 앱 | 강아지·고양이·아기 AI 댄스 영상 (iPhone) - Danceify",
+      "inLanguage": "ko",
+      "isPartOf": {
+        "@id": "https://danceifyapp.com/#website"
+      },
+      "about": {
+        "@id": "https://danceifyapp.com/#app"
+      },
+      "dateModified": "2026-10-27"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "사진으로 강아지를 춤추게 하는 앱이 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "있습니다. iPhone 앱 Danceify - AI 댄스 영상 메이커(App Store ID 6760788471)에서 강아지 사진 한 장과 17가지 댄스 스타일 중 하나를 고르면 10초 댄스 영상이 만들어집니다. 다운로드는 무료입니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "고양이와 아기도 되나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "네. 사람, 아기, 강아지, 고양이 사진 한 장으로 10초 댄스 영상을 만들 수 있습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "무료인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "다운로드는 무료입니다. 영상에는 코인(◆)이 사용됩니다. 일회성 코인 팩은 미국 가격 기준 $2.99부터이며, Creation Weekly는 미국 기준 주 $9.99에 매주 3,000코인이 제공됩니다. 신규 구독자를 위한 첫 구독 오퍼가 있으며, 가격과 기간은 결제를 확정하기 전에 App Store에 표시됩니다. 한국 가격은 App Store에 표시됩니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "계정이 필요한가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "아니요. 계정, 가입, 이메일이 필요 없습니다. 구매는 Apple 계정으로 합니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "한국어로 사용할 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "현재 앱 화면은 영어입니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "영상을 저장하고 공유할 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "네. 영상은 휴대폰에 저장하고 카카오톡, 인스타그램, 틱톡 등에 공유할 수 있습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "올바른 앱인지 어떻게 알 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "App Store ID는 6760788471입니다. ID가 다르면 다른 앱입니다."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Danceify",
+      "item": "https://danceifyapp.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "한국어",
+      "item": "https://danceifyapp.com/ko/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<div class="container container--wide">
+
+  <header class="topbar">
+    <a href="/ko/" style="border:0;">
+      <div class="brand">
+        <span class="dot"></span>
+        <span class="tag">Danceify</span>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="#styles">스타일</a>
+      <a href="#price">가격</a>
+      <a href="#faq">질문</a>
+    </nav>
+  </header>
+  <nav class="lang-switch" aria-label="언어"><a href="/" hreflang="en" lang="en">English</a> &middot; <a href="/ja/" hreflang="ja" lang="ja">日本語</a> &middot; <a href="/es/" hreflang="es" lang="es">Español</a> &middot; <a href="/pt-br/" hreflang="pt-BR" lang="pt-BR">Português</a> &middot; <span aria-current="true">한국어</span></nav>
+
+  <section class="hero hero--home">
+    <h1 class="hero__headline">사진 한 장으로 강아지·고양이·아기가 춤추는 AI 댄스 영상</h1>
+    <p class="lede"><strong>Danceify - AI 댄스 영상 메이커(영문명 Danceify - AI Dance Videos, App Store ID 6760788471)</strong>는 사람, 아기, 강아지, 고양이 사진 한 장으로 10초 댄스 영상을 만드는 iPhone 앱입니다. 다운로드는 무료이고 계정이 필요 없습니다.</p>
+    <a href="https://apps.apple.com/app/id6760788471" class="cta-badge cta-badge--hero" data-event="ko_home_hero_appstore_click" aria-label="App Store에서 Danceify 다운로드"><svg class="cta-badge__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg><span class="cta-badge__text"><span class="cta-badge__pre">App Store에서</span><span class="cta-badge__title">다운로드</span></span></a>
+    <p class="hero__proof">iPhone 앱 &middot; 10초 댄스 영상 &middot; 스타일 17가지 &middot; 계정 필요 없음</p>
+  </section>
+
+  <section class="section-block">
+    <h2 data-num="01">이렇게 춤춰요</h2>
+    <div class="preview-grid">
+      <div class="preview-card">
+        <video loop muted playsinline preload="none" poster="https://storage.googleapis.com/danceify-assets/regular/previews/dog/kpop/tile-65feac36.jpg" aria-label="미리보기: Danceify에서 K-Pop을 추는 강아지">
+          <source src="https://storage.googleapis.com/danceify-assets/regular/previews/dog/kpop/tile-006ff2ce.mp4" type="video/mp4">
+        </video>
+        <div class="style-card__overlay"><span class="style-card__name">강아지 · K-Pop</span></div>
+      </div>
+      <div class="preview-card">
+        <video loop muted playsinline preload="none" poster="https://storage.googleapis.com/danceify-assets/regular/previews/cat/kpop/tile-1bb14bdb.jpg" aria-label="미리보기: Danceify에서 K-Pop을 추는 고양이">
+          <source src="https://storage.googleapis.com/danceify-assets/regular/previews/cat/kpop/tile-b16fa662.mp4" type="video/mp4">
+        </video>
+        <div class="style-card__overlay"><span class="style-card__name">고양이 · K-Pop</span></div>
+      </div>
+      <div class="preview-card">
+        <video loop muted playsinline preload="none" poster="https://storage.googleapis.com/danceify-assets/regular/previews/baby/kpop/tile-28fd5bc4.jpg" aria-label="미리보기: Danceify에서 K-Pop을 추는 아기">
+          <source src="https://storage.googleapis.com/danceify-assets/regular/previews/baby/kpop/tile-c57b58fa.mp4" type="video/mp4">
+        </video>
+        <div class="style-card__overlay"><span class="style-card__name">아기 · K-Pop</span></div>
+      </div>
+      <div class="preview-card">
+        <video loop muted playsinline preload="none" poster="https://storage.googleapis.com/danceify-assets/regular/previews/adult/kpop/tile-0b34ea1a.jpg" aria-label="미리보기: Danceify에서 K-Pop을 추는 사람">
+          <source src="https://storage.googleapis.com/danceify-assets/regular/previews/adult/kpop/tile-f8a52ffc.mp4" type="video/mp4">
+        </video>
+        <div class="style-card__overlay"><span class="style-card__name">사람 · K-Pop</span></div>
+      </div>
+    </div>
+    <p class="preview-note">앱 카탈로그의 실제 미리보기 영상입니다. 내 영상에는 내 사진이 사용됩니다.</p>
+  </section>
+
+  <section class="section-block narrow">
+    <h2 data-num="02">강아지 춤 영상 앱</h2>
+    <p>강아지 사진 한 장과 17가지 댄스 스타일 중 하나를 고르면 10초 댄스 영상이 만들어집니다. 영상은 휴대폰에 저장하고 카카오톡, 인스타그램, 틱톡 등에 공유할 수 있습니다.</p>
+    <p><a href="/make-my-dog-dance-video/" hreflang="en">강아지 영상 더 보기 (영어)</a></p>
+  </section>
+
+  <section class="section-block narrow">
+    <h2 data-num="03">고양이 춤 AI</h2>
+    <p>고양이 사진 한 장과 17가지 댄스 스타일 중 하나를 고르면 10초 댄스 영상이 만들어집니다. 영상은 휴대폰에 저장하고 카카오톡, 인스타그램, 틱톡 등에 공유할 수 있습니다.</p>
+    <p><a href="/ai-cat-dance/" hreflang="en">고양이 영상 더 보기 (영어)</a></p>
+  </section>
+
+  <section class="section-block narrow">
+    <h2 data-num="04">아기 춤 AI</h2>
+    <p>계정, 가입, 이메일이 필요 없습니다. 아기 사진 한 장으로 10초 댄스 영상을 만들고, 휴대폰에 저장해 카카오톡, 인스타그램, 틱톡 등에 공유할 수 있습니다.</p>
+    <p><a href="/privacy.html" hreflang="en">개인정보 처리방침 (영어)</a> &middot; <a href="/dancing-baby-video/" hreflang="en">아기 영상 더 보기 (영어)</a></p>
+  </section>
+
+  <section class="section-block narrow">
+    <h2 data-num="05">사진 춤추게 하는 앱</h2>
+    <p>Danceify는 사진을 춤추게 하는 어플입니다. 사람 사진 한 장과 17가지 댄스 스타일 중 하나를 고르면 10초 댄스 영상이 만들어집니다. 영상은 휴대폰에 저장하고 카카오톡, 인스타그램, 틱톡 등에 공유할 수 있습니다.</p>
+    <p><a href="/photo-to-dance-video/" hreflang="en">사진 영상 더 보기 (영어)</a></p>
+  </section>
+
+  <section class="section-block" id="how">
+    <h2 data-num="06">사용 방법</h2>
+    <div class="steps-grid">
+      <div class="step-card">
+        <span class="step-card__num">01</span>
+        <strong class="step-card__title">사진 고르기</strong>
+        <span class="step-card__desc">사람, 아기, 강아지, 고양이 사진을 한 장 고릅니다.</span>
+      </div>
+      <div class="step-card">
+        <span class="step-card__num">02</span>
+        <strong class="step-card__title">스타일 고르기</strong>
+        <span class="step-card__desc">17가지 댄스 스타일이나 프리미엄 테마 템플릿 중에서 고릅니다.</span>
+      </div>
+      <div class="step-card">
+        <span class="step-card__num">03</span>
+        <strong class="step-card__title">저장하고 공유하기</strong>
+        <span class="step-card__desc">10초 댄스 영상을 휴대폰에 저장하고 공유합니다.</span>
+      </div>
+    </div>
+    <div class="inline-cta">
+      <a href="https://apps.apple.com/app/id6760788471" class="cta-badge cta-badge--subtle" data-event="ko_home_steps_appstore_click" aria-label="App Store에서 Danceify 다운로드"><svg class="cta-badge__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg><span class="cta-badge__text"><span class="cta-badge__pre">App Store에서</span><span class="cta-badge__title">다운로드</span></span></a>
+    </div>
+  </section>
+
+  <section class="section-block narrow" id="styles">
+    <h2 data-num="07">댄스 스타일 17가지</h2>
+    <p>K-Pop은 Danceify의 17가지 댄스 스타일 중 하나입니다. 전체 스타일: EDM Shuffle, Salsa, TikTok, Bollywood, Samba, Greek, Hip-hop, Ballet, Tango, Flamenco, Reggaeton, Swing, Belly Dance, Hula, Country Line, K-Pop, Irish. 프리미엄 테마 템플릿도 있습니다.</p>
+    <p><a href="/dance-styles/" hreflang="en">스타일 전체 보기 (영어)</a></p>
+  </section>
+
+  <section class="section-block narrow" id="price">
+    <h2 data-num="08">가격</h2>
+    <p>영상에는 코인(◆)이 사용됩니다. 일회성 코인 팩은 미국 가격 기준 $2.99부터이며, Creation Weekly는 미국 기준 주 $9.99에 매주 3,000코인이 제공됩니다. 신규 구독자를 위한 첫 구독 오퍼가 있으며, 가격과 기간은 결제를 확정하기 전에 App Store에 표시됩니다. 한국 가격은 App Store에 표시됩니다.</p>
+  </section>
+
+  <section class="section-block narrow" id="faq">
+    <h2 data-num="09">자주 묻는 질문</h2>
+    <div class="faq-item">
+      <h3>사진으로 강아지를 춤추게 하는 앱이 있나요?</h3>
+      <p>있습니다. iPhone 앱 Danceify - AI 댄스 영상 메이커(App Store ID 6760788471)에서 강아지 사진 한 장과 17가지 댄스 스타일 중 하나를 고르면 10초 댄스 영상이 만들어집니다. 다운로드는 무료입니다.</p>
+    </div>
+    <div class="faq-item">
+      <h3>고양이와 아기도 되나요?</h3>
+      <p>네. 사람, 아기, 강아지, 고양이 사진 한 장으로 10초 댄스 영상을 만들 수 있습니다.</p>
+    </div>
+    <div class="faq-item">
+      <h3>무료인가요?</h3>
+      <p>다운로드는 무료입니다. 영상에는 코인(◆)이 사용됩니다. 일회성 코인 팩은 미국 가격 기준 $2.99부터이며, Creation Weekly는 미국 기준 주 $9.99에 매주 3,000코인이 제공됩니다. 신규 구독자를 위한 첫 구독 오퍼가 있으며, 가격과 기간은 결제를 확정하기 전에 App Store에 표시됩니다. 한국 가격은 App Store에 표시됩니다.</p>
+    </div>
+    <div class="faq-item">
+      <h3>계정이 필요한가요?</h3>
+      <p>아니요. 계정, 가입, 이메일이 필요 없습니다. 구매는 Apple 계정으로 합니다.</p>
+    </div>
+    <div class="faq-item">
+      <h3>한국어로 사용할 수 있나요?</h3>
+      <p>현재 앱 화면은 영어입니다.</p>
+    </div>
+    <div class="faq-item">
+      <h3>영상을 저장하고 공유할 수 있나요?</h3>
+      <p>네. 영상은 휴대폰에 저장하고 카카오톡, 인스타그램, 틱톡 등에 공유할 수 있습니다.</p>
+    </div>
+    <div class="faq-item">
+      <h3>올바른 앱인지 어떻게 알 수 있나요?</h3>
+      <p>App Store ID는 6760788471입니다. ID가 다르면 다른 앱입니다.</p>
+    </div>
+  </section>
+
+  <div class="cta-section">
+    <p class="cta-section__headline">지금 춤추게 해 보세요</p>
+    <p class="cta-section__sub">다운로드는 무료입니다. 계정이 필요 없습니다.</p>
+    <a href="https://apps.apple.com/app/id6760788471" class="cta-badge cta-badge--large" data-event="ko_home_bottom_appstore_click" aria-label="App Store에서 Danceify 다운로드"><svg class="cta-badge__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg><span class="cta-badge__text"><span class="cta-badge__pre">App Store에서</span><span class="cta-badge__title">다운로드</span></span></a>
+  </div>
+
+  <footer class="footer">
+    <div class="links">
+      <a href="/" hreflang="en">홈 (영어)</a>
+      <a href="/about/" hreflang="en">소개 (영어)</a>
+      <a href="/faq.html" hreflang="en">자주 묻는 질문 (영어)</a>
+      <a href="/support.html" hreflang="en">지원 (영어)</a>
+      <a href="/privacy.html" hreflang="en">개인정보 처리방침 (영어)</a>
+      <a href="/terms.html" hreflang="en">이용약관 (영어)</a>
+      <a data-event="ko_home_footer_appstore_click" href="https://apps.apple.com/app/id6760788471">App Store</a>
+    </div>
+    <div class="meta">&copy;2026 Danceify &middot; NYC</div>
+  </footer>
+
+</div>
+
+<script>
+(function() {
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      var video = entry.target;
+      if (entry.isIntersecting) { video.play().catch(function() {}); } else { video.pause(); }
+    });
+  }, { rootMargin: '100px' });
+  document.querySelectorAll('.preview-card video').forEach(function(video) { observer.observe(video); });
+})();
+</script>
+</body>
+</html>

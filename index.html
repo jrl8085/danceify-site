@@ -3,38 +3,38 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Danceify - AI Dance Video Maker | Photo to Dance</title>
-<meta name="description" content="Turn any photo into a realistic dance video with AI. People, pets, babies — 16 dance styles. Free to download, no sign-up required.">
+<title>Danceify: AI Dance Video App for iPhone | Make a Photo, Dog, Cat or Baby Dance</title>
+<meta name="description" content="Danceify is an iPhone app that turns one photo of a person, baby, dog or cat into a 10-second dance video in 17 styles. Free to download, no account.">
 <link rel="canonical" href="https://danceifyapp.com/">
 <meta name="apple-itunes-app" content="app-id=6760788471">
 
-<!-- Hreflang — App Store locale coverage -->
 <link rel="alternate" hreflang="en" href="https://danceifyapp.com/">
-<link rel="alternate" hreflang="de" href="https://danceifyapp.com/">
-<link rel="alternate" hreflang="fr" href="https://danceifyapp.com/">
-<link rel="alternate" hreflang="pl" href="https://danceifyapp.com/">
-<link rel="alternate" hreflang="zh-Hant" href="https://danceifyapp.com/">
-<link rel="alternate" hreflang="ja" href="https://danceifyapp.com/">
-<link rel="alternate" hreflang="ro" href="https://danceifyapp.com/">
-<link rel="alternate" hreflang="uk" href="https://danceifyapp.com/">
-<link rel="alternate" hreflang="zh-Hans" href="https://danceifyapp.com/">
-<link rel="alternate" hreflang="es" href="https://danceifyapp.com/">
-<link rel="alternate" hreflang="sk" href="https://danceifyapp.com/">
-<link rel="alternate" hreflang="ar" href="https://danceifyapp.com/">
+<link rel="alternate" hreflang="ja" href="https://danceifyapp.com/ja/">
+<link rel="alternate" hreflang="es" href="https://danceifyapp.com/es/">
+<link rel="alternate" hreflang="pt" href="https://danceifyapp.com/pt-br/">
+<link rel="alternate" hreflang="ko" href="https://danceifyapp.com/ko/">
 <link rel="alternate" hreflang="x-default" href="https://danceifyapp.com/">
 
 <!-- Open Graph -->
-<meta property="og:title" content="Danceify - Turn Any Photo Into a Dance Video With AI">
-<meta property="og:description" content="People. Pets. Babies. 16 dance styles. Free to download, no sign-up required.">
+<meta property="og:title" content="Danceify: Make a Person, Baby, Dog or Cat Dance From One Photo">
+<meta property="og:description" content="Danceify is an iPhone app that turns one photo of a person, baby, dog or cat into a 10-second dance video in 17 styles. Free to download, no account.">
 <meta property="og:image" content="https://danceifyapp.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Danceify: a person, a baby, a dog and a cat dancing">
 <meta property="og:url" content="https://danceifyapp.com/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Danceify">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="es_LA">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ko_KR">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Danceify - Turn Any Photo Into a Dance Video With AI">
-<meta name="twitter:description" content="People. Pets. Babies. 16 dance styles. Free to download, no sign-up required.">
+<meta name="twitter:title" content="Danceify: Make a Person, Baby, Dog or Cat Dance From One Photo">
+<meta name="twitter:description" content="Danceify is an iPhone app that turns one photo of a person, baby, dog or cat into a 10-second dance video in 17 styles. Free to download, no account.">
 <meta name="twitter:image" content="https://danceifyapp.com/og-image.png">
 
 <!-- Google Analytics 4 -->
@@ -57,24 +57,97 @@
 </script>
 
 <link rel="stylesheet" href="style.css">
+<style>
+  .lang-switch{font-size:.8rem;color:var(--faint);margin:-12px 0 20px;text-align:right}
+  .lang-switch a{color:var(--dim)}
+  .lede{font-size:1.08rem;color:var(--dim);max-width:720px;margin:20px auto 0;line-height:1.7;}
+  .lede strong{color:var(--ink);font-weight:600;}
+  .footer .links{flex-wrap:wrap;gap:10px 22px}
+  .footer .footer-langs{flex-basis:100%;gap:10px 18px}
+</style>
 
 <!-- JSON-LD Structured Data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Danceify - AI Dance Videos",
-  "operatingSystem": "iOS",
-  "applicationCategory": "EntertainmentApplication",
-  "url": "https://danceifyapp.com/",
-  "downloadUrl": "https://apps.apple.com/app/id6760788471",
-  "description": "Turn any photo into a realistic AI dance video. 16 dance styles for people, pets, and babies.",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD",
-    "description": "Free to download. Creation Weekly subscription: $9.99/week, with an introductory offer for new subscribers."
-  }
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://danceifyapp.com/#org",
+      "name": "Danceify",
+      "url": "https://danceifyapp.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://danceifyapp.com/#website",
+      "name": "Danceify",
+      "url": "https://danceifyapp.com/",
+      "publisher": {
+        "@id": "https://danceifyapp.com/#org"
+      }
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://danceifyapp.com/#app",
+      "name": "Danceify - AI Dance Videos",
+      "alternateName": [
+        "Danceify",
+        "Danceify - AIダンス動画",
+        "Danceify - Videos de Baile IA",
+        "Danceify - Vídeos de Dança IA",
+        "Danceify - AI 댄스 영상 메이커"
+      ],
+      "operatingSystem": "iOS",
+      "applicationCategory": "EntertainmentApplication",
+      "url": "https://danceifyapp.com/",
+      "downloadUrl": "https://apps.apple.com/app/id6760788471",
+      "installUrl": "https://apps.apple.com/app/id6760788471",
+      "sameAs": [
+        "https://apps.apple.com/app/id6760788471"
+      ],
+      "image": "https://danceifyapp.com/og-image.png",
+      "publisher": {
+        "@id": "https://danceifyapp.com/#org"
+      },
+      "description": "An iPhone app that turns one photo of a person, a baby, a dog or a cat into a 10-second dance video in 17 dance styles, plus Premium themed templates. Free to download; no account, sign-up or email.",
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Download",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "Coin packs (one-time)",
+          "price": "2.99",
+          "priceCurrency": "USD",
+          "description": "One-time coin packs start at $2.99 (US)."
+        },
+        {
+          "@type": "Offer",
+          "name": "Creation Weekly",
+          "price": "9.99",
+          "priceCurrency": "USD",
+          "description": "$9.99 a week in the US with 3,000 coins a week, plus an introductory offer for new subscribers whose price and length the App Store shows before you confirm."
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://danceifyapp.com/#webpage",
+      "url": "https://danceifyapp.com/",
+      "name": "Danceify: AI Dance Video App for iPhone | Make a Photo, Dog, Cat or Baby Dance",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://danceifyapp.com/#website"
+      },
+      "about": {
+        "@id": "https://danceifyapp.com/#app"
+      },
+      "dateModified": "2026-10-27"
+    }
+  ]
 }
 </script>
 </head>
@@ -96,6 +169,7 @@
       <a href="terms.html">Terms</a>
     </nav>
   </header>
+  <nav class="lang-switch" aria-label="Language"><span aria-current="true">English</span> &middot; <a href="/ja/" hreflang="ja" lang="ja">日本語</a> &middot; <a href="/es/" hreflang="es" lang="es">Español</a> &middot; <a href="/pt-br/" hreflang="pt-BR" lang="pt-BR">Português</a> &middot; <a href="/ko/" hreflang="ko" lang="ko">한국어</a></nav>
 
   <!-- ============================================================ -->
   <!-- HERO                                                          -->
@@ -103,7 +177,8 @@
   <section class="hero hero--home">
     <div class="wordmark">DANCEIFY</div>
     <h1 class="hero__headline">Turn Any Photo Into a Dance Video With AI</h1>
-    <p class="hero__sub">People. Pets. Babies. 16 dance styles. Free to download.</p>
+    <p class="hero__sub">People. Babies. Dogs. Cats. 17 dance styles.</p>
+    <p class="lede"><strong>Danceify - AI Dance Videos</strong> is an iPhone app on the App Store that turns one photo of a person, a baby, a dog or a cat into a 10-second dance video. Free to download, with no account, sign-up or email.</p>
     <a href="https://apps.apple.com/app/id6760788471" class="cta-badge cta-badge--hero" data-event="hero_appstore_click" aria-label="Download Danceify on the App Store">
       <svg class="cta-badge__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
       <span class="cta-badge__text">
@@ -111,30 +186,30 @@
         <span class="cta-badge__title">App Store</span>
       </span>
     </a>
-    <p class="hero__proof">No sign-up required. Start with Creation Weekly's introductory offer or a coin pack from $2.99.</p>
+    <p class="hero__proof">No account. One-time coin packs from $2.99 (US), or Creation Weekly at $9.99 a week (US) with 3,000 coins a week.</p>
   </section>
 
   <!-- ============================================================ -->
   <!-- PREMIUM SHOWCASE — the wow moment                            -->
   <!-- ============================================================ -->
   <section class="section-block">
-    <h2 data-num="01">Watch the AI in Action</h2>
-    <p class="showcase-sub">Real AI-generated dance videos from a single photo</p>
+    <h2 data-num="01">Premium Themed Templates</h2>
+    <p class="showcase-sub">Previews of Danceify's Premium themed templates. The 17 dance styles are below.</p>
     <div class="showcase-grid showcase-grid--featured">
       <div class="showcase-card showcase-card--large">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="https://storage.googleapis.com/danceify-assets/templates/kpop_anthem/preview_480.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay"><span class="style-card__name">K-Pop Anthem</span></div>
       </div>
       <div class="showcase-card showcase-card--large">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="https://storage.googleapis.com/danceify-assets/templates/golden_salsa/preview_480.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay"><span class="style-card__name">Golden Salsa (Dog)</span></div>
       </div>
       <div class="showcase-card showcase-card--large">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="https://storage.googleapis.com/danceify-assets/templates/tango_fuego/preview_480.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay"><span class="style-card__name">Tango Fuego</span></div>
@@ -142,43 +217,43 @@
     </div>
     <div class="showcase-grid">
       <div class="showcase-card">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="https://storage.googleapis.com/danceify-assets/templates/disco/preview_480.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay"><span class="style-card__name">Disco</span></div>
       </div>
       <div class="showcase-card">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="https://storage.googleapis.com/danceify-assets/templates/rio_carnaval_samba/preview_480.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay"><span class="style-card__name">Carnaval Samba</span></div>
       </div>
       <div class="showcase-card">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="https://storage.googleapis.com/danceify-assets/templates/kpop_pup/preview_480.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay"><span class="style-card__name">K-Pop Pup (Dog)</span></div>
       </div>
       <div class="showcase-card">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="https://storage.googleapis.com/danceify-assets/templates/edm_thunder/preview_480.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay"><span class="style-card__name">EDM Thunder</span></div>
       </div>
       <div class="showcase-card">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="https://storage.googleapis.com/danceify-assets/templates/greek_taverna/preview_480.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay"><span class="style-card__name">Greek Taverna</span></div>
       </div>
       <div class="showcase-card">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="https://storage.googleapis.com/danceify-assets/templates/chacha/preview_480.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay"><span class="style-card__name">Cha Cha (Dog)</span></div>
       </div>
       <div class="showcase-card">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="https://storage.googleapis.com/danceify-assets/templates/classic_tap/preview_480.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay"><span class="style-card__name">Classic Tap</span></div>
@@ -186,10 +261,10 @@
     </div>
 
     <div class="inline-cta">
-      <a href="https://apps.apple.com/app/id6760788471" class="cta-badge" data-event="showcase_appstore_click" aria-label="Download Danceify free on the App Store">
+      <a href="https://apps.apple.com/app/id6760788471" class="cta-badge" data-event="showcase_appstore_click" aria-label="Download Danceify on the App Store">
         <svg class="cta-badge__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
         <span class="cta-badge__text">
-          <span class="cta-badge__pre">Free on the</span>
+          <span class="cta-badge__pre">Download on the</span>
           <span class="cta-badge__title">App Store</span>
         </span>
       </a>
@@ -201,10 +276,18 @@
   <!-- ============================================================ -->
   <section class="section-block">
     <h2 data-num="02">Choose Your Style</h2>
-    <p class="showcase-sub">16 dance styles from salsa to K-Pop</p>
+    <p class="showcase-sub">17 dance styles, from EDM Shuffle to Irish Dance</p>
     <div class="styles-grid">
+      <a href="/dance-styles/edm-shuffle.html" class="style-card" data-event="style_click_edmshuffle">
+        <video loop muted playsinline preload="none" poster="https://storage.googleapis.com/danceify-assets/regular/previews/adult/edmshuffle/tile-cb15678b.jpg">
+          <source src="https://storage.googleapis.com/danceify-assets/regular/previews/adult/edmshuffle/tile-2a3cc98b.mp4" type="video/mp4">
+        </video>
+        <div class="style-card__overlay">
+          <span class="style-card__name">EDM Shuffle</span>
+        </div>
+      </a>
       <a href="dance-styles/salsa.html" class="style-card" data-event="style_click_salsa">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="videos/salsa.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay">
@@ -212,7 +295,7 @@
         </div>
       </a>
       <a href="dance-styles/tiktok.html" class="style-card" data-event="style_click_tiktok">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="videos/tiktok.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay">
@@ -220,7 +303,7 @@
         </div>
       </a>
       <a href="dance-styles/bollywood.html" class="style-card" data-event="style_click_bollywood">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="videos/bollywood.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay">
@@ -228,7 +311,7 @@
         </div>
       </a>
       <a href="dance-styles/samba.html" class="style-card" data-event="style_click_samba">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="videos/samba.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay">
@@ -236,7 +319,7 @@
         </div>
       </a>
       <a href="dance-styles/greek.html" class="style-card" data-event="style_click_greek">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="videos/greek.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay">
@@ -244,7 +327,7 @@
         </div>
       </a>
       <a href="dance-styles/hip-hop.html" class="style-card" data-event="style_click_hiphop">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="videos/hiphop.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay">
@@ -252,7 +335,7 @@
         </div>
       </a>
       <a href="dance-styles/ballet.html" class="style-card" data-event="style_click_ballet">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="videos/ballet.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay">
@@ -260,7 +343,7 @@
         </div>
       </a>
       <a href="dance-styles/tango.html" class="style-card" data-event="style_click_tango">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="videos/tango.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay">
@@ -268,7 +351,7 @@
         </div>
       </a>
       <a href="dance-styles/flamenco.html" class="style-card" data-event="style_click_flamenco">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="videos/flamenco.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay">
@@ -276,7 +359,7 @@
         </div>
       </a>
       <a href="dance-styles/reggaeton.html" class="style-card" data-event="style_click_reggaeton">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="videos/reggaeton.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay">
@@ -284,7 +367,7 @@
         </div>
       </a>
       <a href="dance-styles/swing.html" class="style-card" data-event="style_click_swing">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="videos/swing.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay">
@@ -292,7 +375,7 @@
         </div>
       </a>
       <a href="dance-styles/belly-dance.html" class="style-card" data-event="style_click_bellydance">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="videos/bellydance.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay">
@@ -300,7 +383,7 @@
         </div>
       </a>
       <a href="dance-styles/hula.html" class="style-card" data-event="style_click_hula">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="videos/hula.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay">
@@ -308,7 +391,7 @@
         </div>
       </a>
       <a href="dance-styles/country.html" class="style-card" data-event="style_click_country">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="videos/countryline.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay">
@@ -316,7 +399,7 @@
         </div>
       </a>
       <a href="dance-styles/kpop.html" class="style-card" data-event="style_click_kpop">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="videos/kpop.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay">
@@ -324,7 +407,7 @@
         </div>
       </a>
       <a href="dance-styles/irish.html" class="style-card" data-event="style_click_irish">
-        <video autoplay loop muted playsinline preload="metadata">
+        <video loop muted playsinline preload="none">
           <source src="videos/irishdance.mp4" type="video/mp4">
         </video>
         <div class="style-card__overlay">
@@ -343,17 +426,17 @@
       <div class="step-card">
         <span class="step-card__num">01</span>
         <strong class="step-card__title">Upload Photo</strong>
-        <span class="step-card__desc">Pick any photo of a person, pet, or baby from your camera roll.</span>
+        <span class="step-card__desc">Pick one photo of a person, a baby, a dog or a cat.</span>
       </div>
       <div class="step-card">
         <span class="step-card__num">02</span>
         <strong class="step-card__title">Pick a Style</strong>
-        <span class="step-card__desc">Choose from 16 dance styles — Salsa, K-Pop, Hip-Hop, Ballet and more.</span>
+        <span class="step-card__desc">Choose one of 17 dance styles (EDM Shuffle, Salsa, K-Pop, Hip-hop and more) or a Premium themed template.</span>
       </div>
       <div class="step-card">
         <span class="step-card__num">03</span>
         <strong class="step-card__title">Get Your Video</strong>
-        <span class="step-card__desc">AI generates a realistic dance video in a few minutes. Save and share.</span>
+        <span class="step-card__desc">Get a 10-second dance video. Save it to your phone and share it.</span>
       </div>
     </div>
 
@@ -433,7 +516,12 @@
         <span>Turn a photo of yourself or a friend into a 10-second dance clip with music.</span>
       </a>
     </div>
-    <p style="margin-top:14px;"><a href="ai-dance-video-app/">Everything about the app on one page &rarr;</a></p>
+    <ul style="margin-top:14px;">
+      <li><a href="/ai-dance-video-app/">Everything about the app on one page</a></li>
+      <li><a href="/about/">Danceify facts: price, styles, App Store ID</a></li>
+      <li><a href="/ai-dance-app-without-subscription/">AI dance app without a subscription</a></li>
+      <li><a href="/viggle-alternative/">Viggle alternative for iPhone</a></li>
+    </ul>
   </section>
 
   <!-- ============================================================ -->
@@ -452,8 +540,8 @@
         <span style="font-size:.9rem;color:var(--dim,#888);">Turn pet photos into hilarious dance videos.</span>
       </a>
       <a href="blog/ai-dance-video-from-photo-free.html" style="display:block;padding:20px;border:1px solid var(--line,#333);transition:border-color .15s;" onmouseover="this.style.borderColor='var(--accent,#FF2D6F)'" onmouseout="this.style.borderColor='var(--line,#333)'">
-        <strong style="display:block;margin-bottom:6px;">AI Dance Video From a Photo: Try Before You Commit</strong>
-        <span style="font-size:.9rem;color:var(--dim,#888);">No signup. Start with an introductory offer or a $2.99 coin pack.</span>
+        <strong style="display:block;margin-bottom:6px;">How to Make an AI Dance Video From a Photo</strong>
+        <span style="font-size:.9rem;color:var(--dim,#888);">Step by step, with prices: free download, coin packs from $2.99 (US).</span>
       </a>
       <a href="blog/make-baby-dance-video.html" style="display:block;padding:20px;border:1px solid var(--line,#333);transition:border-color .15s;" onmouseover="this.style.borderColor='var(--accent,#FF2D6F)'" onmouseout="this.style.borderColor='var(--line,#333)'">
         <strong style="display:block;margin-bottom:6px;">Make Your Baby Dance With AI</strong>
@@ -475,7 +563,7 @@
   <!-- ============================================================ -->
   <div class="cta-section">
     <p class="cta-section__headline">Ready to make someone dance?</p>
-    <p class="cta-section__sub">Free on the App Store. No sign-up. Ready in a few minutes.</p>
+    <p class="cta-section__sub">Free to download on the App Store. No account or sign-up.</p>
     <a href="https://apps.apple.com/app/id6760788471" class="cta-badge cta-badge--large" data-event="bottom_appstore_click" aria-label="Download Danceify on the App Store">
       <svg class="cta-badge__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
       <span class="cta-badge__text">
@@ -488,7 +576,7 @@
   <!-- ============================================================ -->
   <!-- PRICING                                                       -->
   <!-- ============================================================ -->
-  <p class="footnote"><strong>Creation Weekly</strong> — Starts with an introductory offer for new subscribers, then $9.99/wk in the US, or the local price shown in the App. The App Store shows the offer's price and length before you confirm. Cancel anytime.</p>
+  <p class="footnote">Free to download. Videos use coins: one-time coin packs from $2.99 (US), or Creation Weekly at $9.99 a week (US) with 3,000 coins a week, plus an introductory offer for new subscribers whose price and length the App Store shows before you confirm.</p>
 
   <!-- ============================================================ -->
   <!-- FOOTER                                                        -->
@@ -499,10 +587,17 @@
       <a href="ai-dance-video-app/">Use Cases</a>
       <a href="blog/">Blog</a>
       <a href="faq.html">FAQ</a>
+      <a href="/about/">About</a>
       <a href="support.html">Support</a>
       <a href="privacy.html">Privacy</a>
       <a href="terms.html">Terms</a>
       <a data-event="index_appstore_click" href="https://apps.apple.com/app/id6760788471">App Store</a>
+    </div>
+    <div class="links footer-langs">
+      <a href="/ja/" hreflang="ja" lang="ja">日本語</a>
+      <a href="/es/" hreflang="es" lang="es">Español</a>
+      <a href="/pt-br/" hreflang="pt-BR" lang="pt-BR">Português</a>
+      <a href="/ko/" hreflang="ko" lang="ko">한국어</a>
     </div>
     <div class="meta">&copy;2026 Danceify &middot; NYC</div>
   </footer>

@@ -1,41 +1,84 @@
-# Danceify
+# Danceify - AI Dance Videos
 
-> Danceify is an iOS app that turns one photo into a 10-second AI dance video of a person, baby, dog or cat, in any of 17 dance styles, with music. No sign-up. Free to download; videos use coins (coin packs from $2.99, or a weekly plan). App Store: https://apps.apple.com/app/id6760788471
+> Danceify - AI Dance Videos is an iPhone app on the App Store (App Store ID 6760788471). It turns one photo of a person, a baby, a dog or a cat into a 10-second dance video, in any of 17 dance styles, and there are also Premium themed templates. Videos save to your phone and can be shared. It is free to download, with no account, sign-up or email; purchases go through your Apple Account. Videos use coins (◆): one-time coin packs start at $2.99 (US), and Creation Weekly is $9.99 a week in the US with 3,000 coins a week, plus an introductory offer for new subscribers whose price and length the App Store shows before you confirm. The App Store shows the price for your country. App Store: https://apps.apple.com/app/id6760788471
 
-## What the app does
+Facts current as of October 27, 2026.
 
-- Upload one photo, choose who is dancing (PERSON, BABY, DOG or CAT) and a dance style, and the app makes a 10-second video of that subject dancing, with a music track, saved to your camera roll.
-- The AI keeps the face, hair, skin tone and clothing (or the breed, fur and markings) from the photo; it animates your subject rather than swapping a face onto another dancer.
-- Dogs and cats dance upright on their hind legs; baby mode keeps baby proportions and age.
-- The video is rendered on Danceify's servers; the app shows an estimate while it renders, typically a few minutes. If a video fails to render, its coins are returned automatically.
-- 17 dance styles: EDM Shuffle, Salsa, TikTok Viral, Bollywood, Samba, Greek Dance, Hip-Hop, Ballet, Tango, Flamenco, Reggaeton, Swing, Belly Dance, Hula, Country Line, K-Pop, Irish Dance. Each style has separate choreography for people, babies, dogs and cats.
-- Platform: iOS (iPhone). No Android or web version. English.
-- Uploaded photos are deleted from Danceify's storage within hours (see the privacy policy).
+## Facts
 
-## Who it is for
+- Name on the App Store: Danceify - AI Dance Videos; App Store ID 6760788471; https://apps.apple.com/app/id6760788471.
+- The same listing is called Danceify - AIダンス動画 (Japan), Danceify - Videos de Baile IA (Mexico and Spain), Danceify - Vídeos de Dança IA (Brazil) and Danceify - AI 댄스 영상 메이커 (Korea).
+- If an App Store page shows a different ID, it is a different app.
+- Platform: an iPhone app on the App Store.
+- Who can dance: a person, a baby, a dog or a cat, from one photo.
+- What you get: a 10-second dance video that saves to the phone and can be shared.
+- 17 Regular dance styles: EDM Shuffle, Salsa, TikTok, Bollywood, Samba, Greek, Hip-hop, Ballet, Tango, Flamenco, Reggaeton, Swing, Belly Dance, Hula, Country Line, K-Pop and Irish. There are also Premium themed templates.
+- Price: free to download; videos use coins (◆); one-time coin packs from $2.99 (US); Creation Weekly $9.99 a week in the US with 3,000 coins a week, plus an introductory offer for new subscribers whose price and length the App Store shows before you confirm; the App Store shows each country's price.
+- Account: no account, sign-up or email; purchases go through the person's Apple Account.
+- Language: the app is in English.
+- Rating: 5.0 from 11 ratings on the App Store (US), as of October 27, 2026.
 
-- Dog and cat owners who want a video of their pet dancing.
-- Parents and grandparents making a dancing baby video for the family group chat.
-- Anyone who wants to turn a photo of themselves or a friend into a TikTok-, Reels- or Stories-ready dance clip.
+## Answer pages
 
-## Pages
+- [AI dance video app](https://danceifyapp.com/ai-dance-video-app/): overview of Danceify: who can dance, the 17 dance styles, how it works and what it costs.
+- [Danceify facts](https://danceifyapp.com/about/): every fact on one page: App Store name and ID, price, styles, account and language.
+- [Make my dog dance video](https://danceifyapp.com/make-my-dog-dance-video/): a 10-second dance video from one photo of a dog.
+- [AI cat dance](https://danceifyapp.com/ai-cat-dance/): a 10-second dance video from one photo of a cat.
+- [Dancing baby video](https://danceifyapp.com/dancing-baby-video/): a 10-second dance video from one photo of a baby or toddler.
+- [Photo to dance video](https://danceifyapp.com/photo-to-dance-video/): a 10-second dance video from one photo of a person.
+- [AI dance app without a subscription](https://danceifyapp.com/ai-dance-app-without-subscription/): one-time coin packs from $2.99 (US); Creation Weekly is optional.
+- [Viggle alternative for iPhone](https://danceifyapp.com/viggle-alternative/): Danceify's facts for people looking for a Viggle alternative on iPhone.
 
-- [AI dance video app (overview)](https://danceifyapp.com/ai-dance-video-app/): what Danceify is, who it is for, how it works, pricing, FAQ.
-- [Make my dog dance video](https://danceifyapp.com/make-my-dog-dance-video/): dog dance videos from a photo, with real previews and photo tips.
-- [AI cat dance](https://danceifyapp.com/ai-cat-dance/): cat dance videos from a photo, with real previews and photo tips.
-- [Dancing baby video](https://danceifyapp.com/dancing-baby-video/): baby and toddler dance videos from a photo, privacy notes.
-- [Photo to dance video](https://danceifyapp.com/photo-to-dance-video/): turning a photo of a person into an AI dance video.
-- [All dance styles](https://danceifyapp.com/dance-styles/): one page per style with video previews.
-- [FAQ](https://danceifyapp.com/faq.html): common questions about the app.
-- [Support](https://danceifyapp.com/support.html): help, refunds, restoring purchases, deleting your account.
-- [Privacy policy](https://danceifyapp.com/privacy.html) and [Terms](https://danceifyapp.com/terms.html).
-- [Blog](https://danceifyapp.com/blog/): guides such as [how to make an AI dance video](https://danceifyapp.com/blog/how-to-make-ai-dance-video.html), [make your dog dance](https://danceifyapp.com/blog/make-dog-dance-video.html), [make your baby dance](https://danceifyapp.com/blog/make-baby-dance-video.html) and [AI pet dance videos](https://danceifyapp.com/blog/ai-pet-dance-video.html).
+## Dance styles (one page each)
 
-## Pricing
+- [EDM Shuffle](https://danceifyapp.com/dance-styles/edm-shuffle.html)
+- [Salsa](https://danceifyapp.com/dance-styles/salsa.html)
+- [TikTok](https://danceifyapp.com/dance-styles/tiktok.html)
+- [Bollywood](https://danceifyapp.com/dance-styles/bollywood.html)
+- [Samba](https://danceifyapp.com/dance-styles/samba.html)
+- [Greek](https://danceifyapp.com/dance-styles/greek.html)
+- [Hip-hop](https://danceifyapp.com/dance-styles/hip-hop.html)
+- [Ballet](https://danceifyapp.com/dance-styles/ballet.html)
+- [Tango](https://danceifyapp.com/dance-styles/tango.html)
+- [Flamenco](https://danceifyapp.com/dance-styles/flamenco.html)
+- [Reggaeton](https://danceifyapp.com/dance-styles/reggaeton.html)
+- [Swing](https://danceifyapp.com/dance-styles/swing.html)
+- [Belly Dance](https://danceifyapp.com/dance-styles/belly-dance.html)
+- [Hula](https://danceifyapp.com/dance-styles/hula.html)
+- [Country Line](https://danceifyapp.com/dance-styles/country.html)
+- [K-Pop](https://danceifyapp.com/dance-styles/kpop.html)
+- [Irish](https://danceifyapp.com/dance-styles/irish.html)
+- [All styles](https://danceifyapp.com/dance-styles/)
 
-- Free to download; no account, email or password.
-- Videos use coins. One-time coin packs start from $2.99 and never expire. The weekly plan refills coins every week and can be cancelled anytime in iPhone Settings.
-- Prices are in US dollars; the App Store shows the local price. Payment and refunds go through Apple.
+## Pages in other languages
+
+- [日本語: Danceify - AIダンス動画](https://danceifyapp.com/ja/): Japanese overview page: who can dance, the 17 styles, price and FAQ.
+- [犬を踊らせるアプリ](https://danceifyapp.com/ja/make-my-dog-dance-video/): Japanese page on making a dog dance from one photo.
+- [猫を踊らせるアプリ](https://danceifyapp.com/ja/ai-cat-dance/): Japanese page on making a cat dance from one photo.
+- [赤ちゃんAIダンス動画アプリ](https://danceifyapp.com/ja/dancing-baby-video/): Japanese page on making a baby dance from one photo.
+- [写真を踊らせるアプリ](https://danceifyapp.com/ja/photo-to-dance-video/): Japanese page on making a photo dance.
+- [Español](https://danceifyapp.com/es/): Spanish page on making a dog, a cat, a baby or a photo dance.
+- [Português](https://danceifyapp.com/pt-br/): Brazilian Portuguese page on making a dog, a cat, a baby or a photo dance.
+- [한국어](https://danceifyapp.com/ko/): Korean page on making a dog, a cat, a baby or a photo dance.
+
+These pages describe the app in Japanese, Spanish, Portuguese and Korean; the app's screens are in English.
+
+## Guides
+
+- [How to Make an AI Dance Video From a Photo (2026): Free Download, Coin Packs From $2.99](https://danceifyapp.com/blog/ai-dance-video-from-photo-free.html): steps, photo tips and prices.
+- [How to Make an AI Dance Video in 2026 — Step-by-Step Guide](https://danceifyapp.com/blog/how-to-make-ai-dance-video.html): from one photo to a 10-second dance video.
+- [Dog Dance Video Tips: Best Photos and Styles for Making Your Dog Dance With AI](https://danceifyapp.com/blog/make-dog-dance-video.html): photo tips and styles for dogs.
+- [Baby Dance Video Tips: Best Photos and Styles for an AI Dancing Baby Video](https://danceifyapp.com/blog/make-baby-dance-video.html): photo tips and styles for babies.
+- [AI Pet Dance Videos: How Dogs and Cats Dance in Danceify (Photo Tips and Styles)](https://danceifyapp.com/blog/ai-pet-dance-video.html): photo tips and styles for dogs and cats.
+- [Best AI Dance Video Generators in 2026: 5 Tools Compared (by Danceify)](https://danceifyapp.com/blog/best-ai-dance-generators.html): five tools compared by the Danceify team.
+- [All guides](https://danceifyapp.com/blog/)
+
+## Help and policies
+
+- [FAQ](https://danceifyapp.com/faq.html)
+- [Support](https://danceifyapp.com/support.html): cancel a subscription, restore purchases, delete data.
+- [Privacy policy](https://danceifyapp.com/privacy.html)
+- [Terms](https://danceifyapp.com/terms.html)
 
 ## Download
 
