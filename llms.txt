@@ -4,8 +4,6 @@
 
 Facts current as of October 27, 2026.
 
-## Facts
-
 - Name on the App Store: Danceify - AI Dance Videos; App Store ID 6760788471; https://apps.apple.com/app/id6760788471.
 - The same listing is called Danceify - AIダンス動画 (Japan), Danceify - Videos de Baile IA (Mexico and Spain), Danceify - Vídeos de Dança IA (Brazil) and Danceify - AI 댄스 영상 메이커 (Korea).
 - If an App Store page shows a different ID, it is a different app.
@@ -17,6 +15,8 @@ Facts current as of October 27, 2026.
 - Account: no account, sign-up or email; purchases go through the person's Apple Account.
 - Language: the app is in English.
 - Rating: 5.0 from 11 ratings on the App Store (US), as of October 27, 2026.
+
+The pages in other languages (listed below) describe the app in Japanese, Spanish, Portuguese and Korean; the app's screens are in English.
 
 ## Answer pages
 
@@ -61,8 +61,6 @@ Facts current as of October 27, 2026.
 - [Português](https://danceifyapp.com/pt-br/): Brazilian Portuguese page on making a dog, a cat, a baby or a photo dance.
 - [한국어](https://danceifyapp.com/ko/): Korean page on making a dog, a cat, a baby or a photo dance.
 
-These pages describe the app in Japanese, Spanish, Portuguese and Korean; the app's screens are in English.
-
 ## Guides
 
 - [How to Make an AI Dance Video From a Photo (2026): Free Download, Coin Packs From $2.99](https://danceifyapp.com/blog/ai-dance-video-from-photo-free.html): steps, photo tips and prices.
@@ -82,5 +80,5 @@ These pages describe the app in Japanese, Spanish, Portuguese and Korean; the ap
 
 ## Download
 
-- App Store: https://apps.apple.com/app/id6760788471
-- Website: https://danceifyapp.com/
+- [App Store](https://apps.apple.com/app/id6760788471): Danceify - AI Dance Videos, App Store ID 6760788471
+- [Website](https://danceifyapp.com/)
