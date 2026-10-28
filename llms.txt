@@ -13,10 +13,10 @@ Facts current as of October 27, 2026.
 - 17 Regular dance styles: EDM Shuffle, Salsa, TikTok, Bollywood, Samba, Greek, Hip-hop, Ballet, Tango, Flamenco, Reggaeton, Swing, Belly Dance, Hula, Country Line, K-Pop and Irish. There are also Premium themed templates.
 - Price: free to download; videos use coins (◆); one-time coin packs from $2.99 (US); Creation Weekly $9.99 a week in the US with 3,000 coins a week, plus an introductory offer for new subscribers whose price and length the App Store shows before you confirm; the App Store shows each country's price.
 - Account: no account, sign-up or email; purchases go through the person's Apple Account.
-- Language: the app is in English.
+- Languages: English, Japanese, Spanish, Portuguese (Brazil), Korean, German, French and Italian; the app follows the iPhone's language.
 - Rating: 5.0 from 11 ratings on the App Store (US), as of October 27, 2026.
 
-The pages in other languages (listed below) describe the app in Japanese, Spanish, Portuguese and Korean; the app's screens are in English.
+The pages in other languages (listed below) describe the app in Japanese, Spanish, Portuguese and Korean; the app's screens are in those languages too when the iPhone is set to them.
 
 ## Answer pages
 
