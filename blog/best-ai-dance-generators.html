@@ -130,7 +130,80 @@
     transition: background 0.15s;
   }
   .cta-inline:hover { background: var(--accent-deep); border: 0; }
+  .faq-item { border: 1px solid var(--line); margin-bottom: 8px; }
+  .faq-item summary {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--ink);
+    padding: 18px 20px;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.15s;
+  }
+  .faq-item summary:hover { color: var(--accent); }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after { content: '+'; font-family: 'JetBrains Mono', monospace; font-size: 1.1rem; color: var(--accent); font-weight: 400; }
+  .faq-item[open] summary::after { content: '—'; }
+  .faq-item .faq-answer { padding: 0 20px 18px; font-size: 0.92rem; color: var(--dim); line-height: 1.7; border-top: 1px solid var(--line); padding-top: 14px; margin-top: 0; }
+  .faq-answer a { font-size: inherit; }
+  .faq-answer p { margin-bottom: 0; }
 </style>
+
+<!-- FAQPage JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best AI dance video generator for iPhone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This guide is written by Danceify, so read it as such. For turning one photo of a person, a baby, a dog or a cat into a dance video on iPhone, Danceify offers 17 built-in styles with no prompts and no account. For custom motion control on the web, Viggle AI and Kling AI are the tools to compare."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which AI dance app works with dogs and cats?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Danceify has DOG and CAT tabs with species-specific choreography. Of the tools in this guide, the others are built mainly for human subjects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a free AI dance video generator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Danceify is free to download, with no account, sign-up or email. Videos use coins: one-time coin packs start at $3.99 (US), and Creation Weekly is $11.99 a week in the US with 4,000 coins a week. There is no free trial; eligible new subscribers may get the first week for $2.99 (US) with 1,200 coins. A Regular video uses 250 coins in app version 5.38 and later (150 coins in earlier versions). The App Store shows the price for your country. For the other tools, check their own websites or App Store listings; their prices change often."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Danceify work on Android or the web?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Danceify - AI Dance Videos is an iPhone and iPad app on the Apple App Store (ID 6760788471). There is no Android version and no web version. The finished video is a normal video file, so you can send it to anyone."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to write prompts in Danceify?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. You pick one of 17 dance styles and one photo; there is nothing to describe. Prompt-based tools such as Kling AI and Gaga AI give more control at the cost of more work."
+      }
+    }
+  ]
+}
+</script>
 
 <!-- Article JSON-LD -->
 <script type="application/ld+json">
@@ -150,8 +223,13 @@
     "@type": "Organization",
     "@id": "https://danceifyapp.com/#org",
     "name": "Danceify",
-    "url": "https://danceifyapp.com"
+    "url": "https://danceifyapp.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://danceifyapp.com/logo.png"
+    }
   },
+  "inLanguage": "en",
   "image": "https://danceifyapp.com/og-image.png",
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -188,6 +266,7 @@
   ]
 }
 </script>
+<!-- schema:org -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -196,7 +275,16 @@
       "@type": "Organization",
       "@id": "https://danceifyapp.com/#org",
       "name": "Danceify",
-      "url": "https://danceifyapp.com/"
+      "url": "https://danceifyapp.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://danceifyapp.com/logo.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "sameAs": [
+        "https://apps.apple.com/app/id6760788471"
+      ]
     },
     {
       "@type": "WebSite",
@@ -231,6 +319,16 @@
         "@id": "https://danceifyapp.com/#org"
       },
       "description": "An iPhone app that turns one photo of a person, a baby, a dog or a cat into a 10-second dance video in 17 dance styles, plus Premium themed templates. Free to download; no account, sign-up or email.",
+      "inLanguage": [
+        "en",
+        "ja",
+        "es",
+        "pt-BR",
+        "ko",
+        "de",
+        "fr",
+        "it"
+      ],
       "offers": [
         {
           "@type": "Offer",
@@ -252,7 +350,8 @@
           "priceCurrency": "USD",
           "description": "$11.99 a week in the US with 4,000 coins a week. No free trial; eligible new subscribers may get the first week for $2.99 (US) with 1,200 coins, then $11.99 a week."
         }
-      ]
+      ],
+      "dateModified": "2026-11-10"
     },
     {
       "@type": "WebPage",
@@ -441,6 +540,29 @@
   <a data-event="best_ai_dance_generators_appstore_click" href="https://apps.apple.com/app/id6760788471" class="cta-inline">Download Danceify on the App Store</a>
 
   <p class="footnote">Danceify is available on iOS. Creation Weekly: $11.99/week (US), no free trial; eligible new subscribers may get the first week for $2.99. Cancel anytime.</p>
+
+  <h2 data-num="06">Questions people ask</h2>
+
+  <details class="faq-item">
+    <summary>What is the best AI dance video generator for iPhone?</summary>
+    <div class="faq-answer"><p>This guide is written by Danceify, so read it as such. For turning one photo of a person, a baby, a dog or a cat into a dance video on iPhone, Danceify offers 17 built-in styles with no prompts and no account. For custom motion control on the web, Viggle AI and Kling AI are the tools to compare.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>Which AI dance app works with dogs and cats?</summary>
+    <div class="faq-answer"><p>Danceify has DOG and CAT tabs with species-specific choreography. Of the tools in this guide, the others are built mainly for human subjects.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>Is there a free AI dance video generator?</summary>
+    <div class="faq-answer"><p>Danceify is free to download, with no account, sign-up or email. Videos use coins: one-time coin packs start at $3.99 (US), and Creation Weekly is $11.99 a week in the US with 4,000 coins a week. There is no free trial; eligible new subscribers may get the first week for $2.99 (US) with 1,200 coins. A Regular video uses 250 coins in app version 5.38 and later (150 coins in earlier versions). The App Store shows the price for your country. For the other tools, check their own websites or App Store listings; their prices change often.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>Does Danceify work on Android or the web?</summary>
+    <div class="faq-answer"><p>No. Danceify - AI Dance Videos is an iPhone and iPad app on the Apple App Store (ID 6760788471). There is no Android version and no web version. The finished video is a normal video file, so you can send it to anyone.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>Do I need to write prompts in Danceify?</summary>
+    <div class="faq-answer"><p>No. You pick one of 17 dance styles and one photo; there is nothing to describe. Prompt-based tools such as Kling AI and Gaga AI give more control at the cost of more work.</p></div>
+  </details>
 
   <section style="margin-top:48px;padding-top:32px;border-top:1px solid var(--line,#333);">
     <h2>Try These Dance Styles</h2>

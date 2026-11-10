@@ -94,8 +94,117 @@
     transition: background 0.15s;
   }
   .cta-inline:hover { background: var(--accent-deep); border: 0; }
+  .faq-item { border: 1px solid var(--line); margin-bottom: 8px; }
+  .faq-item summary {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--ink);
+    padding: 18px 20px;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.15s;
+  }
+  .faq-item summary:hover { color: var(--accent); }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after { content: '+'; font-family: 'JetBrains Mono', monospace; font-size: 1.1rem; color: var(--accent); font-weight: 400; }
+  .faq-item[open] summary::after { content: '—'; }
+  .faq-item .faq-answer { padding: 0 20px 18px; font-size: 0.92rem; color: var(--dim); line-height: 1.7; border-top: 1px solid var(--line); padding-top: 14px; margin-top: 0; }
+  .faq-answer a { font-size: inherit; }
+  .faq-answer p { margin-bottom: 0; }
 </style>
 
+<!-- FAQPage JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I make an AI dance video from a photo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On an iPhone or iPad, download Danceify - AI Dance Videos, tap DOG, CAT, BABY or ADULT on Home, pick one of the 17 dance styles, choose one photo and a track, and tap CREATE. You get a 10-second vertical dance video that saves to your phone."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Danceify free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Danceify is free to download, with no account, sign-up or email. Videos use coins: one-time coin packs start at $3.99 (US), and Creation Weekly is $11.99 a week in the US with 4,000 coins a week. There is no free trial; eligible new subscribers may get the first week for $2.99 (US) with 1,200 coins. A Regular video uses 250 coins in app version 5.38 and later (150 coins in earlier versions). The App Store shows the price for your country."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What photo works best for an AI dance video?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "One person or pet, whole body visible, good light, facing the camera, no sunglasses and no heavy filters. Use the original photo from your camera roll, not a screenshot."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is the video?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About 10 seconds, in vertical format, ready for TikTok, Instagram Reels and Stories without cropping."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Danceify work on Android?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Danceify - AI Dance Videos is an iPhone and iPad app on the Apple App Store (ID 6760788471). There is no Android version and no web version. The finished video is a normal video file, so you can send it to anyone."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Article JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Make an AI Dance Video in 2026 — Step-by-Step Guide",
+  "description": "How to turn one photo into an AI dance video with Danceify, an iPhone app: pick a person, baby, dog or cat and one of 17 dance styles. Step-by-step guide.",
+  "author": {
+    "@type": "Organization",
+    "@id": "https://danceifyapp.com/#org",
+    "name": "Danceify",
+    "url": "https://danceifyapp.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://danceifyapp.com/#org",
+    "name": "Danceify",
+    "url": "https://danceifyapp.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://danceifyapp.com/logo.png"
+    }
+  },
+  "datePublished": "2026-09-15",
+  "dateModified": "2026-11-10",
+  "inLanguage": "en",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://danceifyapp.com/blog/how-to-make-ai-dance-video.html"
+  },
+  "image": "https://danceifyapp.com/og-image.png",
+  "about": {
+    "@id": "https://danceifyapp.com/#app"
+  }
+}
+</script>
 <!-- HowTo JSON-LD -->
 <script type="application/ld+json">
 {
@@ -190,6 +299,7 @@
   ]
 }
 </script>
+<!-- schema:org -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -198,7 +308,16 @@
       "@type": "Organization",
       "@id": "https://danceifyapp.com/#org",
       "name": "Danceify",
-      "url": "https://danceifyapp.com/"
+      "url": "https://danceifyapp.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://danceifyapp.com/logo.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "sameAs": [
+        "https://apps.apple.com/app/id6760788471"
+      ]
     },
     {
       "@type": "WebSite",
@@ -233,6 +352,16 @@
         "@id": "https://danceifyapp.com/#org"
       },
       "description": "An iPhone app that turns one photo of a person, a baby, a dog or a cat into a 10-second dance video in 17 dance styles, plus Premium themed templates. Free to download; no account, sign-up or email.",
+      "inLanguage": [
+        "en",
+        "ja",
+        "es",
+        "pt-BR",
+        "ko",
+        "de",
+        "fr",
+        "it"
+      ],
       "offers": [
         {
           "@type": "Offer",
@@ -254,7 +383,8 @@
           "priceCurrency": "USD",
           "description": "$11.99 a week in the US with 4,000 coins a week. No free trial; eligible new subscribers may get the first week for $2.99 (US) with 1,200 coins, then $11.99 a week."
         }
-      ]
+      ],
+      "dateModified": "2026-11-10"
     },
     {
       "@type": "WebPage",
@@ -268,6 +398,7 @@
       "about": {
         "@id": "https://danceifyapp.com/#app"
       },
+      "datePublished": "2026-09-15",
       "dateModified": "2026-11-10"
     }
   ]
@@ -290,7 +421,7 @@
   </header>
 
   <h1 class="display">How to Make an AI Dance Video in 2026</h1>
-  <p class="article-meta">Step-by-step guide &middot; Updated November 10, 2026 &middot; 5 min read</p>
+  <p class="article-meta">Step-by-step guide &middot; Published September 15, 2026 &middot; Updated November 10, 2026 &middot; 5 min read</p>
 
   <div class="tip-block">
     <strong>Short answer</strong>
@@ -400,6 +531,29 @@
   <a data-event="how_to_make_ai_dance_video_appstore_click" href="https://apps.apple.com/app/id6760788471" class="cta-inline">Download Danceify on the App Store</a>
 
   <p class="footnote">Danceify is available on iOS. Creation Weekly: $11.99/week (US), no free trial; eligible new subscribers may get the first week for $2.99. Cancel anytime.</p>
+
+  <h2 data-num="06">Questions people ask</h2>
+
+  <details class="faq-item">
+    <summary>How do I make an AI dance video from a photo?</summary>
+    <div class="faq-answer"><p>On an iPhone or iPad, download Danceify - AI Dance Videos, tap DOG, CAT, BABY or ADULT on Home, pick one of the 17 dance styles, choose one photo and a track, and tap CREATE. You get a 10-second vertical dance video that saves to your phone.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>Is Danceify free?</summary>
+    <div class="faq-answer"><p>Danceify is free to download, with no account, sign-up or email. Videos use coins: one-time coin packs start at $3.99 (US), and Creation Weekly is $11.99 a week in the US with 4,000 coins a week. There is no free trial; eligible new subscribers may get the first week for $2.99 (US) with 1,200 coins. A Regular video uses 250 coins in app version 5.38 and later (150 coins in earlier versions). The App Store shows the price for your country.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>What photo works best for an AI dance video?</summary>
+    <div class="faq-answer"><p>One person or pet, whole body visible, good light, facing the camera, no sunglasses and no heavy filters. Use the original photo from your camera roll, not a screenshot.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>How long is the video?</summary>
+    <div class="faq-answer"><p>About 10 seconds, in vertical format, ready for TikTok, Instagram Reels and Stories without cropping.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>Does Danceify work on Android?</summary>
+    <div class="faq-answer"><p>No. Danceify - AI Dance Videos is an iPhone and iPad app on the Apple App Store (ID 6760788471). There is no Android version and no web version. The finished video is a normal video file, so you can send it to anyone.</p></div>
+  </details>
 
   <section style="margin-top:48px;padding-top:32px;border-top:1px solid var(--line,#333);">
     <h2>Dance Styles to Try</h2>

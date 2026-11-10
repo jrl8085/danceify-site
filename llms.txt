@@ -16,7 +16,7 @@ Facts current as of November 10, 2026.
 - Languages: English, Japanese, Spanish, Portuguese (Brazil), Korean, German, French and Italian; the app follows the iPhone's language.
 - Rating: 5.0 from 11 ratings on the App Store (US), as of October 27, 2026.
 
-The pages in other languages (listed below) describe the app in Japanese, Spanish, Portuguese and Korean; the app's screens are in those languages too when the iPhone is set to them.
+The pages listed under "Pages in other languages" describe the app in its other languages; the app's screens are in those languages too when the iPhone is set to them.
 
 ## Answer pages
 
@@ -52,24 +52,73 @@ The pages in other languages (listed below) describe the app in Japanese, Spanis
 
 ## Pages in other languages
 
-- [日本語: Danceify - AIダンス動画](https://danceifyapp.com/ja/): Japanese overview page: who can dance, the 17 styles, price and FAQ.
-- [犬を踊らせるアプリ](https://danceifyapp.com/ja/make-my-dog-dance-video/): Japanese page on making a dog dance from one photo.
-- [猫を踊らせるアプリ](https://danceifyapp.com/ja/ai-cat-dance/): Japanese page on making a cat dance from one photo.
-- [赤ちゃんAIダンス動画アプリ](https://danceifyapp.com/ja/dancing-baby-video/): Japanese page on making a baby dance from one photo.
-- [写真を踊らせるアプリ](https://danceifyapp.com/ja/photo-to-dance-video/): Japanese page on making a photo dance.
-- [Español](https://danceifyapp.com/es/): Spanish page on making a dog, a cat, a baby or a photo dance.
-- [Português](https://danceifyapp.com/pt-br/): Brazilian Portuguese page on making a dog, a cat, a baby or a photo dance.
-- [한국어](https://danceifyapp.com/ko/): Korean page on making a dog, a cat, a baby or a photo dance.
+[//]: # (generated:start locale-pages)
+- [Deutsch: KI-Katzentanz-App für iPhone — Lass deine Katze aus einem Foto tanzen | Danceify](https://danceifyapp.com/de/ai-cat-dance/)
+- [Deutsch: KI-Tanzvideo-App für iPhone — Danceify](https://danceifyapp.com/de/ai-dance-video-app/)
+- [Deutsch: Baby-Tanzvideo aus einem Foto — KI-Babytanz-App für iPhone | Danceify](https://danceifyapp.com/de/dancing-baby-video/)
+- [Deutsch: Danceify FAQ — Preis, Münzen, 17 Tanzstile, Hunde, Katzen und Babys](https://danceifyapp.com/de/faq.html)
+- [Deutsch: Danceify: KI-Tanzvideo-App für iPhone | Foto, Hund, Katze oder Baby tanzen lassen](https://danceifyapp.com/de/)
+- [Deutsch: Hund tanzen lassen — KI-Hundetanz-App für iPhone | Danceify](https://danceifyapp.com/de/make-my-dog-dance-video/)
+- [Deutsch: Foto-zu-Tanzvideo-App für iPhone — Verwandle ein Foto in ein KI-Tanzvideo | Danceify](https://danceifyapp.com/de/photo-to-dance-video/)
+- [Español: App de gatos bailando con IA para iPhone — Haz bailar a tu gato con una foto | Danceify](https://danceifyapp.com/es/ai-cat-dance/)
+- [Español: App de videos de baile con IA para iPhone — Danceify](https://danceifyapp.com/es/ai-dance-video-app/)
+- [Español: Video de bebé bailando a partir de una foto — App para iPhone con IA | Danceify](https://danceifyapp.com/es/dancing-baby-video/)
+- [Español: Preguntas frecuentes de Danceify — Precio, monedas, 17 estilos de baile, perros, gatos y bebés](https://danceifyapp.com/es/faq.html)
+- [Español: Danceify: app de videos de baile con IA para iPhone | Haz bailar una foto, un perro, un gato o un bebé](https://danceifyapp.com/es/)
+- [Español: Haz bailar a mi perro en un video — App de perros bailando con IA (iPhone) | Danceify](https://danceifyapp.com/es/make-my-dog-dance-video/)
+- [Español: De foto a video de baile en iPhone — Convierte una foto en un video de baile con IA | Danceify](https://danceifyapp.com/es/photo-to-dance-video/)
+- [Français: App de chat qui danse avec l'IA pour iPhone — Faites danser votre chat à partir d'une photo | Danceify](https://danceifyapp.com/fr/ai-cat-dance/)
+- [Français: App de vidéo de danse IA pour iPhone — Danceify](https://danceifyapp.com/fr/ai-dance-video-app/)
+- [Français: Vidéo de bébé qui danse à partir d'une photo — App de danse IA pour bébé sur iPhone | Danceify](https://danceifyapp.com/fr/dancing-baby-video/)
+- [Français: FAQ Danceify — Prix, pièces, 17 styles de danse, chiens, chats et bébés](https://danceifyapp.com/fr/faq.html)
+- [Français: Danceify : app de vidéo de danse IA pour iPhone | Faites danser une photo, un chien, un chat ou un bébé](https://danceifyapp.com/fr/)
+- [Français: Faire danser mon chien en vidéo — App de danse IA pour chien sur iPhone | Danceify](https://danceifyapp.com/fr/make-my-dog-dance-video/)
+- [Français: App photo en vidéo de danse pour iPhone — Transformez une photo en vidéo de danse IA | Danceify](https://danceifyapp.com/fr/photo-to-dance-video/)
+- [Italiano: App per gatti che ballano con l'IA per iPhone — Fai ballare il tuo gatto da una foto | Danceify](https://danceifyapp.com/it/ai-cat-dance/)
+- [Italiano: App per video di danza con l'IA per iPhone — Danceify](https://danceifyapp.com/it/ai-dance-video-app/)
+- [Italiano: Video del bimbo che balla da una foto — App per iPhone con l'IA | Danceify](https://danceifyapp.com/it/dancing-baby-video/)
+- [Italiano: FAQ Danceify — Prezzo, monete, 17 stili di danza, cani, gatti e bimbi](https://danceifyapp.com/it/faq.html)
+- [Italiano: Danceify: app per video di danza con l'IA per iPhone | Fai ballare una foto, un cane, un gatto o un bimbo](https://danceifyapp.com/it/)
+- [Italiano: Far ballare il mio cane in un video — App per cani che ballano con l'IA (iPhone) | Danceify](https://danceifyapp.com/it/make-my-dog-dance-video/)
+- [Italiano: Da foto a video di danza su iPhone — Trasforma una foto in un video di danza con l'IA | Danceify](https://danceifyapp.com/it/photo-to-dance-video/)
+- [日本語: 猫を踊らせるアプリ｜写真1枚で猫ダンス動画（iPhone）｜Danceify](https://danceifyapp.com/ja/ai-cat-dance/)
+- [日本語: AIダンス動画アプリ（iPhone）｜Danceify](https://danceifyapp.com/ja/ai-dance-video-app/)
+- [日本語: 赤ちゃんAIダンス動画アプリ｜写真1枚で踊る動画（iPhone）｜Danceify](https://danceifyapp.com/ja/dancing-baby-video/)
+- [日本語: Danceify よくある質問｜料金・コイン・17種類のダンススタイル・犬・猫・赤ちゃん](https://danceifyapp.com/ja/faq.html)
+- [日本語: Danceify - AIダンス動画｜人も犬も猫も赤ちゃんも踊るiPhoneアプリ](https://danceifyapp.com/ja/)
+- [日本語: 犬を踊らせるアプリ｜写真1枚で愛犬のAIダンス動画（iPhone）｜Danceify](https://danceifyapp.com/ja/make-my-dog-dance-video/)
+- [日本語: 写真を踊らせるアプリ｜写真1枚からAIダンス動画（iPhone）｜Danceify](https://danceifyapp.com/ja/photo-to-dance-video/)
+- [한국어: iPhone용 AI 고양이 춤 앱 — 사진 한 장으로 우리 고양이를 춤추게 | Danceify](https://danceifyapp.com/ko/ai-cat-dance/)
+- [한국어: iPhone용 AI 댄스 영상 앱 — Danceify](https://danceifyapp.com/ko/ai-dance-video-app/)
+- [한국어: 사진 한 장으로 아기 춤 영상 만들기 — iPhone용 AI 아기 댄스 앱 | Danceify](https://danceifyapp.com/ko/dancing-baby-video/)
+- [한국어: Danceify 자주 묻는 질문 — 가격, 코인, 댄스 스타일 17가지, 강아지, 고양이, 아기](https://danceifyapp.com/ko/faq.html)
+- [한국어: Danceify: iPhone용 AI 댄스 영상 앱 | 사진·강아지·고양이·아기를 춤추게 하세요](https://danceifyapp.com/ko/)
+- [한국어: 강아지 춤 영상 만들기 — iPhone용 AI 강아지 댄스 앱 | Danceify](https://danceifyapp.com/ko/make-my-dog-dance-video/)
+- [한국어: iPhone용 사진 댄스 영상 앱 — 사진 한 장을 AI 댄스 영상으로 | Danceify](https://danceifyapp.com/ko/photo-to-dance-video/)
+- [Português (Brasil): App de gato dançando com IA para iPhone — faça seu gato dançar com uma foto | Danceify](https://danceifyapp.com/pt-br/ai-cat-dance/)
+- [Português (Brasil): App de vídeo de dança com IA para iPhone — Danceify](https://danceifyapp.com/pt-br/ai-dance-video-app/)
+- [Português (Brasil): Vídeo de bebê dançando a partir de uma foto — app de bebê dançando com IA para iPhone | Danceify](https://danceifyapp.com/pt-br/dancing-baby-video/)
+- [Português (Brasil): Perguntas frequentes sobre o Danceify — preço, moedas, 17 estilos de dança, cachorros, gatos e bebês](https://danceifyapp.com/pt-br/faq.html)
+- [Português (Brasil): Danceify: app de vídeo de dança com IA para iPhone | Faça uma foto, um cachorro, um gato ou um bebê dançar](https://danceifyapp.com/pt-br/)
+- [Português (Brasil): Vídeo do meu cachorro dançando — app de cachorro dançando com IA para iPhone | Danceify](https://danceifyapp.com/pt-br/make-my-dog-dance-video/)
+- [Português (Brasil): App que transforma foto em vídeo de dança para iPhone — faça uma foto virar um vídeo de dança com IA | Danceify](https://danceifyapp.com/pt-br/photo-to-dance-video/)
+[//]: # (generated:end locale-pages)
 
 ## Guides
 
-- [How to Make an AI Dance Video From a Photo (2026): Free Download, Coin Packs From $3.99](https://danceifyapp.com/blog/ai-dance-video-from-photo-free.html): steps, photo tips and prices.
-- [How to Make an AI Dance Video in 2026 — Step-by-Step Guide](https://danceifyapp.com/blog/how-to-make-ai-dance-video.html): from one photo to a 10-second dance video.
-- [Dog Dance Video Tips: Best Photos and Styles for Making Your Dog Dance With AI](https://danceifyapp.com/blog/make-dog-dance-video.html): photo tips and styles for dogs.
-- [Baby Dance Video Tips: Best Photos and Styles for an AI Dancing Baby Video](https://danceifyapp.com/blog/make-baby-dance-video.html): photo tips and styles for babies.
-- [AI Pet Dance Videos: How Dogs and Cats Dance in Danceify (Photo Tips and Styles)](https://danceifyapp.com/blog/ai-pet-dance-video.html): photo tips and styles for dogs and cats.
-- [Best AI Dance Video Generators in 2026: 5 Tools Compared (by Danceify)](https://danceifyapp.com/blog/best-ai-dance-generators.html): five tools compared by the Danceify team.
+[//]: # (generated:start guides)
+- [Christmas Dance Video From a Photo: a Holiday Card or Group-Chat Clip on iPhone (2026)](https://danceifyapp.com/blog/christmas-dance-video-from-a-photo.html): Make a Christmas or New Year dance video from one photo with Danceify, an iPhone app: which of the 17 styles to pick, pets and babies, how long it takes, what it costs, and what happens to the photo. No holiday template; honest guide.
+- [Danceify Pricing Explained (November 2026): Is It Free, the $2.99 First Week, What Coins Buy](https://danceifyapp.com/blog/danceify-pricing-explained.html): Danceify is free to download; videos use coins. Coin packs from $3.99 (US), Creation Weekly $11.99 a week with 4,000 coins, first week $2.99 for eligible new subscribers, no free trial. Local prices, how to cancel.
+- [Is Danceify on Android? No: iPhone and iPad Only (November 2026)](https://danceifyapp.com/blog/is-danceify-on-android.html): Danceify - AI Dance Videos is an iPhone and iPad app. There is no Android version and no web version as of November 10, 2026. What to do instead, and how to find the real app on the App Store (ID 6760788471).
+- [How to Make a TikTok Dance Video From a Photo on iPhone (November 2026)](https://danceifyapp.com/blog/tiktok-dance-video-from-a-photo.html): Make a TikTok dance video from one photo with Danceify, an iPhone app: pick the TikTok style (or K-Pop, Hip-hop, Reggaeton), add a track, save the 10-second video and post it to TikTok. Photo tips and what it costs.
+- [How to Make an AI Dance Video From a Photo (2026): Free Download, Coin Packs From $3.99](https://danceifyapp.com/blog/ai-dance-video-from-photo-free.html): Make an AI dance video from one photo with Danceify, an iPhone app: free to download, no account, coin packs from $3.99 (US). Steps, photo tips, prices.
+- [How to Make an AI Dance Video in 2026 — Step-by-Step Guide](https://danceifyapp.com/blog/how-to-make-ai-dance-video.html): How to turn one photo into an AI dance video with Danceify, an iPhone app: pick a person, baby, dog or cat and one of 17 dance styles. Step-by-step guide.
+- [Baby Dance Video Tips: Best Photos and Styles for an AI Dancing Baby Video](https://danceifyapp.com/blog/make-baby-dance-video.html): Photo tips and dance styles for a dancing baby video with Danceify, an iPhone app that turns one baby photo into a 10-second dance video in 17 styles.
+- [Dog Dance Video Tips: Best Photos and Styles for Making Your Dog Dance With AI](https://danceifyapp.com/blog/make-dog-dance-video.html): Photo tips and dance styles for making your dog dance with Danceify, an iPhone app that turns one dog photo into a 10-second dance video in 17 styles.
+- [AI Pet Dance Videos: How Dogs and Cats Dance in Danceify (Photo Tips and Styles)](https://danceifyapp.com/blog/ai-pet-dance-video.html): How Danceify, an iPhone app, makes a dog or cat dance from one photo: photo tips, the 17 dance styles and ideas for sharing. Free to download, no account.
+- [Best AI Dance Video Generators in 2026: 5 Tools Compared (by Danceify)](https://danceifyapp.com/blog/best-ai-dance-generators.html): Five AI dance video tools compared by the Danceify team, including Danceify, an iPhone app that makes a person, baby, dog or cat dance from one photo.
 - [All guides](https://danceifyapp.com/blog/)
+[//]: # (generated:end guides)
 
 ## Help and policies
 

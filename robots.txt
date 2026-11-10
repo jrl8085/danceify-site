@@ -1,6 +1,25 @@
+# danceifyapp.com — everything is allowed for every crawler.
+# Machine-readable summaries for LLMs and AI search:
+# llms: https://danceifyapp.com/llms.txt
+# llms-full: https://danceifyapp.com/llms-full.txt
+
 User-agent: *
 Allow: /
 
+# Search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+# AI assistants and AI search
 User-agent: GPTBot
 Allow: /
 
@@ -10,16 +29,37 @@ Allow: /
 User-agent: ChatGPT-User
 Allow: /
 
-User-agent: Bingbot
+User-agent: ClaudeBot
 Allow: /
 
-User-agent: Googlebot
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
 Allow: /
 
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: ClaudeBot
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Meta-ExternalAgent
 Allow: /
 
 Sitemap: https://danceifyapp.com/sitemap.xml

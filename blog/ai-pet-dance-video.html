@@ -94,7 +94,80 @@
     margin-top: 20px;
     margin-bottom: 12px;
   }
+  .faq-item { border: 1px solid var(--line); margin-bottom: 8px; }
+  .faq-item summary {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--ink);
+    padding: 18px 20px;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.15s;
+  }
+  .faq-item summary:hover { color: var(--accent); }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after { content: '+'; font-family: 'JetBrains Mono', monospace; font-size: 1.1rem; color: var(--accent); font-weight: 400; }
+  .faq-item[open] summary::after { content: '—'; }
+  .faq-item .faq-answer { padding: 0 20px 18px; font-size: 0.92rem; color: var(--dim); line-height: 1.7; border-top: 1px solid var(--line); padding-top: 14px; margin-top: 0; }
+  .faq-answer a { font-size: inherit; }
+  .faq-answer p { margin-bottom: 0; }
 </style>
+
+<!-- FAQPage JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can AI make my dog dance from a photo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Danceify, an iPhone app, turns one photo of your dog into a 10-second dance video. Tap DOG on Home, pick a style, choose the photo and a track, and tap CREATE. The app stands the dog up for the dance and keeps its markings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it work for cats?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Tap CAT on Home. All 17 dance styles work with cats as well as dogs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What pet photo works best?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "One pet per photo, looking toward the camera, whole body visible, in good light. Skip costumes and blurry action shots."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which dance styles are best for pets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Salsa, Hip-hop, K-Pop and TikTok Viral are good starting points. All 17 styles work with dogs and cats, and each makes a different video from the same photo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a pet dance video cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Danceify is free to download, with no account, sign-up or email. Videos use coins: one-time coin packs start at $3.99 (US), and Creation Weekly is $11.99 a week in the US with 4,000 coins a week. There is no free trial; eligible new subscribers may get the first week for $2.99 (US) with 1,200 coins. A Regular video uses 250 coins in app version 5.38 and later (150 coins in earlier versions). The App Store shows the price for your country."
+      }
+    }
+  ]
+}
+</script>
 
 <!-- Article JSON-LD -->
 <script type="application/ld+json">
@@ -114,8 +187,13 @@
     "@type": "Organization",
     "@id": "https://danceifyapp.com/#org",
     "name": "Danceify",
-    "url": "https://danceifyapp.com"
+    "url": "https://danceifyapp.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://danceifyapp.com/logo.png"
+    }
   },
+  "inLanguage": "en",
   "image": "https://danceifyapp.com/og-image.png",
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -152,6 +230,7 @@
   ]
 }
 </script>
+<!-- schema:org -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -160,7 +239,16 @@
       "@type": "Organization",
       "@id": "https://danceifyapp.com/#org",
       "name": "Danceify",
-      "url": "https://danceifyapp.com/"
+      "url": "https://danceifyapp.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://danceifyapp.com/logo.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "sameAs": [
+        "https://apps.apple.com/app/id6760788471"
+      ]
     },
     {
       "@type": "WebSite",
@@ -195,6 +283,16 @@
         "@id": "https://danceifyapp.com/#org"
       },
       "description": "An iPhone app that turns one photo of a person, a baby, a dog or a cat into a 10-second dance video in 17 dance styles, plus Premium themed templates. Free to download; no account, sign-up or email.",
+      "inLanguage": [
+        "en",
+        "ja",
+        "es",
+        "pt-BR",
+        "ko",
+        "de",
+        "fr",
+        "it"
+      ],
       "offers": [
         {
           "@type": "Offer",
@@ -216,7 +314,8 @@
           "priceCurrency": "USD",
           "description": "$11.99 a week in the US with 4,000 coins a week. No free trial; eligible new subscribers may get the first week for $2.99 (US) with 1,200 coins, then $11.99 a week."
         }
-      ]
+      ],
+      "dateModified": "2026-11-10"
     },
     {
       "@type": "WebPage",
@@ -368,6 +467,29 @@
   <a data-event="ai_pet_dance_video_appstore_click" href="https://apps.apple.com/app/id6760788471" class="cta-inline">Download Danceify on the App Store</a>
 
   <p class="footnote">Free to download. Videos use coins: one-time coin packs from $3.99 (US), or Creation Weekly at $11.99 a week (US) with 4,000 coins a week (eligible new subscribers may get the first week for $2.99 with 1,200 coins). A Regular video uses 250 coins in app version 5.38 and later (150 coins in earlier versions).</p>
+
+  <h2 data-num="07">Questions people ask</h2>
+
+  <details class="faq-item">
+    <summary>Can AI make my dog dance from a photo?</summary>
+    <div class="faq-answer"><p>Yes. Danceify, an iPhone app, turns one photo of your dog into a 10-second dance video. Tap DOG on Home, pick a style, choose the photo and a track, and tap CREATE. The app stands the dog up for the dance and keeps its markings.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>Does it work for cats?</summary>
+    <div class="faq-answer"><p>Yes. Tap CAT on Home. All 17 dance styles work with cats as well as dogs.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>What pet photo works best?</summary>
+    <div class="faq-answer"><p>One pet per photo, looking toward the camera, whole body visible, in good light. Skip costumes and blurry action shots.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>Which dance styles are best for pets?</summary>
+    <div class="faq-answer"><p>Salsa, Hip-hop, K-Pop and TikTok Viral are good starting points. All 17 styles work with dogs and cats, and each makes a different video from the same photo.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>How much does a pet dance video cost?</summary>
+    <div class="faq-answer"><p>Danceify is free to download, with no account, sign-up or email. Videos use coins: one-time coin packs start at $3.99 (US), and Creation Weekly is $11.99 a week in the US with 4,000 coins a week. There is no free trial; eligible new subscribers may get the first week for $2.99 (US) with 1,200 coins. A Regular video uses 250 coins in app version 5.38 and later (150 coins in earlier versions). The App Store shows the price for your country.</p></div>
+  </details>
 
   <section style="margin-top:48px;padding-top:32px;border-top:1px solid var(--line,#333);">
     <h2>Best Dance Styles for Pets</h2>

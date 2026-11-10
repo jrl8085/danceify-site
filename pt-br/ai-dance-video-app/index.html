@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>App de vídeo de dança com IA para iPhone — Danceify</title>
+<meta name="description" content="Danceify - AI Dance Videos é um app para iPhone: uma foto de uma pessoa, um bebê, um cachorro ou um gato vira um vídeo de dança de cerca de 10 segundos, em 17 estilos ou modelos temáticos Premium.">
+<link rel="canonical" href="https://danceifyapp.com/pt-br/ai-dance-video-app/">
+<!-- hreflang:start -->
+<link rel="alternate" hreflang="en" href="https://danceifyapp.com/ai-dance-video-app/">
+<link rel="alternate" hreflang="de" href="https://danceifyapp.com/de/ai-dance-video-app/">
+<link rel="alternate" hreflang="es" href="https://danceifyapp.com/es/ai-dance-video-app/">
+<link rel="alternate" hreflang="fr" href="https://danceifyapp.com/fr/ai-dance-video-app/">
+<link rel="alternate" hreflang="it" href="https://danceifyapp.com/it/ai-dance-video-app/">
+<link rel="alternate" hreflang="ja" href="https://danceifyapp.com/ja/ai-dance-video-app/">
+<link rel="alternate" hreflang="ko" href="https://danceifyapp.com/ko/ai-dance-video-app/">
+<link rel="alternate" hreflang="pt-BR" href="https://danceifyapp.com/pt-br/ai-dance-video-app/">
+<link rel="alternate" hreflang="x-default" href="https://danceifyapp.com/ai-dance-video-app/">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="ko_KR">
+<!-- hreflang:end -->
+<meta name="apple-itunes-app" content="app-id=6760788471">
+<meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1, max-snippet:-1">
+
+<!-- Open Graph -->
+<meta property="og:title" content="App de vídeo de dança com IA para iPhone — Danceify">
+<meta property="og:description" content="Danceify - AI Dance Videos é um app para iPhone: uma foto de uma pessoa, um bebê, um cachorro ou um gato vira um vídeo de dança de cerca de 10 segundos, em 17 estilos ou modelos temáticos Premium.">
+<meta property="og:image" content="https://storage.googleapis.com/danceify-assets/regular/previews/dog/hiphop/hero-5f92758b.jpg">
+<meta property="og:url" content="https://danceifyapp.com/pt-br/ai-dance-video-app/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Danceify">
+<meta property="og:locale" content="pt_BR">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="App de vídeo de dança com IA para iPhone — Danceify">
+<meta name="twitter:description" content="Danceify - AI Dance Videos é um app para iPhone: uma foto de uma pessoa, um bebê, um cachorro ou um gato vira um vídeo de dança de cerca de 10 segundos, em 17 estilos ou modelos temáticos Premium.">
+<meta name="twitter:image" content="https://storage.googleapis.com/danceify-assets/regular/previews/dog/hiphop/hero-5f92758b.jpg">
+
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S0LME60XS4"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-S0LME60XS4');document.addEventListener('click',function(e){var el=e.target.closest('[data-event]');if(!el)return;var ev=el.getAttribute('data-event');var isAS=ev.indexOf('appstore')!==-1;gtag('event',isAS?'app_store_click':ev,{event_label:ev,link_url:el.href||''});});</script>
+
+<link rel="stylesheet" href="../../style.css">
+<style>
+  .lede{font-size:1.08rem;color:var(--dim);max-width:720px;margin:20px auto 0;line-height:1.7;}
+  .lede strong{color:var(--ink);font-weight:600;}
+  .narrow{max-width:720px;margin-left:auto;margin-right:auto;}
+  .preview-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-top:14px;}
+  .preview-card{position:relative;display:block;aspect-ratio:4/5;overflow:hidden;background:var(--card);}
+  .preview-card video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;}
+  .preview-card .style-card__overlay{position:absolute;bottom:0;left:0;right:0;padding:20px 14px 14px;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,.3) 50%,transparent 100%);pointer-events:none;}
+  .preview-note{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.2px;color:var(--faint);text-transform:uppercase;margin-top:10px;}
+  .related-grid{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px;}
+  .related-grid a{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;padding:8px 14px;border:1px solid var(--line);color:var(--dim);border-bottom:1px solid var(--line);}
+  .related-grid a:hover{border-color:var(--accent);color:var(--accent);}
+  .faq-item{border:1px solid var(--line);padding:20px;margin-bottom:8px;}
+  .faq-item h3{font-family:'Inter',sans-serif;font-weight:800;font-size:.95rem;text-transform:uppercase;letter-spacing:.04em;color:var(--ink);margin-bottom:10px;}
+  .faq-item p{margin-bottom:0;font-size:.92rem;}
+  .faq-item p+p{margin-top:10px;}
+  .usecase-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border:1px solid var(--line);margin-top:14px;}
+  .usecase{display:flex;flex-direction:column;gap:4px;padding:24px 20px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);transition:background .15s;}
+  .usecase:nth-child(2n){border-right:0;}
+  .usecase:nth-child(n+3){border-bottom:0;}
+  .usecase:hover{background:rgba(255,45,111,.06);border-bottom-color:var(--line);}
+  .usecase strong{font-family:'Inter',sans-serif;font-weight:900;font-stretch:75%;font-size:.95rem;letter-spacing:.04em;text-transform:uppercase;color:var(--ink);}
+  .usecase span{font-size:.85rem;color:var(--dim);line-height:1.55;}
+  .usecase em{font-family:'JetBrains Mono',monospace;font-style:normal;font-size:10px;letter-spacing:1.5px;color:var(--accent);text-transform:uppercase;margin-top:6px;}
+  @media (max-width:640px){.preview-grid{grid-template-columns:repeat(2,1fr);}.usecase-grid{grid-template-columns:1fr;}.usecase{border-right:0;}.usecase:nth-child(n+3){border-bottom:1px solid var(--line);}.usecase:last-child{border-bottom:0;}}
+  .glance{display:grid;grid-template-columns:minmax(140px,220px) 1fr;border:1px solid var(--line);margin:14px 0 0}
+  .glance dt,.glance dd{padding:12px 16px;border-bottom:1px solid var(--line);margin:0}
+  .glance dt{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--faint);padding-top:15px}
+  .glance dd{color:var(--ink);font-size:.92rem;line-height:1.6}
+  .glance dt:last-of-type,.glance dd:last-of-type{border-bottom:0}
+  .glance-note{font-size:.85rem;margin-top:12px}
+  @media (max-width:640px){.glance{grid-template-columns:1fr}.glance dt{border-bottom:0;padding-bottom:0}}
+  .lang-switch{font-size:.8rem;color:var(--faint);margin:-12px 0 20px;text-align:right}
+  .lang-switch a{color:var(--dim)}
+  .footer .links{flex-wrap:wrap;gap:10px 22px}
+  .footer .footer-langs{flex-basis:100%;gap:10px 18px}
+</style>
+
+<!-- schema:org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://danceifyapp.com/#org",
+      "name": "Danceify",
+      "url": "https://danceifyapp.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://danceifyapp.com/logo.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "sameAs": [
+        "https://apps.apple.com/app/id6760788471"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://danceifyapp.com/#website",
+      "name": "Danceify",
+      "url": "https://danceifyapp.com/",
+      "publisher": {
+        "@id": "https://danceifyapp.com/#org"
+      }
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://danceifyapp.com/#app",
+      "name": "Danceify - AI Dance Videos",
+      "alternateName": [
+        "Danceify",
+        "Danceify - AIダンス動画",
+        "Danceify - Videos de Baile IA",
+        "Danceify - Vídeos de Dança IA",
+        "Danceify - AI 댄스 영상 메이커"
+      ],
+      "operatingSystem": "iOS",
+      "applicationCategory": "EntertainmentApplication",
+      "url": "https://danceifyapp.com/",
+      "downloadUrl": "https://apps.apple.com/app/id6760788471",
+      "installUrl": "https://apps.apple.com/app/id6760788471",
+      "sameAs": [
+        "https://apps.apple.com/app/id6760788471"
+      ],
+      "image": "https://danceifyapp.com/og-image.png",
+      "publisher": {
+        "@id": "https://danceifyapp.com/#org"
+      },
+      "description": "An iPhone app that turns one photo of a person, a baby, a dog or a cat into a 10-second dance video in 17 dance styles, plus Premium themed templates. Free to download; no account, sign-up or email.",
+      "inLanguage": [
+        "en",
+        "ja",
+        "es",
+        "pt-BR",
+        "ko",
+        "de",
+        "fr",
+        "it"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Download",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "Coin packs (one-time)",
+          "price": "3.99",
+          "priceCurrency": "USD",
+          "description": "One-time coin packs start at $3.99 (US)."
+        },
+        {
+          "@type": "Offer",
+          "name": "Creation Weekly",
+          "price": "11.99",
+          "priceCurrency": "USD",
+          "description": "$11.99 a week in the US with 4,000 coins a week. No free trial; eligible new subscribers may get the first week for $2.99 (US) with 1,200 coins, then $11.99 a week."
+        }
+      ],
+      "dateModified": "2026-11-10"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://danceifyapp.com/pt-br/ai-dance-video-app/#webpage",
+      "url": "https://danceifyapp.com/pt-br/ai-dance-video-app/",
+      "name": "App de vídeo de dança com IA para iPhone — Danceify",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://danceifyapp.com/#website"
+      },
+      "about": {
+        "@id": "https://danceifyapp.com/#app"
+      },
+      "dateModified": "2026-11-10"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "O que é o Danceify?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Danceify - AI Dance Videos (“Danceify - Vídeos de Dança IA” na App Store do Brasil) é um app para iPhone e iPad na App Store (ID na App Store 6760788471). Ele transforma uma foto de uma pessoa, um bebê, um cachorro ou um gato em um vídeo de dança de 10 segundos, em qualquer um de 17 estilos de dança, e também há modelos temáticos Premium."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Para quem é?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Para donos de cachorros e gatos que querem ver o pet dançar, pais fazendo um vídeo do bebê dançando para a família e qualquer pessoa que queira transformar uma foto sua ou de um amigo em um clipe de dança no estilo TikTok. Não precisa saber editar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Preciso de conta?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não. Não há cadastro, e-mail nem senha. Instale o app e comece com uma foto."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto custa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O download do Danceify é grátis, sem conta, cadastro nem e-mail; as compras são feitas com a sua Conta Apple. Os vídeos usam moedas (◆): pacotes de moedas avulsos a partir de US$ 3,99 (preço nos EUA; a App Store mostra o preço no Brasil). O Creation Weekly custa R$ 71,90 por semana no Brasil, com 4.000 moedas por semana; novos assinantes elegíveis pagam R$ 19,90 na primeira semana, com 1.200 moedas, e depois R$ 71,90 por semana. Não há teste grátis. Um vídeo Padrão usa 250 moedas na versão 5.38 do app e posteriores (150 moedas em versões anteriores)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto tempo leva um vídeo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Alguns minutos. O vídeo é feito nos servidores do Danceify; o app mostra uma estimativa enquanto ele é gerado (normalmente de dois a cinco minutos para os 17 estilos de dança e de quatro a dez para os modelos temáticos Premium), e o vídeo pronto aparece na sua Biblioteca dentro do app. Se a geração falhar, as moedas usadas são devolvidas automaticamente."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Em quais celulares funciona?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O Danceify funciona em iPhone e iPad. Não há versão para Android nem para a web. Baixe na App Store."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quais estilos de dança existem?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dezessete hoje: EDM Shuffle, Salsa, TikTok, Bollywood, Samba, Greek (dança grega), Hip-hop, Ballet (balé), Tango, Flamenco, Reggaeton, Swing, Belly Dance (dança do ventre), Hula, Country Line, K-Pop e Irish (dança irlandesa). Cada estilo tem coreografia escrita separadamente para pessoas, bebês, cachorros e gatos, e suas próprias faixas de música."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Há modelos Premium?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Além dos 17 estilos de dança, o Danceify tem modelos temáticos Premium."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Em que idioma está o app?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inglês, japonês, espanhol, português (Brasil), coreano, alemão, francês e italiano. O app segue o idioma do seu iPhone."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como encontro o app certo na App Store?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O nome na App Store do Brasil é “Danceify - Vídeos de Dança IA” (em inglês, Danceify - AI Dance Videos) e o ID na App Store é 6760788471 (https://apps.apple.com/app/id6760788471). Se uma página da App Store mostrar outro ID, é outro app."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Como fazer um vídeo de dança com IA no Danceify",
+  "description": "O Danceify é um app para iOS que transforma uma foto em um vídeo de dança com IA de 10 segundos de uma pessoa, um bebê, um cachorro ou um gato, em qualquer um de 17 estilos, com música. Baixe, escolha um estilo e uma foto, e o vídeo fica pronto em alguns minutos, sem cadastro.",
+  "totalTime": "PT5M",
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "Danceify para iOS"
+    }
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Escolha quem vai dançar e um estilo",
+      "text": "ADULTO, BEBÊ, CÃO ou GATO, e depois um dos 17 estilos de dança. Os pets são colocados de pé nas patas traseiras primeiro; cada estilo tem sua própria música."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Escolha uma foto",
+      "text": "Uma pessoa ou um pet só, de frente para a câmera, com o corpo inteiro à vista. A IA mantém o rosto, a roupa, o pelo e as manchas da foto."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Receba o vídeo",
+      "text": "Escolha uma faixa e toque em CRIAR. O vídeo de 10 segundos é gerado nos servidores do Danceify em alguns minutos e aparece na sua Biblioteca. Salve no rolo da câmera e compartilhe onde quiser."
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Danceify",
+      "item": "https://danceifyapp.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Português (Brasil)",
+      "item": "https://danceifyapp.com/pt-br/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "App de vídeo de dança com IA",
+      "item": "https://danceifyapp.com/pt-br/ai-dance-video-app/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<div class="container container--wide">
+
+  <header class="topbar">
+    <a href="/pt-br/" style="border:0;">
+      <div class="brand">
+        <span class="dot"></span>
+        <span class="tag">Danceify</span>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="/pt-br/ai-dance-video-app/">Usos</a>
+      <a href="/dance-styles/" hreflang="en">Estilos (em inglês)</a>
+      <a href="/pt-br/faq.html">Perguntas</a>
+      <a href="/support.html" hreflang="en">Suporte (em inglês)</a>
+    </nav>
+  </header>
+  <!-- lang-switch:start -->
+  <nav class="lang-switch" aria-label="Idioma"><a href="/ai-dance-video-app/" hreflang="en" lang="en">English</a> &middot; <a href="/de/ai-dance-video-app/" hreflang="de" lang="de">Deutsch</a> &middot; <a href="/es/ai-dance-video-app/" hreflang="es" lang="es">Español</a> &middot; <a href="/fr/ai-dance-video-app/" hreflang="fr" lang="fr">Français</a> &middot; <a href="/it/ai-dance-video-app/" hreflang="it" lang="it">Italiano</a> &middot; <a href="/ja/ai-dance-video-app/" hreflang="ja" lang="ja">日本語</a> &middot; <a href="/ko/ai-dance-video-app/" hreflang="ko" lang="ko">한국어</a> &middot; <span aria-current="page" lang="pt-BR">Português (Brasil)</span></nav>
+  <!-- lang-switch:end -->
+
+  <section class="hero hero--home">
+    <h1 class="hero__headline">App de vídeo de dança com IA</h1>
+    <p class="lede"><strong>Danceify - Vídeos de Dança IA</strong> (em inglês, Danceify - AI Dance Videos) é um app para iPhone e iPad na App Store que transforma uma foto de uma pessoa, um bebê, um cachorro ou um gato em um vídeo de dança de cerca de 10 segundos, em qualquer um de 17 estilos de dança ou em um modelo temático Premium. O download é grátis, sem conta, cadastro nem e-mail.</p>
+    <a href="https://apps.apple.com/app/id6760788471" class="cta-badge cta-badge--hero" data-event="ptbr_hub_hero_appstore_click" aria-label="Baixe o Danceify na App Store"><svg class="cta-badge__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg><span class="cta-badge__text"><span class="cta-badge__pre">Baixar na</span><span class="cta-badge__title">App Store</span></span></a>
+    <p class="hero__proof">Sem conta &middot; iPhone &middot; cerca de 10 segundos &middot; 17 estilos + modelos temáticos Premium</p>
+  </section>
+
+  <section class="section-block narrow">
+    <h2 data-num="01">Danceify em resumo</h2>
+    <dl class="glance">
+      <dt>Nome na App Store</dt><dd>Danceify - Vídeos de Dança IA (Brasil); Danceify - AI Dance Videos (em inglês)</dd>
+      <dt>ID na App Store</dt><dd><a href="https://apps.apple.com/app/id6760788471" data-event="ptbr_hub_glance_appstore_click">6760788471</a></dd>
+      <dt>Plataforma</dt><dd>iPhone e iPad, na App Store</dd>
+      <dt>Quem pode dançar</dt><dd>Uma pessoa, um bebê, um cachorro ou um gato, a partir de uma foto</dd>
+      <dt>O que você recebe</dt><dd>Um vídeo de dança de cerca de 10 segundos, que fica salvo no celular e pode ser compartilhado</dd>
+      <dt>Estilos</dt><dd>17 estilos de dança, mais modelos temáticos Premium</dd>
+      <dt>Preço</dt><dd>Os vídeos usam moedas (◆): pacotes de moedas avulsos a partir de US$ 3,99 (preço nos EUA; a App Store mostra o preço no Brasil). O Creation Weekly custa R$ 71,90 por semana no Brasil, com 4.000 moedas por semana; novos assinantes elegíveis pagam R$ 19,90 na primeira semana, com 1.200 moedas, e depois R$ 71,90 por semana. Não há teste grátis. Um vídeo Padrão usa 250 moedas na versão 5.38 do app e posteriores (150 moedas em versões anteriores).</dd>
+      <dt>Conta</dt><dd>Nenhuma (sem conta, cadastro nem e-mail); as compras são feitas com a sua Conta Apple</dd>
+      <dt>Idiomas</dt><dd>Inglês, japonês, espanhol, português (Brasil), coreano, alemão, francês e italiano; o app segue o idioma do seu iPhone</dd>
+    </dl>
+    <p class="glance-note">Informações atualizadas em 10 de novembro de 2026. Todos os fatos em uma página: <a href="/about/" hreflang="en">Fatos sobre o Danceify (em inglês)</a>.</p>
+  </section>
+
+  <section class="section-block">
+    <h2 data-num="02">Quem pode dançar</h2>
+    <p class="showcase-sub">Cachorros, gatos, bebês e pessoas: as prévias do próprio app</p>
+    <div class="preview-grid">
+      <div class="preview-card">
+        <video autoplay loop muted playsinline preload="metadata" poster="https://storage.googleapis.com/danceify-assets/regular/previews/dog/hiphop/tile-48efb4ad.jpg" aria-label="Prévia: um cachorro dançando Hip-Hop no Danceify">
+          <source src="https://storage.googleapis.com/danceify-assets/regular/previews/dog/hiphop/tile-e002760f.mp4" type="video/mp4">
+        </video>
+        <div class="style-card__overlay"><span class="style-card__name">Cachorro · Hip-Hop</span></div>
+      </div>
+      <div class="preview-card">
+        <video autoplay loop muted playsinline preload="metadata" poster="https://storage.googleapis.com/danceify-assets/regular/previews/cat/hula/tile-738260e4.jpg" aria-label="Prévia: um gato dançando Hula no Danceify">
+          <source src="https://storage.googleapis.com/danceify-assets/regular/previews/cat/hula/tile-13893289.mp4" type="video/mp4">
+        </video>
+        <div class="style-card__overlay"><span class="style-card__name">Gato · Hula</span></div>
+      </div>
+      <div class="preview-card">
+        <video autoplay loop muted playsinline preload="metadata" poster="https://storage.googleapis.com/danceify-assets/regular/previews/baby/kpop/tile-28fd5bc4.jpg" aria-label="Prévia: um bebê dançando K-Pop no Danceify">
+          <source src="https://storage.googleapis.com/danceify-assets/regular/previews/baby/kpop/tile-c57b58fa.mp4" type="video/mp4">
+        </video>
+        <div class="style-card__overlay"><span class="style-card__name">Bebê · K-Pop</span></div>
+      </div>
+      <div class="preview-card">
+        <video autoplay loop muted playsinline preload="metadata" poster="https://storage.googleapis.com/danceify-assets/regular/previews/adult/salsa/tile-8d45ed7b.jpg" aria-label="Prévia: uma pessoa dançando Salsa no Danceify">
+          <source src="https://storage.googleapis.com/danceify-assets/regular/previews/adult/salsa/tile-a2cfa2f8.mp4" type="video/mp4">
+        </video>
+        <div class="style-card__overlay"><span class="style-card__name">Pessoa · Salsa</span></div>
+      </div>
+    </div>
+    <p class="preview-note">Prévias reais do catálogo do app, as mesmas dos cartões de estilo. O seu vídeo usa a sua própria foto.</p>
+  </section>
+
+  <section class="section-block">
+    <h2 data-num="03">Quem vai dançar?</h2>
+    <p class="showcase-sub">Uma página para cada pergunta que as pessoas fazem</p>
+    <div class="usecase-grid">
+      <a href="/pt-br/make-my-dog-dance-video/" class="usecase"><strong>Vídeo do meu cachorro dançando</strong><span>Seu cachorro, de pé nas patas traseiras, em Hip-Hop, Salsa, TikTok Viral, K-Pop e mais 13 estilos.</span><em>Cachorros &rarr;</em></a>
+      <a href="/pt-br/ai-cat-dance/" class="usecase"><strong>Gato dançando com IA</strong><span>Seu gato dançando Hula, Ballet, K-Pop, Flamenco e mais 13 estilos, com bigodes e tudo.</span><em>Gatos &rarr;</em></a>
+      <a href="/pt-br/dancing-baby-video/" class="usecase"><strong>Vídeo de bebê dançando</strong><span>Seu bebê ou criança pequena, com o mesmo rosto e a mesma roupa, dançando uma coreografia de verdade para o grupo da família.</span><em>Bebês &rarr;</em></a>
+      <a href="/pt-br/photo-to-dance-video/" class="usecase"><strong>Foto que vira vídeo de dança</strong><span>Transforme uma foto sua ou de um amigo em um clipe de dança de 10 segundos com música.</span><em>Pessoas &rarr;</em></a>
+    </div>
+  </section>
+
+  <section class="section-block">
+    <h2 data-num="04">Como funciona</h2>
+    <div class="steps-grid">
+      <div class="step-card">
+        <span class="step-card__num">01</span>
+        <strong class="step-card__title">Escolha quem vai dançar e um estilo</strong>
+        <span class="step-card__desc">ADULTO, BEBÊ, CÃO ou GATO, e depois um dos 17 estilos de dança. Os pets são colocados de pé nas patas traseiras primeiro; cada estilo tem sua própria música.</span>
+      </div>
+      <div class="step-card">
+        <span class="step-card__num">02</span>
+        <strong class="step-card__title">Escolha uma foto</strong>
+        <span class="step-card__desc">Uma pessoa ou um pet só, de frente para a câmera, com o corpo inteiro à vista. A IA mantém o rosto, a roupa, o pelo e as manchas da foto.</span>
+      </div>
+      <div class="step-card">
+        <span class="step-card__num">03</span>
+        <strong class="step-card__title">Receba o vídeo</strong>
+        <span class="step-card__desc">Escolha uma faixa e toque em CRIAR. O vídeo de 10 segundos é gerado nos servidores do Danceify em alguns minutos e aparece na sua Biblioteca. Salve no rolo da câmera e compartilhe onde quiser.</span>
+      </div>
+    </div>
+    <div class="inline-cta">
+      <a href="https://apps.apple.com/app/id6760788471" class="cta-badge cta-badge--subtle" data-event="ptbr_hub_steps_appstore_click" aria-label="Baixe o Danceify na App Store"><svg class="cta-badge__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg><span class="cta-badge__text"><span class="cta-badge__pre">Comece agora</span><span class="cta-badge__title">App Store</span></span></a>
+    </div>
+  </section>
+
+  <section class="section-block">
+    <h2 data-num="05">17 estilos de dança</h2>
+    <p>Todo estilo tem uma versão para pessoas, bebês, cachorros e gatos: EDM Shuffle, Salsa, TikTok, Bollywood, Samba, Greek (dança grega), Hip-hop, Ballet (balé), Tango, Flamenco, Reggaeton, Swing, Belly Dance (dança do ventre), Hula, Country Line, K-Pop e Irish (dança irlandesa). Também há modelos temáticos Premium. As páginas de cada estilo estão em inglês.</p>
+    <div class="related-grid">
+    <a href="/dance-styles/edm-shuffle.html" hreflang="en">EDM Shuffle</a>
+    <a href="/dance-styles/salsa.html" hreflang="en">Salsa</a>
+    <a href="/dance-styles/tiktok.html" hreflang="en">TikTok Viral</a>
+    <a href="/dance-styles/bollywood.html" hreflang="en">Bollywood</a>
+    <a href="/dance-styles/samba.html" hreflang="en">Samba</a>
+    <a href="/dance-styles/greek.html" hreflang="en">Greek Dance</a>
+    <a href="/dance-styles/hip-hop.html" hreflang="en">Hip-Hop</a>
+    <a href="/dance-styles/ballet.html" hreflang="en">Ballet</a>
+    <a href="/dance-styles/tango.html" hreflang="en">Tango</a>
+    <a href="/dance-styles/flamenco.html" hreflang="en">Flamenco</a>
+    <a href="/dance-styles/reggaeton.html" hreflang="en">Reggaeton</a>
+    <a href="/dance-styles/swing.html" hreflang="en">Swing</a>
+    <a href="/dance-styles/belly-dance.html" hreflang="en">Belly Dance</a>
+    <a href="/dance-styles/hula.html" hreflang="en">Hula</a>
+    <a href="/dance-styles/country.html" hreflang="en">Country Line</a>
+    <a href="/dance-styles/kpop.html" hreflang="en">K-Pop</a>
+    <a href="/dance-styles/irish.html" hreflang="en">Irish Dance</a>
+    <a href="/dance-styles/" hreflang="en">Todas as páginas de estilo (em inglês)</a>
+    </div>
+  </section>
+
+  <section class="section-block narrow">
+    <h2 data-num="06">Quanto custa</h2>
+    <p>O download do Danceify é grátis, sem conta, cadastro nem e-mail; as compras são feitas com a sua Conta Apple. Os vídeos usam moedas (◆): pacotes de moedas avulsos a partir de US$ 3,99 (preço nos EUA; a App Store mostra o preço no Brasil). O Creation Weekly custa R$ 71,90 por semana no Brasil, com 4.000 moedas por semana; novos assinantes elegíveis pagam R$ 19,90 na primeira semana, com 1.200 moedas, e depois R$ 71,90 por semana. Não há teste grátis. Um vídeo Padrão usa 250 moedas na versão 5.38 do app e posteriores (150 moedas em versões anteriores).</p>
+    <p>Para cancelar uma assinatura ou restaurar compras, veja o <a href="/support.html" hreflang="en">Suporte (em inglês)</a>.</p>
+    <p class="glance-note">Informações atualizadas em 10 de novembro de 2026.</p>
+  </section>
+
+  <section class="section-block narrow">
+    <h2 data-num="07">Perguntas que as pessoas fazem</h2>
+    <div class="faq-item">
+      <h3>O que é o Danceify?</h3>
+      <p>Danceify - AI Dance Videos (“Danceify - Vídeos de Dança IA” na App Store do Brasil) é um app para iPhone e iPad na App Store (ID na App Store 6760788471). Ele transforma uma foto de uma pessoa, um bebê, um cachorro ou um gato em um vídeo de dança de 10 segundos, em qualquer um de 17 estilos de dança, e também há modelos temáticos Premium.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Para quem é?</h3>
+      <p>Para donos de cachorros e gatos que querem ver o pet dançar, pais fazendo um vídeo do bebê dançando para a família e qualquer pessoa que queira transformar uma foto sua ou de um amigo em um clipe de dança no estilo TikTok. Não precisa saber editar.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Preciso de conta?</h3>
+      <p>Não. Não há cadastro, e-mail nem senha. Instale o app e comece com uma foto.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Quanto custa?</h3>
+      <p>O download do Danceify é grátis, sem conta, cadastro nem e-mail; as compras são feitas com a sua Conta Apple. Os vídeos usam moedas (◆): pacotes de moedas avulsos a partir de US$ 3,99 (preço nos EUA; a App Store mostra o preço no Brasil). O Creation Weekly custa R$ 71,90 por semana no Brasil, com 4.000 moedas por semana; novos assinantes elegíveis pagam R$ 19,90 na primeira semana, com 1.200 moedas, e depois R$ 71,90 por semana. Não há teste grátis. Um vídeo Padrão usa 250 moedas na versão 5.38 do app e posteriores (150 moedas em versões anteriores).</p>
+    </div>
+    <div class="faq-item">
+      <h3>Quanto tempo leva um vídeo?</h3>
+      <p>Alguns minutos. O vídeo é feito nos servidores do Danceify; o app mostra uma estimativa enquanto ele é gerado (normalmente de dois a cinco minutos para os 17 estilos de dança e de quatro a dez para os modelos temáticos Premium), e o vídeo pronto aparece na sua Biblioteca dentro do app. Se a geração falhar, as moedas usadas são devolvidas automaticamente.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Em quais celulares funciona?</h3>
+      <p>O Danceify funciona em iPhone e iPad. Não há versão para Android nem para a web. Baixe na <a href="https://apps.apple.com/app/id6760788471" data-event="ptbr_hub_faq_appstore_click">App Store</a>.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Quais estilos de dança existem?</h3>
+      <p>Dezessete hoje: EDM Shuffle, Salsa, TikTok, Bollywood, Samba, Greek (dança grega), Hip-hop, Ballet (balé), Tango, Flamenco, Reggaeton, Swing, Belly Dance (dança do ventre), Hula, Country Line, K-Pop e Irish (dança irlandesa). Cada estilo tem coreografia escrita separadamente para pessoas, bebês, cachorros e gatos, e suas próprias faixas de música.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Há modelos Premium?</h3>
+      <p>Sim. Além dos 17 estilos de dança, o Danceify tem modelos temáticos Premium.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Em que idioma está o app?</h3>
+      <p>Inglês, japonês, espanhol, português (Brasil), coreano, alemão, francês e italiano. O app segue o idioma do seu iPhone.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Como encontro o app certo na App Store?</h3>
+      <p>O nome na App Store do Brasil é “Danceify - Vídeos de Dança IA” (em inglês, Danceify - AI Dance Videos) e o ID na App Store é 6760788471 (<a href="https://apps.apple.com/app/id6760788471" data-event="ptbr_hub_faq_rightapp_appstore_click">https://apps.apple.com/app/id6760788471</a>). Se uma página da App Store mostrar outro ID, é outro app.</p>
+    </div>
+  </section>
+
+  <section class="section-block narrow">
+    <h2 data-num="08">Mais do Danceify</h2>
+    <div class="related-grid">
+    <a href="/pt-br/make-my-dog-dance-video/">Cachorro dançando</a>
+    <a href="/pt-br/ai-cat-dance/">Gato dançando com IA</a>
+    <a href="/pt-br/dancing-baby-video/">Bebê dançando</a>
+    <a href="/pt-br/photo-to-dance-video/">Foto que vira vídeo de dança</a>
+    <a href="/pt-br/faq.html">Perguntas frequentes completas</a>
+    <a href="/pt-br/">Início em português</a>
+    <a href="/dance-styles/" hreflang="en">Todas as páginas de estilo (em inglês)</a>
+    <a href="/blog/" hreflang="en">Guias e dicas (em inglês)</a>
+    <a href="/about/" hreflang="en">Fatos sobre o Danceify (em inglês)</a>
+    <a href="/ai-dance-app-without-subscription/" hreflang="en">App de dança com IA sem assinatura (em inglês)</a>
+    <a href="/viggle-alternative/" hreflang="en">Alternativa ao Viggle para iPhone (em inglês)</a>
+    <a href="/ai-dance-video-app/" hreflang="en">English</a>
+    </div>
+  </section>
+
+  <div class="cta-section">
+    <p class="cta-section__headline">Pronto para fazer alguém dançar?</p>
+    <p class="cta-section__sub">Sem conta. Download grátis.</p>
+    <a href="https://apps.apple.com/app/id6760788471" class="cta-badge cta-badge--large" data-event="ptbr_hub_bottom_appstore_click" aria-label="Baixe o Danceify na App Store"><svg class="cta-badge__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg><span class="cta-badge__text"><span class="cta-badge__pre">Baixar na</span><span class="cta-badge__title">App Store</span></span></a>
+  </div>
+
+  <p class="footnote">Download grátis. Os vídeos usam moedas: pacotes avulsos a partir de US$ 3,99 (preço nos EUA), ou o Creation Weekly por R$ 71,90 por semana no Brasil, com 4.000 moedas por semana (novos assinantes elegíveis pagam R$ 19,90 na primeira semana, com 1.200 moedas). Um vídeo Padrão usa 250 moedas na versão 5.38 do app e posteriores (150 moedas em versões anteriores). Informações atualizadas em 10 de novembro de 2026.</p>
+
+  <footer class="footer">
+    <div class="links">
+      <a href="/pt-br/">Início</a>
+      <a href="/pt-br/ai-dance-video-app/">Usos</a>
+      <a href="/dance-styles/" hreflang="en">Estilos de dança (em inglês)</a>
+      <a href="/blog/" hreflang="en">Blog (em inglês)</a>
+      <a href="/pt-br/faq.html">Perguntas</a>
+      <a href="/about/" hreflang="en">Sobre (em inglês)</a>
+      <a href="/support.html" hreflang="en">Suporte (em inglês)</a>
+      <a href="/privacy.html" hreflang="en">Privacidade (em inglês)</a>
+      <a href="/terms.html" hreflang="en">Termos (em inglês)</a>
+      <a data-event="ptbr_hub_footer_appstore_click" href="https://apps.apple.com/app/id6760788471">App Store</a>
+    </div>
+    <div class="meta">&copy;2026 Danceify &middot; NYC</div>
+  </footer>
+
+</div>
+
+<script>
+(function() {
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      var video = entry.target;
+      if (entry.isIntersecting) { video.play().catch(function() {}); } else { video.pause(); }
+    });
+  }, { rootMargin: '100px' });
+  document.querySelectorAll('.preview-card video, .style-card video, .showcase-card video').forEach(function(video) { observer.observe(video); });
+})();
+</script>
+</body>
+</html>

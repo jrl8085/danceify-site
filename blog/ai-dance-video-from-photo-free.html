@@ -94,7 +94,80 @@
     transition: background 0.15s;
   }
   .cta-inline:hover { background: var(--accent-deep); border: 0; }
+  .faq-item { border: 1px solid var(--line); margin-bottom: 8px; }
+  .faq-item summary {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--ink);
+    padding: 18px 20px;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.15s;
+  }
+  .faq-item summary:hover { color: var(--accent); }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after { content: '+'; font-family: 'JetBrains Mono', monospace; font-size: 1.1rem; color: var(--accent); font-weight: 400; }
+  .faq-item[open] summary::after { content: '—'; }
+  .faq-item .faq-answer { padding: 0 20px 18px; font-size: 0.92rem; color: var(--dim); line-height: 1.7; border-top: 1px solid var(--line); padding-top: 14px; margin-top: 0; }
+  .faq-answer a { font-size: inherit; }
+  .faq-answer p { margin-bottom: 0; }
 </style>
+
+<!-- FAQPage JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Danceify free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Danceify is free to download, with no account, sign-up or email. Videos use coins: one-time coin packs start at $3.99 (US), and Creation Weekly is $11.99 a week in the US with 4,000 coins a week. There is no free trial; eligible new subscribers may get the first week for $2.99 (US) with 1,200 coins. A Regular video uses 250 coins in app version 5.38 and later (150 coins in earlier versions). The App Store shows the price for your country."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I make an AI dance video without a subscription?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Buy a one-time coin pack, from $3.99 (US). Creation Weekly is optional."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Danceify have a free trial?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. There has been no free trial since November 7, 2026. From November 10, 2026, eligible new Creation Weekly subscribers get the first week for $2.99 (US) with 1,200 coins, then $11.99 a week. One introductory offer per Apple Account."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need an account to use Danceify?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. There is no account, sign-up or email. Purchases go through your Apple Account."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many coins does one video use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Regular video (one of the 17 dance styles) uses 250 coins in app version 5.38 and later, and 150 coins in earlier versions. Premium themed templates cost more coins."
+      }
+    }
+  ]
+}
+</script>
 
 <!-- Article JSON-LD -->
 <script type="application/ld+json">
@@ -112,8 +185,13 @@
     "@type": "Organization",
     "@id": "https://danceifyapp.com/#org",
     "name": "Danceify",
-    "url": "https://danceifyapp.com"
+    "url": "https://danceifyapp.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://danceifyapp.com/logo.png"
+    }
   },
+  "inLanguage": "en",
   "datePublished": "2026-09-15",
   "dateModified": "2026-11-10",
   "mainEntityOfPage": {
@@ -152,6 +230,7 @@
   ]
 }
 </script>
+<!-- schema:org -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -160,7 +239,16 @@
       "@type": "Organization",
       "@id": "https://danceifyapp.com/#org",
       "name": "Danceify",
-      "url": "https://danceifyapp.com/"
+      "url": "https://danceifyapp.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://danceifyapp.com/logo.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "sameAs": [
+        "https://apps.apple.com/app/id6760788471"
+      ]
     },
     {
       "@type": "WebSite",
@@ -195,6 +283,16 @@
         "@id": "https://danceifyapp.com/#org"
       },
       "description": "An iPhone app that turns one photo of a person, a baby, a dog or a cat into a 10-second dance video in 17 dance styles, plus Premium themed templates. Free to download; no account, sign-up or email.",
+      "inLanguage": [
+        "en",
+        "ja",
+        "es",
+        "pt-BR",
+        "ko",
+        "de",
+        "fr",
+        "it"
+      ],
       "offers": [
         {
           "@type": "Offer",
@@ -216,7 +314,8 @@
           "priceCurrency": "USD",
           "description": "$11.99 a week in the US with 4,000 coins a week. No free trial; eligible new subscribers may get the first week for $2.99 (US) with 1,200 coins, then $11.99 a week."
         }
-      ]
+      ],
+      "dateModified": "2026-11-10"
     },
     {
       "@type": "WebPage",
@@ -344,7 +443,30 @@
 
   <p class="footnote">Free to download. Videos use coins: one-time coin packs from $3.99 (US), or Creation Weekly at $11.99 a week (US) with 4,000 coins a week (eligible new subscribers may get the first week for $2.99 with 1,200 coins). A Regular video uses 250 coins in app version 5.38 and later (150 coins in earlier versions).</p>
 
-  <h2 data-num="06">Related Articles</h2>
+  <h2 data-num="06">Questions people ask</h2>
+
+  <details class="faq-item">
+    <summary>Is Danceify free?</summary>
+    <div class="faq-answer"><p>Danceify is free to download, with no account, sign-up or email. Videos use coins: one-time coin packs start at $3.99 (US), and Creation Weekly is $11.99 a week in the US with 4,000 coins a week. There is no free trial; eligible new subscribers may get the first week for $2.99 (US) with 1,200 coins. A Regular video uses 250 coins in app version 5.38 and later (150 coins in earlier versions). The App Store shows the price for your country.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>Can I make an AI dance video without a subscription?</summary>
+    <div class="faq-answer"><p>Yes. Buy a one-time coin pack, from $3.99 (US). Creation Weekly is optional.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>Does Danceify have a free trial?</summary>
+    <div class="faq-answer"><p>No. There has been no free trial since November 7, 2026. From November 10, 2026, eligible new Creation Weekly subscribers get the first week for $2.99 (US) with 1,200 coins, then $11.99 a week. One introductory offer per Apple Account.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>Do I need an account to use Danceify?</summary>
+    <div class="faq-answer"><p>No. There is no account, sign-up or email. Purchases go through your Apple Account.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>How many coins does one video use?</summary>
+    <div class="faq-answer"><p>A Regular video (one of the 17 dance styles) uses 250 coins in app version 5.38 and later, and 150 coins in earlier versions. Premium themed templates cost more coins.</p></div>
+  </details>
+
+  <h2 data-num="07">Related Articles</h2>
 
   <ul>
     <li><a href="/blog/how-to-make-ai-dance-video.html">How to Make an AI Dance Video in 2026 — Full Step-by-Step Guide</a></li>
